@@ -1,0 +1,3 @@
+# Outfits of these types can be bought and sold via the outfitter.
+category "outfit"
+	"Bay Launcher"

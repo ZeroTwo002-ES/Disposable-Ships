@@ -1,0 +1,7 @@
+outfitter "Basic Outfits"
+	"Kamikaze Mining Drone (Javelin)"
+	"Kamikaze Mining Drone Turret (Javelin)"
+	"Kamikaze Finch (Plasma)"
+	"Kamikaze Finch Turret (Plasma)"
+	"Kamikaze Shuttle (Rocket)"
+	"Kamikaze Shuttle Turret (Rocket)"
