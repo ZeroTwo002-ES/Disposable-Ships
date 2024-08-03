@@ -1,0 +1,1350 @@
+outfit "Kamikaze Finch (Plasma)"
+	category "Bay Launcher"
+	cost 15000000
+	thumbnail "thumbnail/finch"
+	"mass" 500
+	"outfit space" -200
+	"weapon capacity" -200
+	"gun ports" -1
+	weapon
+		"submunition" "finch plasma 1"
+		sound "human launch"
+		"inaccuracy" 0
+		"velocity override" 25
+		"range override" 10000
+		"lifetime" 0
+		"reload" 450
+		"firing energy" 750
+		"firing heat" 400
+		"firing fuel" 75
+	description "This is fighter factory, that can produce finch, with 1:1 scale, equipped with scaled-down plasma cannon, engine, and energy generator, enough to fully function all it's equipment. Each finch is equiped with A.I., that good enough to chase down it's target."
+	description "While it only use as disposable finch, this ship can give a big punch even to a heavy warship, because it's installed with mini plasma cannon that will burst shoot three plasma simultaneously when it reach the firing range, and the finch itself will use it's reverse thruster to back from the target, and will charge forward again after reach it's max reverse distance, and it will repeat this cycle until it reach 60 volley, and after 60 volley, it will launch itself onto the target as the last attack, by input all it's energy into the thruster, to increase it's speed so it can quickly crash onto the target, since after all that shots, it will only have little time left, before it's equipment overheat and make it explode, that also can deal damage."
+
+outfit "Kamikaze Finch Turret (Plasma)"
+	category "Bay Launcher"
+	cost 15000000
+	thumbnail "thumbnail/finch"
+	"mass" 500
+	"outfit space" -200
+	"weapon capacity" -200
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/javelin turret"
+			scale 4.5
+		"submunition" "finch plasma 1"
+		sound "human launch"
+		"inaccuracy" 0
+		"turret turn" 0.75
+		"velocity override" 25
+		"range override" 10000
+		"lifetime" 0
+		"reload" 450
+		"firing energy" 750
+		"firing heat" 400
+		"firing fuel" 75
+	description "Turret version of Kamikaze Finch."
+
+outfit "plasma"
+	weapon
+		sprite "projectile/plasma"
+			"frame rate" 3
+		sound "plasma"
+		"hit effect" "plasma explosion"
+		"velocity" 12.5
+		"lifetime" 40
+		"hit force" 10
+		"shield damage" 55
+		"hull damage" 20
+		"heat damage" 300
+
+outfit "plasma1"
+	weapon
+		"lifetime" 4
+		"submunition" "plasma"
+
+outfit "plasma2"
+	weapon
+		"lifetime" 4
+		"submunition" "plasma"
+		"submunition" "plasma1"
+
+outfit "finch plasma 1"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 2"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" 6.25
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 2"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 3"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 3"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 4"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 4"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 5"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 5"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 6"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 6"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 7"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 7"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 8"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 8"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 9"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 9"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 10"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 10"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 11"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 11"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 12"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 12"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 13"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 13"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 14"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 14"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 15"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 15"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 16"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 16"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 17"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 17"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 18"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 18"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 19"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 19"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 20"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 20"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 21"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 21"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 22"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 22"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 23"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 23"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 24"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 24"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 25"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 25"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 26"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 26"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 27"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 27"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 28"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 28"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 29"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 29"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 30"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 30"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 31"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 31"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 32"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 32"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 33"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 33"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 34"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 34"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 35"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 35"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 36"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 36"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 37"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 37"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 38"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 38"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 39"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 39"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 40"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 40"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 41"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 41"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 42"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 42"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 43"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 43"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 44"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 44"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 45"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 45"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 46"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 46"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 47"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 47"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 48"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 48"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 49"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 49"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 50"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 50"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 51"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 51"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 52"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 52"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 53"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 53"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 54"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 54"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 55"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 55"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 56"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 56"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 57"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 57"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 58"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 58"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 59"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 59"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch plasma 60"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch plasma 60"
+	weapon
+		sprite "ship/finch"
+		"submunition" "finch charge"
+		"submunition" "plasma2"
+			"offset" 0 -31.5
+		"submunition" "plasma"
+			"offset" 0 -31.5
+		"velocity" -50
+		"lifetime" 160
+		"acceleration" 2.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 210
+		"missile strength" 100
+		"no ship collisions"
+
+outfit "finch charge"
+	weapon
+		sprite "ship/finch"
+		"velocity" -50
+		"lifetime" 160
+		"random lifetime" 30
+		"hit effect" "tiny explosion" 15
+		"hit effect" "small explosion" 5
+		"acceleration" 5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"hit force" 100
+		"shield damage" 750
+		"hull damage" 750
+		"blast radius" 50
+		"trigger radius" 50
+		"missile strength" 100
+		"no damage scaling"

@@ -1,0 +1,2068 @@
+outfit "Kamikaze Mini Drone (Blaster)"
+	category "Bay Launcher"
+	cost 7500000
+	thumbnail "thumbnail/combat drone"
+	"mass" 100
+	"outfit space" -50
+	"weapon capacity" -50
+	"gun ports" -1
+	weapon
+		"submunition" "mini drone blaster 1"
+		sound "human launch"
+		"inaccuracy" 0
+		"velocity override" 40
+		"range override" 10000
+		"lifetime" 0
+		"reload" 150
+		"firing energy" 200
+		"firing heat" 125
+		"firing fuel" 25
+	description "This is drone factory, that can produce small combat drone, with 1:2 scale, equipped with scaled-down blaster, engine, and energy generator, enough to fully function all it's equipment. Each mining drone is equiped with A.I., that good enough to chase down it's target."
+	description "While it only use as disposable mining drone, this ship can give a big punch even to a heavy warship, because it's installed with energy blaster that will burst shoot three blaster simultaneously when it reach the firing range, and the mining drone itself will use it's reverse thruster to back from the target, and will charge forward again after reach it's max reverse distance, and it will repeat this cycle until it reach 90 volley, and after 90 volley, it will launch itself onto the target as the last attack, by input all it's energy into the thruster, to increase it's speed so it can quickly crash onto the target, since after all that shots, it will only have little time left, before it's equipment overheat and make it explode, that also can deal damage."
+
+outfit "Kamikaze Mini Drone Turret (Blaster)"
+	category "Bay Launcher"
+	cost 7500000
+	thumbnail "thumbnail/combat drone"
+	"mass" 100
+	"outfit space" -50
+	"weapon capacity" -50
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/javelin turret"
+			scale 2.5
+		"submunition" "mini drone blaster 1"
+		sound "human launch"
+		"inaccuracy" 0
+		"turret turn" 0.75
+		"velocity override" 40
+		"range override" 10000
+		"lifetime" 0
+		"reload" 150
+		"firing energy" 200
+		"firing heat" 125
+		"firing fuel" 25
+	description "Turret version of Kamikaze Mining Drone."
+
+outfit "blaster"
+	weapon
+		sprite "projectile/blaster"
+			scale .5
+		sound "blaster"
+		"hit effect" "blaster impact"
+		"velocity" 10.625
+		"lifetime" 48
+		"shield damage" 5.3
+		"hull damage" 3.3
+
+outfit "blaster1"
+	weapon
+		"lifetime" 4
+		"submunition" "blaster"
+
+outfit "blaster2"
+	weapon
+		"lifetime" 4
+		"submunition" "blaster"
+		"submunition" "blaster1"
+
+outfit "mini drone blaster 1"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 2"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" 6.25
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 2"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 3"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 3"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 4"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 4"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 5"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 5"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 6"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 6"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 7"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 7"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 8"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 8"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 9"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 9"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 10"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 10"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 11"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 11"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 12"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 12"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 13"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 13"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 14"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 14"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 15"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 15"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 16"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 16"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 17"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 17"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 18"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 18"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 19"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 19"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 20"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 20"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 21"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 21"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 22"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 22"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 23"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 23"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 24"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 24"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 25"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 25"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 26"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 26"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 27"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 27"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 28"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 28"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 29"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 29"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 30"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 30"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 31"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 31"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 32"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 32"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 33"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 33"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 34"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 34"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 35"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 35"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 36"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 36"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 37"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 37"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 38"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 38"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 39"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 39"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 40"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 40"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 41"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 41"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 42"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 42"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 43"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 43"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 44"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 44"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 45"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 45"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 46"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 46"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 47"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 47"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 48"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 48"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 49"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 49"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 50"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 50"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 51"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 51"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 52"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 52"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 53"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 53"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 54"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 54"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 55"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 55"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 56"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 56"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 57"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 57"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 58"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 58"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 59"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 59"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 60"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 60"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 61"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 61"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 62"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 62"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 63"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 63"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 64"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 64"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 65"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 65"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 66"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 66"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 67"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 67"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 68"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 68"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 69"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 69"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 70"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 70"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 71"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 71"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 72"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 72"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 73"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 73"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 74"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 74"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 75"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 75"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 76"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 76"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 77"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 77"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 78"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 78"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 79"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 79"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 80"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 80"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 81"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 81"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 82"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 82"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 83"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 83"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 84"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 84"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 85"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 85"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 86"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 86"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 87"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 87"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 88"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 88"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 89"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 89"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone blaster 90"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone blaster 90"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"submunition" "mini drone charge"
+		"submunition" "blaster2"
+			"offset" 0 -14.5
+		"submunition" "blaster"
+			"offset" 0 -14.5
+		"velocity" -80
+		"lifetime" 160
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 300
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mini drone charge"
+	weapon
+		sprite "ship/combat drone"
+			scale .5
+		"velocity" -320
+		"lifetime" 160
+		"random lifetime" 30
+		"hit effect" "tiny explosion" 10
+		"acceleration" 16
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"hit force" 75
+		"shield damage" 200
+		"hull damage" 200
+		"blast radius" 15
+		"trigger radius" 15
+		"missile strength" 50
+		"no damage scaling"
