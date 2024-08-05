@@ -1,10 +1,12 @@
 outfit "Kamikaze Mining Drone (Blaster)"
 	category "Bay Launcher"
-	cost 9500000
+	cost 8000000
 	thumbnail "thumbnail/mining drone"
-	"mass" 300
-	"outfit space" -100
-	"weapon capacity" -100
+	"mass" 200
+	"outfit space" -50
+	"weapon capacity" -50
+	cargo space" -50
+	"fuel capacity" 100
 	"gun ports" -1
 	weapon
 		"submunition" "mining blaster 1"
@@ -13,20 +15,24 @@ outfit "Kamikaze Mining Drone (Blaster)"
 		"velocity override" 25
 		"range override" 10000
 		"lifetime" 0
-		"reload" 300
+		"reload" 150
 		"firing energy" 400
 		"firing heat" 250
 		"firing fuel" 50
+		"cluster"
 	description "This is fighter factory, that can produce mining drone, with 1:1 scale, equipped with full sized blaster, engine, and energy generator, enough to fully function all it's equipment. Each mining drone is equiped with A.I., that good enough to chase down it's target."
-	description "While it only use as disposable mining drone, this ship can give a big punch even to a heavy warship, because it's installed with energy blaster that will burst shoot three blaster simultaneously when it reach the firing range, and the mining drone itself will use it's reverse thruster to back from the target, and will charge forward again after reach it's max reverse distance, and it will repeat this cycle until it reach 90 volley, and after 90 volley, it will launch itself onto the target as the last attack, by input all it's energy into the thruster, to increase it's speed so it can quickly crash onto the target, since after all that shots, it will only have little time left, before it's equipment overheat and make it explode, that also can deal damage."
+	description "While it only use as disposable mining drone, this ship can give a big punch even to a heavy warship, because it's installed with energy blaster that will burst shoot three blaster simultaneously when it reach the firing range, and the mining drone itself will use it's reverse thruster to back from the target, and will charge forward again after reach it's max reverse distance, and it will repeat this cycle until it reach ninety volley, and after ninety volley, it will launch itself onto the target as the last attack, by input all it's energy into the thruster, to increase it's speed so it can quickly crash onto the target, since after all that shots, it will only have little time left, before it's equipment overheat and make it explode, that also can deal damage."
+	description "Each Bay Launcher or Bay Carrier have fuel capacity, enough for two launch, so any ship can at least shot it twice before it need refuel."
 
 outfit "Kamikaze Mining Drone Turret (Blaster)"
 	category "Bay Launcher"
 	cost 9500000
 	thumbnail "thumbnail/mining drone"
-	"mass" 300
-	"outfit space" -100
-	"weapon capacity" -100
+	"mass" 200
+	"outfit space" -50
+	"weapon capacity" -50
+	cargo space" -50
+	"fuel capacity" 100
 	"turret mounts" -1
 	weapon
 		"hardpoint sprite" "hardpoint/javelin turret"
@@ -38,11 +44,13 @@ outfit "Kamikaze Mining Drone Turret (Blaster)"
 		"velocity override" 25
 		"range override" 10000
 		"lifetime" 0
-		"reload" 300
+		"reload" 150
 		"firing energy" 400
 		"firing heat" 250
 		"firing fuel" 50
-	description "Turret version of Kamikaze Mining Drone."
+		"cluster"
+	description "Turret version of Kamikaze Mining Drone (Blaster)."
+	description "Each Bay Launcher or Bay Carrier have fuel capacity, enough for two launch, so any ship can at least shot it twice before it need refuel."
 
 outfit "blaster"
 	weapon
@@ -68,6 +76,7 @@ outfit "blaster2"
 outfit "mining blaster 1"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 2"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -82,13 +91,14 @@ outfit "mining blaster 1"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 2"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 3"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -103,13 +113,14 @@ outfit "mining blaster 2"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 3"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 4"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -124,13 +135,14 @@ outfit "mining blaster 3"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 4"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 5"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -145,13 +157,14 @@ outfit "mining blaster 4"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 5"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 6"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -166,13 +179,14 @@ outfit "mining blaster 5"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 6"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 7"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -187,13 +201,14 @@ outfit "mining blaster 6"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 7"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 8"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -208,13 +223,14 @@ outfit "mining blaster 7"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 8"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 9"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -229,13 +245,14 @@ outfit "mining blaster 8"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 9"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 10"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -250,13 +267,14 @@ outfit "mining blaster 9"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 10"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 11"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -271,13 +289,14 @@ outfit "mining blaster 10"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 11"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 12"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -292,13 +311,14 @@ outfit "mining blaster 11"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 12"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 13"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -313,13 +333,14 @@ outfit "mining blaster 12"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 13"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 14"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -334,13 +355,14 @@ outfit "mining blaster 13"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 14"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 15"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -355,13 +377,14 @@ outfit "mining blaster 14"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 15"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 16"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -376,13 +399,14 @@ outfit "mining blaster 15"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 16"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 17"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -397,13 +421,14 @@ outfit "mining blaster 16"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 17"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 18"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -418,13 +443,14 @@ outfit "mining blaster 17"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 18"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 19"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -439,13 +465,14 @@ outfit "mining blaster 18"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 19"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 20"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -460,13 +487,14 @@ outfit "mining blaster 19"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 20"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 21"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -481,13 +509,14 @@ outfit "mining blaster 20"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 21"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 22"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -502,13 +531,14 @@ outfit "mining blaster 21"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 22"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 23"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -523,13 +553,14 @@ outfit "mining blaster 22"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 23"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 24"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -544,13 +575,14 @@ outfit "mining blaster 23"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 24"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 25"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -565,13 +597,14 @@ outfit "mining blaster 24"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 25"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 26"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -586,13 +619,14 @@ outfit "mining blaster 25"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 26"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 27"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -607,13 +641,14 @@ outfit "mining blaster 26"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 27"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 28"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -628,13 +663,14 @@ outfit "mining blaster 27"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 28"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 29"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -649,13 +685,14 @@ outfit "mining blaster 28"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 29"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 30"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -670,13 +707,14 @@ outfit "mining blaster 29"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 30"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 31"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -691,13 +729,14 @@ outfit "mining blaster 30"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 31"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 32"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -712,13 +751,14 @@ outfit "mining blaster 31"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 32"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 33"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -733,13 +773,14 @@ outfit "mining blaster 32"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 33"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 34"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -754,13 +795,14 @@ outfit "mining blaster 33"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 34"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 35"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -775,13 +817,14 @@ outfit "mining blaster 34"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 35"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 36"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -796,13 +839,14 @@ outfit "mining blaster 35"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 36"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 37"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -817,13 +861,14 @@ outfit "mining blaster 36"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 37"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 38"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -838,13 +883,14 @@ outfit "mining blaster 37"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 38"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 39"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -859,13 +905,14 @@ outfit "mining blaster 38"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 39"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 40"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -880,13 +927,14 @@ outfit "mining blaster 39"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 40"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 41"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -901,13 +949,14 @@ outfit "mining blaster 40"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 41"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 42"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -922,13 +971,14 @@ outfit "mining blaster 41"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 42"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 43"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -943,13 +993,14 @@ outfit "mining blaster 42"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 43"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 44"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -964,13 +1015,14 @@ outfit "mining blaster 43"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 44"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 45"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -985,13 +1037,14 @@ outfit "mining blaster 44"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 45"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 46"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1006,13 +1059,14 @@ outfit "mining blaster 45"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 46"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 47"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1027,13 +1081,14 @@ outfit "mining blaster 46"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 47"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 48"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1048,13 +1103,14 @@ outfit "mining blaster 47"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 48"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 49"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1069,13 +1125,14 @@ outfit "mining blaster 48"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 49"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 50"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1090,13 +1147,14 @@ outfit "mining blaster 49"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 50"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 51"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1111,13 +1169,14 @@ outfit "mining blaster 50"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 51"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 52"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1132,13 +1191,14 @@ outfit "mining blaster 51"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 52"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 53"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1153,13 +1213,14 @@ outfit "mining blaster 52"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 53"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 54"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1174,13 +1235,14 @@ outfit "mining blaster 53"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 54"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 55"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1195,13 +1257,14 @@ outfit "mining blaster 54"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 55"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 56"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1216,13 +1279,14 @@ outfit "mining blaster 55"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 56"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 57"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1237,13 +1301,14 @@ outfit "mining blaster 56"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 57"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 58"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1258,13 +1323,14 @@ outfit "mining blaster 57"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 58"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 59"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1279,13 +1345,14 @@ outfit "mining blaster 58"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 59"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 60"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1300,13 +1367,14 @@ outfit "mining blaster 59"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 60"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 61"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1321,13 +1389,14 @@ outfit "mining blaster 60"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 61"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 62"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1342,13 +1411,14 @@ outfit "mining blaster 61"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 62"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 63"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1363,13 +1433,14 @@ outfit "mining blaster 62"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 63"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 64"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1384,13 +1455,14 @@ outfit "mining blaster 63"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 64"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 65"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1405,13 +1477,14 @@ outfit "mining blaster 64"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 65"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 66"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1426,13 +1499,14 @@ outfit "mining blaster 65"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 66"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 67"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1447,13 +1521,14 @@ outfit "mining blaster 66"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 67"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 68"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1468,13 +1543,14 @@ outfit "mining blaster 67"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 68"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 69"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1489,13 +1565,14 @@ outfit "mining blaster 68"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 69"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 70"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1510,13 +1587,14 @@ outfit "mining blaster 69"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 70"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 71"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1531,13 +1609,14 @@ outfit "mining blaster 70"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 71"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 72"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1552,13 +1631,14 @@ outfit "mining blaster 71"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 72"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 73"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1573,13 +1653,14 @@ outfit "mining blaster 72"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 73"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 74"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1594,13 +1675,14 @@ outfit "mining blaster 73"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 74"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 75"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1615,13 +1697,14 @@ outfit "mining blaster 74"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 75"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 76"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1636,13 +1719,14 @@ outfit "mining blaster 75"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 76"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 77"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1657,13 +1741,14 @@ outfit "mining blaster 76"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 77"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 78"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1678,13 +1763,14 @@ outfit "mining blaster 77"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 78"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 79"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1699,13 +1785,14 @@ outfit "mining blaster 78"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 79"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 80"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1720,13 +1807,14 @@ outfit "mining blaster 79"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 80"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 81"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1741,13 +1829,14 @@ outfit "mining blaster 80"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 81"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 82"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1762,13 +1851,14 @@ outfit "mining blaster 81"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 82"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 83"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1783,13 +1873,14 @@ outfit "mining blaster 82"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 83"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 84"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1804,13 +1895,14 @@ outfit "mining blaster 83"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 84"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 85"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1825,13 +1917,14 @@ outfit "mining blaster 84"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 85"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 86"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1846,13 +1939,14 @@ outfit "mining blaster 85"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 86"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 87"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1867,13 +1961,14 @@ outfit "mining blaster 86"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 87"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 88"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1888,13 +1983,14 @@ outfit "mining blaster 87"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 88"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 89"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1909,13 +2005,14 @@ outfit "mining blaster 88"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 89"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining blaster 90"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1930,13 +2027,14 @@ outfit "mining blaster 89"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining blaster 90"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"submunition" "mining charge"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1951,13 +2049,14 @@ outfit "mining blaster 90"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "mining charge"
 	weapon
 		sprite "ship/mining drone"
+		"inaccuracy" 50
 		"velocity" -200
 		"lifetime" 160
 		"random lifetime" 30

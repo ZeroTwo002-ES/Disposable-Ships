@@ -1,10 +1,12 @@
 outfit "Kamikaze Mining Drone (Javelin)"
 	category "Bay Launcher"
-	cost 10000000
+	cost 8500000
 	thumbnail "thumbnail/mining drone"
-	"mass" 300
-	"outfit space" -100
-	"weapon capacity" -100
+	"mass" 200
+	"outfit space" -50
+	"weapon capacity" -50
+	cargo space" -50
+	"fuel capacity" 100
 	"gun ports" -1
 	weapon
 		"submunition" "mining jav 1"
@@ -13,20 +15,24 @@ outfit "Kamikaze Mining Drone (Javelin)"
 		"velocity override" 50
 		"range override" 10000
 		"lifetime" 0
-		"reload" 300
+		"reload" 150
 		"firing energy" 400
 		"firing heat" 250
 		"firing fuel" 50
-	description "This is fighter factory, that can produce mining drone, with 1:1 scale, equipped with full size javelin pod, scaled-down engine, and energy generator, enough to fully function all it's equipment. Each finch is equiped with A.I., that good enough to chase down it's target."
-	description "This disposable mining drone, can do mag dump strategy, which is when the drone is launch, it will charge with full speed to the target, but after reach the safe distance from the enemies ship, it will dump all javelin stored inside it, which is sixty javelin, and then it will charge with full speed to the target, as it's last attack."
+		"cluster"
+	description "This is fighter factory, that can produce mining drone, with 1:1 scale, equipped with full size javelin pod, scaled-down engine, and energy generator, enough to fully function all it's equipment. Each mining drone is equiped with A.I., that good enough to chase down it's target."
+	description "This disposable mining drone, can do mag dump strategy, which is when the drone is launch, it will charge with full speed to the target, but after reach the safe distance from the enemies ship, it will dump all javelin stored inside it, which is ninety javelin, and then it will charge with full speed to the target, as it's last attack."
+	description "Each Bay Launcher or Bay Carrier have fuel capacity, enough for two launch, so any ship can at least shot it twice before it need refuel."
 
 outfit "Kamikaze Mining Drone Turret (Javelin)"
 	category "Bay Launcher"
-	cost 10000000
+	cost 8500000
 	thumbnail "thumbnail/mining drone"
-	"mass" 300
-	"outfit space" -100
-	"weapon capacity" -100
+	"mass" 200
+	"outfit space" -50
+	"weapon capacity" -50
+	cargo space" -50
+	"fuel capacity" 100
 	"turret mounts" -1
 	weapon
 		"hardpoint sprite" "hardpoint/javelin turret"
@@ -38,11 +44,13 @@ outfit "Kamikaze Mining Drone Turret (Javelin)"
 		"velocity override" 50
 		"range override" 10000
 		"lifetime" 0
-		"reload" 300
+		"reload" 150
 		"firing energy" 400
 		"firing heat" 250
 		"firing fuel" 50
-	description "Turret version of Kamikaze Mining Drone."
+		"cluster"
+	description "Turret version of Kamikaze Mining Drone (Javelin)."
+	description "Each Bay Launcher or Bay Carrier have fuel capacity, enough for two launch, so any ship can at least shot it twice before it need refuel."
 
 outfit "javelin"
 	weapon
@@ -72,7 +80,7 @@ outfit "mining jav 1"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -91,7 +99,7 @@ outfit "mining jav 2"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -110,7 +118,7 @@ outfit "mining jav 3"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -129,7 +137,7 @@ outfit "mining jav 4"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -148,7 +156,7 @@ outfit "mining jav 5"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -167,7 +175,7 @@ outfit "mining jav 6"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -186,7 +194,7 @@ outfit "mining jav 7"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -205,7 +213,7 @@ outfit "mining jav 8"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -224,7 +232,7 @@ outfit "mining jav 9"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -243,7 +251,7 @@ outfit "mining jav 10"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -262,7 +270,7 @@ outfit "mining jav 11"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -281,7 +289,7 @@ outfit "mining jav 12"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -300,7 +308,7 @@ outfit "mining jav 13"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -319,7 +327,7 @@ outfit "mining jav 14"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -338,7 +346,7 @@ outfit "mining jav 15"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -357,7 +365,7 @@ outfit "mining jav 16"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -376,7 +384,7 @@ outfit "mining jav 17"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -395,7 +403,7 @@ outfit "mining jav 18"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -414,7 +422,7 @@ outfit "mining jav 19"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -433,7 +441,7 @@ outfit "mining jav 20"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -452,7 +460,7 @@ outfit "mining jav 21"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -471,7 +479,7 @@ outfit "mining jav 22"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -490,7 +498,7 @@ outfit "mining jav 23"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -509,7 +517,7 @@ outfit "mining jav 24"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -528,7 +536,7 @@ outfit "mining jav 25"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -547,7 +555,7 @@ outfit "mining jav 26"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -566,7 +574,7 @@ outfit "mining jav 27"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -585,7 +593,7 @@ outfit "mining jav 28"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -604,7 +612,7 @@ outfit "mining jav 29"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -623,7 +631,7 @@ outfit "mining jav 30"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -642,7 +650,7 @@ outfit "mining jav 31"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -661,7 +669,7 @@ outfit "mining jav 32"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -680,7 +688,7 @@ outfit "mining jav 33"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -699,7 +707,7 @@ outfit "mining jav 34"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -718,7 +726,7 @@ outfit "mining jav 35"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -737,7 +745,7 @@ outfit "mining jav 36"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -756,7 +764,7 @@ outfit "mining jav 37"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -775,7 +783,7 @@ outfit "mining jav 38"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -794,7 +802,7 @@ outfit "mining jav 39"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -813,7 +821,7 @@ outfit "mining jav 40"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -832,7 +840,7 @@ outfit "mining jav 41"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -851,7 +859,7 @@ outfit "mining jav 42"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -870,7 +878,7 @@ outfit "mining jav 43"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -889,7 +897,7 @@ outfit "mining jav 44"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -908,7 +916,7 @@ outfit "mining jav 45"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -927,7 +935,7 @@ outfit "mining jav 46"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -946,7 +954,7 @@ outfit "mining jav 47"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -965,7 +973,7 @@ outfit "mining jav 48"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -984,7 +992,7 @@ outfit "mining jav 49"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -1003,7 +1011,7 @@ outfit "mining jav 50"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -1022,7 +1030,7 @@ outfit "mining jav 51"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -1041,7 +1049,7 @@ outfit "mining jav 52"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -1060,7 +1068,7 @@ outfit "mining jav 53"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -1079,7 +1087,7 @@ outfit "mining jav 54"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -1098,7 +1106,7 @@ outfit "mining jav 55"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -1117,7 +1125,7 @@ outfit "mining jav 56"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -1136,7 +1144,7 @@ outfit "mining jav 57"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -1155,7 +1163,7 @@ outfit "mining jav 58"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
@@ -1174,11 +1182,581 @@ outfit "mining jav 59"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 
 outfit "mining jav 60"
+	weapon
+		sprite "ship/mining drone"
+		"submunition" "mining jav 61"
+		"submunition" "javelin"
+			"offset" 0 -22
+		"velocity" -5
+		"lifetime" 4
+		"acceleration" 5
+		"drag" 1
+		"turn" 15
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 400
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mining jav 61"
+	weapon
+		sprite "ship/mining drone"
+		"submunition" "mining jav 62"
+		"submunition" "javelin"
+			"offset" 0 -22
+		"velocity" -5
+		"lifetime" 4
+		"acceleration" 5
+		"drag" 1
+		"turn" 15
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 400
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mining jav 62"
+	weapon
+		sprite "ship/mining drone"
+		"submunition" "mining jav 63"
+		"submunition" "javelin"
+			"offset" 0 -22
+		"velocity" -5
+		"lifetime" 4
+		"acceleration" 5
+		"drag" 1
+		"turn" 15
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 400
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mining jav 63"
+	weapon
+		sprite "ship/mining drone"
+		"submunition" "mining jav 64"
+		"submunition" "javelin"
+			"offset" 0 -22
+		"velocity" -5
+		"lifetime" 4
+		"acceleration" 5
+		"drag" 1
+		"turn" 15
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 400
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mining jav 64"
+	weapon
+		sprite "ship/mining drone"
+		"submunition" "mining jav 65"
+		"submunition" "javelin"
+			"offset" 0 -22
+		"velocity" -5
+		"lifetime" 4
+		"acceleration" 5
+		"drag" 1
+		"turn" 15
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 400
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mining jav 65"
+	weapon
+		sprite "ship/mining drone"
+		"submunition" "mining jav 66"
+		"submunition" "javelin"
+			"offset" 0 -22
+		"velocity" -5
+		"lifetime" 4
+		"acceleration" 5
+		"drag" 1
+		"turn" 15
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 400
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mining jav 66"
+	weapon
+		sprite "ship/mining drone"
+		"submunition" "mining jav 67"
+		"submunition" "javelin"
+			"offset" 0 -22
+		"velocity" -5
+		"lifetime" 4
+		"acceleration" 5
+		"drag" 1
+		"turn" 15
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 400
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mining jav 67"
+	weapon
+		sprite "ship/mining drone"
+		"submunition" "mining jav 68"
+		"submunition" "javelin"
+			"offset" 0 -22
+		"velocity" -5
+		"lifetime" 4
+		"acceleration" 5
+		"drag" 1
+		"turn" 15
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 400
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mining jav 68"
+	weapon
+		sprite "ship/mining drone"
+		"submunition" "mining jav 69"
+		"submunition" "javelin"
+			"offset" 0 -22
+		"velocity" -5
+		"lifetime" 4
+		"acceleration" 5
+		"drag" 1
+		"turn" 15
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 400
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mining jav 69"
+	weapon
+		sprite "ship/mining drone"
+		"submunition" "mining jav 70"
+		"submunition" "javelin"
+			"offset" 0 -22
+		"velocity" -5
+		"lifetime" 4
+		"acceleration" 5
+		"drag" 1
+		"turn" 15
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 400
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mining jav 70"
+	weapon
+		sprite "ship/mining drone"
+		"submunition" "mining jav 71"
+		"submunition" "javelin"
+			"offset" 0 -22
+		"velocity" -5
+		"lifetime" 4
+		"acceleration" 5
+		"drag" 1
+		"turn" 15
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 400
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mining jav 71"
+	weapon
+		sprite "ship/mining drone"
+		"submunition" "mining jav 72"
+		"submunition" "javelin"
+			"offset" 0 -22
+		"velocity" -5
+		"lifetime" 4
+		"acceleration" 5
+		"drag" 1
+		"turn" 15
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 400
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mining jav 72"
+	weapon
+		sprite "ship/mining drone"
+		"submunition" "mining jav 73"
+		"submunition" "javelin"
+			"offset" 0 -22
+		"velocity" -5
+		"lifetime" 4
+		"acceleration" 5
+		"drag" 1
+		"turn" 15
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 400
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mining jav 73"
+	weapon
+		sprite "ship/mining drone"
+		"submunition" "mining jav 74"
+		"submunition" "javelin"
+			"offset" 0 -22
+		"velocity" -5
+		"lifetime" 4
+		"acceleration" 5
+		"drag" 1
+		"turn" 15
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 400
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mining jav 74"
+	weapon
+		sprite "ship/mining drone"
+		"submunition" "mining jav 75"
+		"submunition" "javelin"
+			"offset" 0 -22
+		"velocity" -5
+		"lifetime" 4
+		"acceleration" 5
+		"drag" 1
+		"turn" 15
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 400
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mining jav 75"
+	weapon
+		sprite "ship/mining drone"
+		"submunition" "mining jav 76"
+		"submunition" "javelin"
+			"offset" 0 -22
+		"velocity" -5
+		"lifetime" 4
+		"acceleration" 5
+		"drag" 1
+		"turn" 15
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 400
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mining jav 76"
+	weapon
+		sprite "ship/mining drone"
+		"submunition" "mining jav 77"
+		"submunition" "javelin"
+			"offset" 0 -22
+		"velocity" -5
+		"lifetime" 4
+		"acceleration" 5
+		"drag" 1
+		"turn" 15
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 400
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mining jav 77"
+	weapon
+		sprite "ship/mining drone"
+		"submunition" "mining jav 78"
+		"submunition" "javelin"
+			"offset" 0 -22
+		"velocity" -5
+		"lifetime" 4
+		"acceleration" 5
+		"drag" 1
+		"turn" 15
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 400
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mining jav 78"
+	weapon
+		sprite "ship/mining drone"
+		"submunition" "mining jav 79"
+		"submunition" "javelin"
+			"offset" 0 -22
+		"velocity" -5
+		"lifetime" 4
+		"acceleration" 5
+		"drag" 1
+		"turn" 15
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 400
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mining jav 79"
+	weapon
+		sprite "ship/mining drone"
+		"submunition" "mining jav 80"
+		"submunition" "javelin"
+			"offset" 0 -22
+		"velocity" -5
+		"lifetime" 4
+		"acceleration" 5
+		"drag" 1
+		"turn" 15
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 400
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mining jav 80"
+	weapon
+		sprite "ship/mining drone"
+		"submunition" "mining jav 81"
+		"submunition" "javelin"
+			"offset" 0 -22
+		"velocity" -5
+		"lifetime" 4
+		"acceleration" 5
+		"drag" 1
+		"turn" 15
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 400
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mining jav 81"
+	weapon
+		sprite "ship/mining drone"
+		"submunition" "mining jav 82"
+		"submunition" "javelin"
+			"offset" 0 -22
+		"velocity" -5
+		"lifetime" 4
+		"acceleration" 5
+		"drag" 1
+		"turn" 15
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 400
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mining jav 82"
+	weapon
+		sprite "ship/mining drone"
+		"submunition" "mining jav 83"
+		"submunition" "javelin"
+			"offset" 0 -22
+		"velocity" -5
+		"lifetime" 4
+		"acceleration" 5
+		"drag" 1
+		"turn" 15
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 400
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mining jav 83"
+	weapon
+		sprite "ship/mining drone"
+		"submunition" "mining jav 84"
+		"submunition" "javelin"
+			"offset" 0 -22
+		"velocity" -5
+		"lifetime" 4
+		"acceleration" 5
+		"drag" 1
+		"turn" 15
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 400
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mining jav 84"
+	weapon
+		sprite "ship/mining drone"
+		"submunition" "mining jav 85"
+		"submunition" "javelin"
+			"offset" 0 -22
+		"velocity" -5
+		"lifetime" 4
+		"acceleration" 5
+		"drag" 1
+		"turn" 15
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 400
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mining jav 85"
+	weapon
+		sprite "ship/mining drone"
+		"submunition" "mining jav 86"
+		"submunition" "javelin"
+			"offset" 0 -22
+		"velocity" -5
+		"lifetime" 4
+		"acceleration" 5
+		"drag" 1
+		"turn" 15
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 400
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mining jav 86"
+	weapon
+		sprite "ship/mining drone"
+		"submunition" "mining jav 87"
+		"submunition" "javelin"
+			"offset" 0 -22
+		"velocity" -5
+		"lifetime" 4
+		"acceleration" 5
+		"drag" 1
+		"turn" 15
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 400
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mining jav 87"
+	weapon
+		sprite "ship/mining drone"
+		"submunition" "mining jav 88"
+		"submunition" "javelin"
+			"offset" 0 -22
+		"velocity" -5
+		"lifetime" 4
+		"acceleration" 5
+		"drag" 1
+		"turn" 15
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 400
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mining jav 88"
+	weapon
+		sprite "ship/mining drone"
+		"submunition" "mining jav 89"
+		"submunition" "javelin"
+			"offset" 0 -22
+		"velocity" -5
+		"lifetime" 4
+		"acceleration" 5
+		"drag" 1
+		"turn" 15
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 400
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mining jav 89"
+	weapon
+		sprite "ship/mining drone"
+		"submunition" "mining jav 90"
+		"submunition" "javelin"
+			"offset" 0 -22
+		"velocity" -5
+		"lifetime" 4
+		"acceleration" 5
+		"drag" 1
+		"turn" 15
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 400
+		"missile strength" 50
+		"no ship collisions"
+
+outfit "mining jav 90"
 	weapon
 		sprite "ship/mining drone"
 		"submunition" "mining charge"
@@ -1193,7 +1771,7 @@ outfit "mining jav 60"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 300
+		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
 

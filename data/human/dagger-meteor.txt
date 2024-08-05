@@ -1,10 +1,12 @@
 outfit "Kamikaze Dagger (Meteor)"
 	category "Bay Launcher"
-	cost 15000000
-	thumbnail "thumbnail/dagger"
-	"mass" 500
-	"outfit space" -200
-	"weapon capacity" -200
+	cost 12500000
+	thumbnail "thumbnail/finch"
+	"mass" 300
+	"outfit space" -100
+	"weapon capacity" -100
+	"cargo space" -100
+	"fuel capacity" 150
 	"gun ports" -1
 	weapon
 		"submunition" "dagger meteor 1"
@@ -13,20 +15,24 @@ outfit "Kamikaze Dagger (Meteor)"
 		"velocity override" 25
 		"range override" 10000
 		"lifetime" 0
-		"reload" 450
+		"reload" 225
 		"firing energy" 750
 		"firing heat" 400
 		"firing fuel" 75
+		"cluster"
 	description "This is fighter factory, that can produce dagger, with 1:1 scale, equipped with full sized meteor launcher, engine, and energy generator, enough to fully function all it's equipment. Each dagger is equiped with A.I., that good enough to chase down it's target."
-	description "While it only use as disposable dagger, this ship can give a big punch even to a heavy warship, because it's installed with meteor launcher that will shoot single meteor when it reach the firing range, and the dagger itself will use it's reverse thruster to back from the target, and will charge forward again after reach it's max reverse distance, and it will repeat this cycle until it reach 45 volley, and after 45 volley, it will launch itself onto the target as the last attack, by input all it's energy into the thruster, to increase it's speed so it can quickly crash onto the target, because it's run out of missiles."
+	description "While it only use as disposable dagger, this ship can give a big punch even to a heavy warship, because it's installed with meteor launcher that will shoot single meteor when it reach the firing range, and the dagger itself will use it's reverse thruster to back from the target, and will charge forward again after reach it's max reverse distance, and it will repeat this cycle until it reach sixty volley, and after sixty volley, it will launch itself onto the target as the last attack, by input all it's energy into the thruster, to increase it's speed so it can quickly crash onto the target, because it's run out of missiles."
+	description "Each Bay Launcher or Bay Carrier have fuel capacity, enough for two launch, so any ship can at least shot it twice before it need refuel."
 
 outfit "Kamikaze Dagger Turret (Meteor)"
 	category "Bay Launcher"
-	cost 15000000
-	thumbnail "thumbnail/dagger"
-	"mass" 500
-	"outfit space" -200
-	"weapon capacity" -200
+	cost 12500000
+	thumbnail "thumbnail/finch"
+	"mass" 300
+	"outfit space" -100
+	"weapon capacity" -100
+	"cargo space" -100
+	"fuel capacity" 150
 	"turret mounts" -1
 	weapon
 		"hardpoint sprite" "hardpoint/javelin turret"
@@ -38,11 +44,13 @@ outfit "Kamikaze Dagger Turret (Meteor)"
 		"velocity override" 25
 		"range override" 10000
 		"lifetime" 0
-		"reload" 450
+		"reload" 225
 		"firing energy" 750
 		"firing heat" 400
 		"firing fuel" 75
-	description "Turret version of Kamikaze Dagger."
+		"cluster"
+	description "Turret version of Kamikaze Dagger (Meteor)."
+	description "Each Bay Launcher or Bay Carrier have fuel capacity, enough for two launch, so any ship can at least shot it twice before it need refuel."
 
 outfit "meteor"
 	weapon
@@ -69,6 +77,7 @@ outfit "meteor"
 outfit "dagger meteor 1"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 2"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -81,13 +90,14 @@ outfit "dagger meteor 1"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 2"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 3"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -100,13 +110,14 @@ outfit "dagger meteor 2"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 3"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 4"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -119,13 +130,14 @@ outfit "dagger meteor 3"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 4"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 5"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -138,13 +150,14 @@ outfit "dagger meteor 4"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 5"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 6"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -157,13 +170,14 @@ outfit "dagger meteor 5"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 6"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 7"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -176,13 +190,14 @@ outfit "dagger meteor 6"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 7"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 8"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -195,13 +210,14 @@ outfit "dagger meteor 7"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 8"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 9"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -214,13 +230,14 @@ outfit "dagger meteor 8"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 9"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 10"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -233,13 +250,14 @@ outfit "dagger meteor 9"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 10"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 11"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -252,13 +270,14 @@ outfit "dagger meteor 10"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 11"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 12"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -271,13 +290,14 @@ outfit "dagger meteor 11"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 12"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 13"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -290,13 +310,14 @@ outfit "dagger meteor 12"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 13"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 14"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -309,13 +330,14 @@ outfit "dagger meteor 13"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 14"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 15"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -328,13 +350,14 @@ outfit "dagger meteor 14"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 15"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 16"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -347,13 +370,14 @@ outfit "dagger meteor 15"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 16"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 17"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -366,13 +390,14 @@ outfit "dagger meteor 16"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 17"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 18"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -385,13 +410,14 @@ outfit "dagger meteor 17"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 18"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 19"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -404,13 +430,14 @@ outfit "dagger meteor 18"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 19"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 20"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -423,13 +450,14 @@ outfit "dagger meteor 19"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 20"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 21"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -442,13 +470,14 @@ outfit "dagger meteor 20"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 21"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 22"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -461,13 +490,14 @@ outfit "dagger meteor 21"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 22"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 23"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -480,13 +510,14 @@ outfit "dagger meteor 22"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 23"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 24"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -499,13 +530,14 @@ outfit "dagger meteor 23"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 24"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 25"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -518,13 +550,14 @@ outfit "dagger meteor 24"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 25"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 26"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -537,13 +570,14 @@ outfit "dagger meteor 25"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 26"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 27"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -556,13 +590,14 @@ outfit "dagger meteor 26"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 27"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 28"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -575,13 +610,14 @@ outfit "dagger meteor 27"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 28"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 29"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -594,13 +630,14 @@ outfit "dagger meteor 28"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 29"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 30"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -613,13 +650,14 @@ outfit "dagger meteor 29"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 30"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 31"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -632,13 +670,14 @@ outfit "dagger meteor 30"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 31"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 32"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -651,13 +690,14 @@ outfit "dagger meteor 31"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 32"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 33"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -670,13 +710,14 @@ outfit "dagger meteor 32"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 33"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 34"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -689,13 +730,14 @@ outfit "dagger meteor 33"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 34"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 35"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -708,13 +750,14 @@ outfit "dagger meteor 34"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 35"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 36"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -727,13 +770,14 @@ outfit "dagger meteor 35"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 36"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 37"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -746,13 +790,14 @@ outfit "dagger meteor 36"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 37"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 38"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -765,13 +810,14 @@ outfit "dagger meteor 37"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 38"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 39"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -784,13 +830,14 @@ outfit "dagger meteor 38"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 39"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 40"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -803,13 +850,14 @@ outfit "dagger meteor 39"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 40"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 41"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -822,13 +870,14 @@ outfit "dagger meteor 40"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 41"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 42"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -841,13 +890,14 @@ outfit "dagger meteor 41"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 42"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 43"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -860,13 +910,14 @@ outfit "dagger meteor 42"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 43"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 44"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -879,13 +930,14 @@ outfit "dagger meteor 43"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 44"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 45"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -898,13 +950,14 @@ outfit "dagger meteor 44"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 45"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 46"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -917,13 +970,14 @@ outfit "dagger meteor 45"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 46"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 47"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -936,13 +990,14 @@ outfit "dagger meteor 46"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 47"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 48"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -955,13 +1010,14 @@ outfit "dagger meteor 47"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 48"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 49"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -974,13 +1030,14 @@ outfit "dagger meteor 48"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 49"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 50"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -993,13 +1050,14 @@ outfit "dagger meteor 49"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 50"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 51"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -1012,13 +1070,14 @@ outfit "dagger meteor 50"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 51"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 52"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -1031,13 +1090,14 @@ outfit "dagger meteor 51"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 52"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 53"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -1050,13 +1110,14 @@ outfit "dagger meteor 52"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 53"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 54"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -1069,13 +1130,14 @@ outfit "dagger meteor 53"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 54"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 55"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -1088,13 +1150,14 @@ outfit "dagger meteor 54"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 55"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 56"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -1107,13 +1170,14 @@ outfit "dagger meteor 55"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 56"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 57"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -1126,13 +1190,14 @@ outfit "dagger meteor 56"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 57"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 58"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -1145,13 +1210,14 @@ outfit "dagger meteor 57"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 58"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 59"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -1164,13 +1230,14 @@ outfit "dagger meteor 58"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 59"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger meteor 60"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -1183,13 +1250,14 @@ outfit "dagger meteor 59"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger meteor 60"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"submunition" "dagger charge"
 		"submunition" "meteor2"
 			"offset" 0 -35
@@ -1202,13 +1270,14 @@ outfit "dagger meteor 60"
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 750
+		"split range" 1000
 		"missile strength" 100
 		"no ship collisions"
 
 outfit "dagger charge"
 	weapon
 		sprite "ship/dagger"
+		"inaccuracy" 45
 		"velocity" -50
 		"lifetime" 160
 		"random lifetime" 30
