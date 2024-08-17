@@ -5,7 +5,7 @@ outfit "Kamikaze Mining Drone (Javelin)"
 	"mass" 200
 	"outfit space" -50
 	"weapon capacity" -50
-	cargo space" -50
+	"cargo space" -50
 	"fuel capacity" 100
 	"gun ports" -1
 	weapon
@@ -31,7 +31,7 @@ outfit "Kamikaze Mining Drone Turret (Javelin)"
 	"mass" 200
 	"outfit space" -50
 	"weapon capacity" -50
-	cargo space" -50
+	"cargo space" -50
 	"fuel capacity" 100
 	"turret mounts" -1
 	weapon

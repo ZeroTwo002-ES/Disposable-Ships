@@ -5,7 +5,7 @@ outfit "Kamikaze Mini Drone (Blaster)"
 	"mass" 100
 	"outfit space" -25
 	"weapon capacity" -25
-	cargo space" -25
+	"cargo space" -25
 	"fuel capacity" 50
 	"gun ports" -1
 	weapon
@@ -31,7 +31,7 @@ outfit "Kamikaze Mini Drone Turret (Blaster)"
 	"mass" 100
 	"outfit space" -25
 	"weapon capacity" -25
-	cargo space" -25
+	"cargo space" -25
 	"fuel capacity" 50
 	"turret mounts" -1
 	weapon
