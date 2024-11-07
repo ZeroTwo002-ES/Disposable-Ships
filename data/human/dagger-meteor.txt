@@ -1,7 +1,7 @@
 outfit "Kamikaze Dagger (Meteor)"
 	category "Bay Launcher"
 	cost 12500000
-	thumbnail "thumbnail/finch"
+	thumbnail "thumbnail/dagger"
 	"mass" 300
 	"outfit space" -100
 	"weapon capacity" -100
@@ -27,7 +27,7 @@ outfit "Kamikaze Dagger (Meteor)"
 outfit "Kamikaze Dagger Turret (Meteor)"
 	category "Bay Launcher"
 	cost 12500000
-	thumbnail "thumbnail/finch"
+	thumbnail "thumbnail/dagger"
 	"mass" 300
 	"outfit space" -100
 	"weapon capacity" -100
