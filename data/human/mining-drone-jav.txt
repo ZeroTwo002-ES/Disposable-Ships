@@ -1781,7 +1781,7 @@ outfit "mining charge"
 		"velocity" -200
 		"lifetime" 160
 		"random lifetime" 30
-		"hit effect" "tiny explosion" 10
+		"hit effect" "stopping tiny explosion" 10
 		"acceleration" 10
 		"drag" 0.1
 		"turn" 4

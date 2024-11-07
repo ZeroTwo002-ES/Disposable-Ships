@@ -831,6 +831,8 @@ outfit "shuttle charge"
 		"velocity" -50
 		"lifetime" 250
 		"random lifetime" 30
+		"hit effect" "stopping tiny explosion" 15
+		"hit effect" "stopping small explosion" 5
 		"acceleration" 4
 		"drag" 0.1
 		"turn" 4
