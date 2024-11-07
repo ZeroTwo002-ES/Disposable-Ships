@@ -1,4 +1,6 @@
 outfitter "Basic Outfits"
+	"Kamikaze Dagger (Meteor)"
+	"Kamikaze Dagger Turret (Meteor)"
 	"Kamikaze Mining Drone (Javelin)"
 	"Kamikaze Mining Drone Turret (Javelin)"
 	"Kamikaze Mining Drone (Blaster)"
