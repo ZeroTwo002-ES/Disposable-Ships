@@ -42,7 +42,9 @@ outfit "Kamikaze Flea Turret (Mini Ion)"
 		sound "human launch"
 		"fire effect" "launching smoke" 20
 		"inaccuracy" 0
-		"turret turn" 0
+		"turret turn" .01
+		"arc" .01
+		"arc" .1
 		"velocity override" 25
 		"range override" 10000
 		"lifetime" 0
@@ -73,7 +75,6 @@ outfit "minion"
 outfit "flea minion 1"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 2"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -95,7 +96,6 @@ outfit "flea minion 1"
 outfit "flea minion 2"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 3"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -117,7 +117,6 @@ outfit "flea minion 2"
 outfit "flea minion 3"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 4"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -139,7 +138,6 @@ outfit "flea minion 3"
 outfit "flea minion 4"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 5"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -161,7 +159,6 @@ outfit "flea minion 4"
 outfit "flea minion 5"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 6"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -183,7 +180,6 @@ outfit "flea minion 5"
 outfit "flea minion 6"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 7"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -205,7 +201,6 @@ outfit "flea minion 6"
 outfit "flea minion 7"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 8"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -227,7 +222,6 @@ outfit "flea minion 7"
 outfit "flea minion 8"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 9"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -249,7 +243,6 @@ outfit "flea minion 8"
 outfit "flea minion 9"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 10"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -271,7 +264,6 @@ outfit "flea minion 9"
 outfit "flea minion 10"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 11"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -293,7 +285,6 @@ outfit "flea minion 10"
 outfit "flea minion 11"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 12"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -315,7 +306,6 @@ outfit "flea minion 11"
 outfit "flea minion 12"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 13"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -337,7 +327,6 @@ outfit "flea minion 12"
 outfit "flea minion 13"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 14"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -359,7 +348,6 @@ outfit "flea minion 13"
 outfit "flea minion 14"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 15"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -381,7 +369,6 @@ outfit "flea minion 14"
 outfit "flea minion 15"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 16"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -403,7 +390,6 @@ outfit "flea minion 15"
 outfit "flea minion 16"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 17"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -425,7 +411,6 @@ outfit "flea minion 16"
 outfit "flea minion 17"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 18"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -447,7 +432,6 @@ outfit "flea minion 17"
 outfit "flea minion 18"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 19"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -469,7 +453,6 @@ outfit "flea minion 18"
 outfit "flea minion 19"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 20"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -491,7 +474,6 @@ outfit "flea minion 19"
 outfit "flea minion 20"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 21"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -513,7 +495,6 @@ outfit "flea minion 20"
 outfit "flea minion 21"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 22"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -535,7 +516,6 @@ outfit "flea minion 21"
 outfit "flea minion 22"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 23"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -557,7 +537,6 @@ outfit "flea minion 22"
 outfit "flea minion 23"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 24"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -579,7 +558,6 @@ outfit "flea minion 23"
 outfit "flea minion 24"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 25"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -601,7 +579,6 @@ outfit "flea minion 24"
 outfit "flea minion 25"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 26"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -623,7 +600,6 @@ outfit "flea minion 25"
 outfit "flea minion 26"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 27"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -645,7 +621,6 @@ outfit "flea minion 26"
 outfit "flea minion 27"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 28"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -667,7 +642,6 @@ outfit "flea minion 27"
 outfit "flea minion 28"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 29"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -689,7 +663,6 @@ outfit "flea minion 28"
 outfit "flea minion 29"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 30"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -711,7 +684,6 @@ outfit "flea minion 29"
 outfit "flea minion 30"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 31"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -733,7 +705,6 @@ outfit "flea minion 30"
 outfit "flea minion 31"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 32"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -755,7 +726,6 @@ outfit "flea minion 31"
 outfit "flea minion 32"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 33"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -777,7 +747,6 @@ outfit "flea minion 32"
 outfit "flea minion 33"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 34"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -799,7 +768,6 @@ outfit "flea minion 33"
 outfit "flea minion 34"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 35"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -821,7 +789,6 @@ outfit "flea minion 34"
 outfit "flea minion 35"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 36"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -843,7 +810,6 @@ outfit "flea minion 35"
 outfit "flea minion 36"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 37"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -865,7 +831,6 @@ outfit "flea minion 36"
 outfit "flea minion 37"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 38"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -887,7 +852,6 @@ outfit "flea minion 37"
 outfit "flea minion 38"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 39"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -909,7 +873,6 @@ outfit "flea minion 38"
 outfit "flea minion 39"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 40"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -931,7 +894,6 @@ outfit "flea minion 39"
 outfit "flea minion 40"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 41"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -953,7 +915,6 @@ outfit "flea minion 40"
 outfit "flea minion 41"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 42"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -975,7 +936,6 @@ outfit "flea minion 41"
 outfit "flea minion 42"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 43"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -997,7 +957,6 @@ outfit "flea minion 42"
 outfit "flea minion 43"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 44"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -1019,7 +978,6 @@ outfit "flea minion 43"
 outfit "flea minion 44"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 45"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -1041,7 +999,6 @@ outfit "flea minion 44"
 outfit "flea minion 45"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 46"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -1063,7 +1020,6 @@ outfit "flea minion 45"
 outfit "flea minion 46"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 47"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -1085,7 +1041,6 @@ outfit "flea minion 46"
 outfit "flea minion 47"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 48"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -1107,7 +1062,6 @@ outfit "flea minion 47"
 outfit "flea minion 48"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 49"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -1129,7 +1083,6 @@ outfit "flea minion 48"
 outfit "flea minion 49"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 50"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -1151,7 +1104,6 @@ outfit "flea minion 49"
 outfit "flea minion 50"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 51"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -1173,7 +1125,6 @@ outfit "flea minion 50"
 outfit "flea minion 51"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 52"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -1195,7 +1146,6 @@ outfit "flea minion 51"
 outfit "flea minion 52"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 53"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -1217,7 +1167,6 @@ outfit "flea minion 52"
 outfit "flea minion 53"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 54"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -1239,7 +1188,6 @@ outfit "flea minion 53"
 outfit "flea minion 54"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 55"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -1261,7 +1209,6 @@ outfit "flea minion 54"
 outfit "flea minion 55"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 56"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -1283,7 +1230,6 @@ outfit "flea minion 55"
 outfit "flea minion 56"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 57"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -1305,7 +1251,6 @@ outfit "flea minion 56"
 outfit "flea minion 57"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 58"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -1327,7 +1272,6 @@ outfit "flea minion 57"
 outfit "flea minion 58"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 59"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -1349,7 +1293,6 @@ outfit "flea minion 58"
 outfit "flea minion 59"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea minion 60"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -1371,7 +1314,6 @@ outfit "flea minion 59"
 outfit "flea minion 60"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea charge"
 		"submunition" "minion"
 			"offset" 0 -27
@@ -1393,7 +1335,6 @@ outfit "flea minion 60"
 outfit "flea charge"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"velocity" -40
 		"lifetime" 160
 		"random lifetime" 30

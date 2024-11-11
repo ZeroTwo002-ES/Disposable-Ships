@@ -42,7 +42,8 @@ outfit "Kamikaze Mining Drone Turret (Javelin)"
 		sound "human launch"
 		"fire effect" "launching smoke" 20
 		"inaccuracy" 0
-		"turret turn" 0
+		"turret turn" .01
+		"arc" .01
 		"velocity override" 50
 		"range override" 10000
 		"lifetime" 0

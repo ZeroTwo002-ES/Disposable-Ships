@@ -42,7 +42,8 @@ outfit "Kamikaze Flea Turret (Railgun)"
 		sound "human launch"
 		"fire effect" "launching smoke" 20
 		"inaccuracy" 0
-		"turret turn" 0
+		"turret turn" .01
+		"arc" .01
 		"velocity override" 25
 		"range override" 10000
 		"lifetime" 0
@@ -59,7 +60,6 @@ outfit "Kamikaze Flea Turret (Railgun)"
 outfit "flea railgun 1"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 2"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -85,7 +85,6 @@ outfit "flea railgun 1"
 outfit "flea railgun 2"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 3"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -111,7 +110,6 @@ outfit "flea railgun 2"
 outfit "flea railgun 3"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 4"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -137,7 +135,6 @@ outfit "flea railgun 3"
 outfit "flea railgun 4"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 5"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -163,7 +160,6 @@ outfit "flea railgun 4"
 outfit "flea railgun 5"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 6"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -189,7 +185,6 @@ outfit "flea railgun 5"
 outfit "flea railgun 6"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 7"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -215,7 +210,6 @@ outfit "flea railgun 6"
 outfit "flea railgun 7"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 8"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -241,7 +235,6 @@ outfit "flea railgun 7"
 outfit "flea railgun 8"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 9"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -267,7 +260,6 @@ outfit "flea railgun 8"
 outfit "flea railgun 9"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 10"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -293,7 +285,6 @@ outfit "flea railgun 9"
 outfit "flea railgun 10"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 11"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -319,7 +310,6 @@ outfit "flea railgun 10"
 outfit "flea railgun 11"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 12"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -345,7 +335,6 @@ outfit "flea railgun 11"
 outfit "flea railgun 12"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 13"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -371,7 +360,6 @@ outfit "flea railgun 12"
 outfit "flea railgun 13"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 14"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -397,7 +385,6 @@ outfit "flea railgun 13"
 outfit "flea railgun 14"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 15"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -423,7 +410,6 @@ outfit "flea railgun 14"
 outfit "flea railgun 15"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 16"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -449,7 +435,6 @@ outfit "flea railgun 15"
 outfit "flea railgun 16"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 17"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -475,7 +460,6 @@ outfit "flea railgun 16"
 outfit "flea railgun 17"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 18"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -501,7 +485,6 @@ outfit "flea railgun 17"
 outfit "flea railgun 18"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 19"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -527,7 +510,6 @@ outfit "flea railgun 18"
 outfit "flea railgun 19"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 20"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -553,7 +535,6 @@ outfit "flea railgun 19"
 outfit "flea railgun 20"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 21"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -579,7 +560,6 @@ outfit "flea railgun 20"
 outfit "flea railgun 21"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 22"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -605,7 +585,6 @@ outfit "flea railgun 21"
 outfit "flea railgun 22"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 23"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -631,7 +610,6 @@ outfit "flea railgun 22"
 outfit "flea railgun 23"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 24"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -657,7 +635,6 @@ outfit "flea railgun 23"
 outfit "flea railgun 24"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 25"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -683,7 +660,6 @@ outfit "flea railgun 24"
 outfit "flea railgun 25"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 26"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -709,7 +685,6 @@ outfit "flea railgun 25"
 outfit "flea railgun 26"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 27"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -735,7 +710,6 @@ outfit "flea railgun 26"
 outfit "flea railgun 27"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 28"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -761,7 +735,6 @@ outfit "flea railgun 27"
 outfit "flea railgun 28"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 29"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -787,7 +760,6 @@ outfit "flea railgun 28"
 outfit "flea railgun 29"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 30"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -813,7 +785,6 @@ outfit "flea railgun 29"
 outfit "flea railgun 30"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 31"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -839,7 +810,6 @@ outfit "flea railgun 30"
 outfit "flea railgun 31"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 32"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -865,7 +835,6 @@ outfit "flea railgun 31"
 outfit "flea railgun 32"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 33"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -891,7 +860,6 @@ outfit "flea railgun 32"
 outfit "flea railgun 33"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 34"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -917,7 +885,6 @@ outfit "flea railgun 33"
 outfit "flea railgun 34"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 35"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -943,7 +910,6 @@ outfit "flea railgun 34"
 outfit "flea railgun 35"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 36"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -969,7 +935,6 @@ outfit "flea railgun 35"
 outfit "flea railgun 36"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 37"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -995,7 +960,6 @@ outfit "flea railgun 36"
 outfit "flea railgun 37"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 38"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -1021,7 +985,6 @@ outfit "flea railgun 37"
 outfit "flea railgun 38"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 39"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -1047,7 +1010,6 @@ outfit "flea railgun 38"
 outfit "flea railgun 39"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 40"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -1073,7 +1035,6 @@ outfit "flea railgun 39"
 outfit "flea railgun 40"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 41"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -1099,7 +1060,6 @@ outfit "flea railgun 40"
 outfit "flea railgun 41"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 42"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -1125,7 +1085,6 @@ outfit "flea railgun 41"
 outfit "flea railgun 42"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 43"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -1151,7 +1110,6 @@ outfit "flea railgun 42"
 outfit "flea railgun 43"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 44"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -1177,7 +1135,6 @@ outfit "flea railgun 43"
 outfit "flea railgun 44"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 45"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -1203,7 +1160,6 @@ outfit "flea railgun 44"
 outfit "flea railgun 45"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 46"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -1229,7 +1185,6 @@ outfit "flea railgun 45"
 outfit "flea railgun 46"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 47"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -1255,7 +1210,6 @@ outfit "flea railgun 46"
 outfit "flea railgun 47"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 48"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -1281,7 +1235,6 @@ outfit "flea railgun 47"
 outfit "flea railgun 48"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 49"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -1307,7 +1260,6 @@ outfit "flea railgun 48"
 outfit "flea railgun 49"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 50"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -1333,7 +1285,6 @@ outfit "flea railgun 49"
 outfit "flea railgun 50"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 51"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -1359,7 +1310,6 @@ outfit "flea railgun 50"
 outfit "flea railgun 51"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 52"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -1385,7 +1335,6 @@ outfit "flea railgun 51"
 outfit "flea railgun 52"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 53"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -1411,7 +1360,6 @@ outfit "flea railgun 52"
 outfit "flea railgun 53"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 54"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -1437,7 +1385,6 @@ outfit "flea railgun 53"
 outfit "flea railgun 54"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 55"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -1463,7 +1410,6 @@ outfit "flea railgun 54"
 outfit "flea railgun 55"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 56"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -1489,7 +1435,6 @@ outfit "flea railgun 55"
 outfit "flea railgun 56"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 57"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -1515,7 +1460,6 @@ outfit "flea railgun 56"
 outfit "flea railgun 57"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 58"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -1541,7 +1485,6 @@ outfit "flea railgun 57"
 outfit "flea railgun 58"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 59"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -1567,7 +1510,6 @@ outfit "flea railgun 58"
 outfit "flea railgun 59"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea railgun 60"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -1593,7 +1535,6 @@ outfit "flea railgun 59"
 outfit "flea railgun 60"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"submunition" "flea charge"
 		"submunition" "rslug"
 			"offset" 0 -27
@@ -1619,7 +1560,6 @@ outfit "flea railgun 60"
 outfit "flea charge"
 	weapon
 		sprite "ship/hai flea"
-		"inaccuracy" 45
 		"velocity" -40
 		"lifetime" 160
 		"random lifetime" 30

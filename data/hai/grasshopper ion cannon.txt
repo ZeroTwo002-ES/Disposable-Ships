@@ -42,7 +42,8 @@ outfit "Kamikaze Grasshopper Turret (Ion)"
 		sound "hai launch"
 		"fire effect" "launching smoke" 20
 		"inaccuracy" 0
-		"turret turn" 0
+		"turret turn" .01
+		"arc" .01
 		"velocity override" 20
 		"range override" 10000
 		"lifetime" 0
@@ -72,7 +73,6 @@ outfit "ion"
 outfit "grasshopper ion 1"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 2"
 		"submunition" "ion"
 			"offset" -6 -34
@@ -94,7 +94,6 @@ outfit "grasshopper ion 1"
 outfit "grasshopper ion 2"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 3"
 		"submunition" "ion"
 			"offset" 6 -34
@@ -116,7 +115,6 @@ outfit "grasshopper ion 2"
 outfit "grasshopper ion 3"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 4"
 		"submunition" "ion"
 			"offset" -6 -34
@@ -138,7 +136,6 @@ outfit "grasshopper ion 3"
 outfit "grasshopper ion 4"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 5"
 		"submunition" "ion"
 			"offset" 6 -34
@@ -160,7 +157,6 @@ outfit "grasshopper ion 4"
 outfit "grasshopper ion 5"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 6"
 		"submunition" "ion"
 			"offset" -6 -34
@@ -182,7 +178,6 @@ outfit "grasshopper ion 5"
 outfit "grasshopper ion 6"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 7"
 		"submunition" "ion"
 			"offset" 6 -34
@@ -204,7 +199,6 @@ outfit "grasshopper ion 6"
 outfit "grasshopper ion 7"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 8"
 		"submunition" "ion"
 			"offset" -6 -34
@@ -226,7 +220,6 @@ outfit "grasshopper ion 7"
 outfit "grasshopper ion 8"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 9"
 		"submunition" "ion"
 			"offset" 6 -34
@@ -248,7 +241,6 @@ outfit "grasshopper ion 8"
 outfit "grasshopper ion 9"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 10"
 		"submunition" "ion"
 			"offset" -6 -34
@@ -270,7 +262,6 @@ outfit "grasshopper ion 9"
 outfit "grasshopper ion 10"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 11"
 		"submunition" "ion"
 			"offset" 6 -34
@@ -292,7 +283,6 @@ outfit "grasshopper ion 10"
 outfit "grasshopper ion 11"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 12"
 		"submunition" "ion"
 			"offset" -6 -34
@@ -314,7 +304,6 @@ outfit "grasshopper ion 11"
 outfit "grasshopper ion 12"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 13"
 		"submunition" "ion"
 			"offset" 6 -34
@@ -336,7 +325,6 @@ outfit "grasshopper ion 12"
 outfit "grasshopper ion 13"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 14"
 		"submunition" "ion"
 			"offset" -6 -34
@@ -358,7 +346,6 @@ outfit "grasshopper ion 13"
 outfit "grasshopper ion 14"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 15"
 		"submunition" "ion"
 			"offset" 6 -34
@@ -380,7 +367,6 @@ outfit "grasshopper ion 14"
 outfit "grasshopper ion 15"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 16"
 		"submunition" "ion"
 			"offset" -6 -34
@@ -402,7 +388,6 @@ outfit "grasshopper ion 15"
 outfit "grasshopper ion 16"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 17"
 		"submunition" "ion"
 			"offset" 6 -34
@@ -424,7 +409,6 @@ outfit "grasshopper ion 16"
 outfit "grasshopper ion 17"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 18"
 		"submunition" "ion"
 			"offset" -6 -34
@@ -446,7 +430,6 @@ outfit "grasshopper ion 17"
 outfit "grasshopper ion 18"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 19"
 		"submunition" "ion"
 			"offset" 6 -34
@@ -468,7 +451,6 @@ outfit "grasshopper ion 18"
 outfit "grasshopper ion 19"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 20"
 		"submunition" "ion"
 			"offset" -6 -34
@@ -490,7 +472,6 @@ outfit "grasshopper ion 19"
 outfit "grasshopper ion 20"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 21"
 		"submunition" "ion"
 			"offset" 6 -34
@@ -512,7 +493,6 @@ outfit "grasshopper ion 20"
 outfit "grasshopper ion 21"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 22"
 		"submunition" "ion"
 			"offset" -6 -34
@@ -534,7 +514,6 @@ outfit "grasshopper ion 21"
 outfit "grasshopper ion 22"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 23"
 		"submunition" "ion"
 			"offset" 6 -34
@@ -556,7 +535,6 @@ outfit "grasshopper ion 22"
 outfit "grasshopper ion 23"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 24"
 		"submunition" "ion"
 			"offset" -6 -34
@@ -578,7 +556,6 @@ outfit "grasshopper ion 23"
 outfit "grasshopper ion 24"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 25"
 		"submunition" "ion"
 			"offset" 6 -34
@@ -600,7 +577,6 @@ outfit "grasshopper ion 24"
 outfit "grasshopper ion 25"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 26"
 		"submunition" "ion"
 			"offset" -6 -34
@@ -622,7 +598,6 @@ outfit "grasshopper ion 25"
 outfit "grasshopper ion 26"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 27"
 		"submunition" "ion"
 			"offset" 6 -34
@@ -644,7 +619,6 @@ outfit "grasshopper ion 26"
 outfit "grasshopper ion 27"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 28"
 		"submunition" "ion"
 			"offset" -6 -34
@@ -666,7 +640,6 @@ outfit "grasshopper ion 27"
 outfit "grasshopper ion 28"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 29"
 		"submunition" "ion"
 			"offset" 6 -34
@@ -688,7 +661,6 @@ outfit "grasshopper ion 28"
 outfit "grasshopper ion 29"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 30"
 		"submunition" "ion"
 			"offset" -6 -34
@@ -710,7 +682,6 @@ outfit "grasshopper ion 29"
 outfit "grasshopper ion 30"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 31"
 		"submunition" "ion"
 			"offset" 6 -34
@@ -732,7 +703,6 @@ outfit "grasshopper ion 30"
 outfit "grasshopper ion 31"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 32"
 		"submunition" "ion"
 			"offset" -6 -34
@@ -754,7 +724,6 @@ outfit "grasshopper ion 31"
 outfit "grasshopper ion 32"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 33"
 		"submunition" "ion"
 			"offset" 6 -34
@@ -776,7 +745,6 @@ outfit "grasshopper ion 32"
 outfit "grasshopper ion 33"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 34"
 		"submunition" "ion"
 			"offset" -6 -34
@@ -798,7 +766,6 @@ outfit "grasshopper ion 33"
 outfit "grasshopper ion 34"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 35"
 		"submunition" "ion"
 			"offset" 6 -34
@@ -820,7 +787,6 @@ outfit "grasshopper ion 34"
 outfit "grasshopper ion 35"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 36"
 		"submunition" "ion"
 			"offset" -6 -34
@@ -842,7 +808,6 @@ outfit "grasshopper ion 35"
 outfit "grasshopper ion 36"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 37"
 		"submunition" "ion"
 			"offset" 6 -34
@@ -864,7 +829,6 @@ outfit "grasshopper ion 36"
 outfit "grasshopper ion 37"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 38"
 		"submunition" "ion"
 			"offset" -6 -34
@@ -886,7 +850,6 @@ outfit "grasshopper ion 37"
 outfit "grasshopper ion 38"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 39"
 		"submunition" "ion"
 			"offset" 6 -34
@@ -908,7 +871,6 @@ outfit "grasshopper ion 38"
 outfit "grasshopper ion 39"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 40"
 		"submunition" "ion"
 			"offset" -6 -34
@@ -930,7 +892,6 @@ outfit "grasshopper ion 39"
 outfit "grasshopper ion 40"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 41"
 		"submunition" "ion"
 			"offset" 6 -34
@@ -952,7 +913,6 @@ outfit "grasshopper ion 40"
 outfit "grasshopper ion 41"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 42"
 		"submunition" "ion"
 			"offset" -6 -34
@@ -974,7 +934,6 @@ outfit "grasshopper ion 41"
 outfit "grasshopper ion 42"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 43"
 		"submunition" "ion"
 			"offset" 6 -34
@@ -996,7 +955,6 @@ outfit "grasshopper ion 42"
 outfit "grasshopper ion 43"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 44"
 		"submunition" "ion"
 			"offset" -6 -34
@@ -1018,7 +976,6 @@ outfit "grasshopper ion 43"
 outfit "grasshopper ion 44"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 45"
 		"submunition" "ion"
 			"offset" 6 -34
@@ -1040,7 +997,6 @@ outfit "grasshopper ion 44"
 outfit "grasshopper ion 45"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 46"
 		"submunition" "ion"
 			"offset" -6 -34
@@ -1062,7 +1018,6 @@ outfit "grasshopper ion 45"
 outfit "grasshopper ion 46"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 47"
 		"submunition" "ion"
 			"offset" 6 -34
@@ -1084,7 +1039,6 @@ outfit "grasshopper ion 46"
 outfit "grasshopper ion 47"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 48"
 		"submunition" "ion"
 			"offset" -6 -34
@@ -1106,7 +1060,6 @@ outfit "grasshopper ion 47"
 outfit "grasshopper ion 48"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 49"
 		"submunition" "ion"
 			"offset" 6 -34
@@ -1128,7 +1081,6 @@ outfit "grasshopper ion 48"
 outfit "grasshopper ion 49"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 50"
 		"submunition" "ion"
 			"offset" -6 -34
@@ -1150,7 +1102,6 @@ outfit "grasshopper ion 49"
 outfit "grasshopper ion 50"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 51"
 		"submunition" "ion"
 			"offset" 6 -34
@@ -1172,7 +1123,6 @@ outfit "grasshopper ion 50"
 outfit "grasshopper ion 51"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 52"
 		"submunition" "ion"
 			"offset" -6 -34
@@ -1194,7 +1144,6 @@ outfit "grasshopper ion 51"
 outfit "grasshopper ion 52"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 53"
 		"submunition" "ion"
 			"offset" 6 -34
@@ -1216,7 +1165,6 @@ outfit "grasshopper ion 52"
 outfit "grasshopper ion 53"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 54"
 		"submunition" "ion"
 			"offset" -6 -34
@@ -1238,7 +1186,6 @@ outfit "grasshopper ion 53"
 outfit "grasshopper ion 54"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 55"
 		"submunition" "ion"
 			"offset" 6 -34
@@ -1260,7 +1207,6 @@ outfit "grasshopper ion 54"
 outfit "grasshopper ion 55"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 56"
 		"submunition" "ion"
 			"offset" -6 -34
@@ -1282,7 +1228,6 @@ outfit "grasshopper ion 55"
 outfit "grasshopper ion 56"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 57"
 		"submunition" "ion"
 			"offset" 6 -34
@@ -1304,7 +1249,6 @@ outfit "grasshopper ion 56"
 outfit "grasshopper ion 57"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 58"
 		"submunition" "ion"
 			"offset" -6 -34
@@ -1326,7 +1270,6 @@ outfit "grasshopper ion 57"
 outfit "grasshopper ion 58"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 59"
 		"submunition" "ion"
 			"offset" 6 -34
@@ -1348,7 +1291,6 @@ outfit "grasshopper ion 58"
 outfit "grasshopper ion 59"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper ion 60"
 		"submunition" "ion"
 			"offset" -6 -34
@@ -1370,7 +1312,6 @@ outfit "grasshopper ion 59"
 outfit "grasshopper ion 60"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"submunition" "grasshopper charge"
 		"submunition" "ion"
 			"offset" 6 -34
@@ -1392,7 +1333,6 @@ outfit "grasshopper ion 60"
 outfit "grasshopper charge"
 	weapon
 		sprite "ship/hai grasshopper"
-		"inaccuracy" 45
 		"velocity" -40
 		"lifetime" 160
 		"random lifetime" 30

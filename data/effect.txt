@@ -30,5 +30,4 @@ effect "launching smoke"
 	"lifetime" 30
 	"random angle" 15
 	"random spin" 360
-	"velocity" 1
 	"random velocity" 5

@@ -42,7 +42,8 @@ outfit "Kamikaze Shuttle Turret (Rocket)"
 		sound "human launch"
 		"fire effect" "launching smoke" 20
 		"inaccuracy" 0
-		"turret turn" 0
+		"turret turn" .01
+		"arc" .01
 		"velocity override" 20
 		"range override" 10000
 		"lifetime" 0
@@ -79,7 +80,6 @@ outfit "shuttle rocket 1"
 			"frame time" 4
 			"delay" 14
 			"random start frame"
-		"inaccuracy" 30
 		"submunition" "shuttle rocket 2"
 		"submunition" "rocket"
 			"offset" 0 -35
@@ -106,7 +106,6 @@ outfit "shuttle rocket 2"
 			"frame time" 4
 			"delay" 14
 			"random start frame"
-		"inaccuracy" 30
 		"submunition" "shuttle rocket 3"
 		"submunition" "rocket"
 			"offset" 0 -35
@@ -133,7 +132,6 @@ outfit "shuttle rocket 3"
 			"frame time" 4
 			"delay" 14
 			"random start frame"
-		"inaccuracy" 30
 		"submunition" "shuttle rocket 4"
 		"submunition" "rocket"
 			"offset" 0 -35
@@ -160,7 +158,6 @@ outfit "shuttle rocket 4"
 			"frame time" 4
 			"delay" 14
 			"random start frame"
-		"inaccuracy" 30
 		"submunition" "shuttle rocket 5"
 		"submunition" "rocket"
 			"offset" 0 -35
@@ -187,7 +184,6 @@ outfit "shuttle rocket 5"
 			"frame time" 4
 			"delay" 14
 			"random start frame"
-		"inaccuracy" 30
 		"submunition" "shuttle rocket 6"
 		"submunition" "rocket"
 			"offset" 0 -35
@@ -214,7 +210,6 @@ outfit "shuttle rocket 6"
 			"frame time" 4
 			"delay" 14
 			"random start frame"
-		"inaccuracy" 30
 		"submunition" "shuttle rocket 7"
 		"submunition" "rocket"
 			"offset" 0 -35
@@ -241,7 +236,6 @@ outfit "shuttle rocket 7"
 			"frame time" 4
 			"delay" 14
 			"random start frame"
-		"inaccuracy" 30
 		"submunition" "shuttle rocket 8"
 		"submunition" "rocket"
 			"offset" 0 -35
@@ -268,7 +262,6 @@ outfit "shuttle rocket 8"
 			"frame time" 4
 			"delay" 14
 			"random start frame"
-		"inaccuracy" 30
 		"submunition" "shuttle rocket 9"
 		"submunition" "rocket"
 			"offset" 0 -35
@@ -295,7 +288,6 @@ outfit "shuttle rocket 9"
 			"frame time" 4
 			"delay" 14
 			"random start frame"
-		"inaccuracy" 30
 		"submunition" "shuttle rocket 10"
 		"submunition" "rocket"
 			"offset" 0 -35
@@ -322,7 +314,6 @@ outfit "shuttle rocket 10"
 			"frame time" 4
 			"delay" 14
 			"random start frame"
-		"inaccuracy" 30
 		"submunition" "shuttle rocket 11"
 		"submunition" "rocket"
 			"offset" 0 -35
@@ -349,7 +340,6 @@ outfit "shuttle rocket 11"
 			"frame time" 4
 			"delay" 14
 			"random start frame"
-		"inaccuracy" 30
 		"submunition" "shuttle rocket 12"
 		"submunition" "rocket"
 			"offset" 0 -35
@@ -376,7 +366,6 @@ outfit "shuttle rocket 12"
 			"frame time" 4
 			"delay" 14
 			"random start frame"
-		"inaccuracy" 30
 		"submunition" "shuttle rocket 13"
 		"submunition" "rocket"
 			"offset" 0 -35
@@ -403,7 +392,6 @@ outfit "shuttle rocket 13"
 			"frame time" 4
 			"delay" 14
 			"random start frame"
-		"inaccuracy" 30
 		"submunition" "shuttle rocket 14"
 		"submunition" "rocket"
 			"offset" 0 -35
@@ -430,7 +418,6 @@ outfit "shuttle rocket 14"
 			"frame time" 4
 			"delay" 14
 			"random start frame"
-		"inaccuracy" 30
 		"submunition" "shuttle rocket 15"
 		"submunition" "rocket"
 			"offset" 0 -35
@@ -457,7 +444,6 @@ outfit "shuttle rocket 15"
 			"frame time" 4
 			"delay" 14
 			"random start frame"
-		"inaccuracy" 30
 		"submunition" "shuttle rocket 16"
 		"submunition" "rocket"
 			"offset" 0 -35
@@ -484,7 +470,6 @@ outfit "shuttle rocket 16"
 			"frame time" 4
 			"delay" 14
 			"random start frame"
-		"inaccuracy" 30
 		"submunition" "shuttle rocket 17"
 		"submunition" "rocket"
 			"offset" 0 -35
@@ -511,7 +496,6 @@ outfit "shuttle rocket 17"
 			"frame time" 4
 			"delay" 14
 			"random start frame"
-		"inaccuracy" 30
 		"submunition" "shuttle rocket 18"
 		"submunition" "rocket"
 			"offset" 0 -35
@@ -538,7 +522,6 @@ outfit "shuttle rocket 18"
 			"frame time" 4
 			"delay" 14
 			"random start frame"
-		"inaccuracy" 30
 		"submunition" "shuttle rocket 19"
 		"submunition" "rocket"
 			"offset" 0 -35
@@ -565,7 +548,6 @@ outfit "shuttle rocket 19"
 			"frame time" 4
 			"delay" 14
 			"random start frame"
-		"inaccuracy" 30
 		"submunition" "shuttle rocket 20"
 		"submunition" "rocket"
 			"offset" 0 -35
@@ -592,7 +574,6 @@ outfit "shuttle rocket 20"
 			"frame time" 4
 			"delay" 14
 			"random start frame"
-		"inaccuracy" 30
 		"submunition" "shuttle rocket 21"
 		"submunition" "rocket"
 			"offset" 0 -35
@@ -619,7 +600,6 @@ outfit "shuttle rocket 21"
 			"frame time" 4
 			"delay" 14
 			"random start frame"
-		"inaccuracy" 30
 		"submunition" "shuttle rocket 22"
 		"submunition" "rocket"
 			"offset" 0 -35
@@ -646,7 +626,6 @@ outfit "shuttle rocket 22"
 			"frame time" 4
 			"delay" 14
 			"random start frame"
-		"inaccuracy" 30
 		"submunition" "shuttle rocket 23"
 		"submunition" "rocket"
 			"offset" 0 -35
@@ -673,7 +652,6 @@ outfit "shuttle rocket 23"
 			"frame time" 4
 			"delay" 14
 			"random start frame"
-		"inaccuracy" 30
 		"submunition" "shuttle rocket 24"
 		"submunition" "rocket"
 			"offset" 0 -35
@@ -700,7 +678,6 @@ outfit "shuttle rocket 24"
 			"frame time" 4
 			"delay" 14
 			"random start frame"
-		"inaccuracy" 30
 		"submunition" "shuttle rocket 25"
 		"submunition" "rocket"
 			"offset" 0 -35
@@ -727,7 +704,6 @@ outfit "shuttle rocket 25"
 			"frame time" 4
 			"delay" 14
 			"random start frame"
-		"inaccuracy" 30
 		"submunition" "shuttle rocket 26"
 		"submunition" "rocket"
 			"offset" 0 -35
@@ -754,7 +730,6 @@ outfit "shuttle rocket 26"
 			"frame time" 4
 			"delay" 14
 			"random start frame"
-		"inaccuracy" 30
 		"submunition" "shuttle rocket 27"
 		"submunition" "rocket"
 			"offset" 0 -35
@@ -781,7 +756,6 @@ outfit "shuttle rocket 27"
 			"frame time" 4
 			"delay" 14
 			"random start frame"
-		"inaccuracy" 30
 		"submunition" "shuttle rocket 28"
 		"submunition" "rocket"
 			"offset" 0 -35
@@ -808,7 +782,6 @@ outfit "shuttle rocket 28"
 			"frame time" 4
 			"delay" 14
 			"random start frame"
-		"inaccuracy" 30
 		"submunition" "shuttle rocket 29"
 		"submunition" "rocket"
 			"offset" 0 -35
@@ -835,7 +808,6 @@ outfit "shuttle rocket 29"
 			"frame time" 4
 			"delay" 14
 			"random start frame"
-		"inaccuracy" 30
 		"submunition" "shuttle rocket 30"
 		"submunition" "rocket"
 			"offset" 0 -35
@@ -862,7 +834,6 @@ outfit "shuttle rocket 30"
 			"frame time" 4
 			"delay" 14
 			"random start frame"
-		"inaccuracy" 30
 		"submunition" "shuttle charge"
 		"submunition" "rocket"
 			"offset" 0 -35
@@ -889,7 +860,6 @@ outfit "shuttle charge"
 			"frame time" 4
 			"delay" 14
 			"random start frame"
-		"inaccuracy" 30
 		"velocity" -80
 		"lifetime" 250
 		"random lifetime" 30

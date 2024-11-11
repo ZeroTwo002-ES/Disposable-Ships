@@ -50,4 +50,6 @@ Add four ship deployer weapon on hai (turret included)
 - "Kamikaze Flea Turret (Mini Ion)"
 - add "no asteroid collision" and "no minable collision" to all weapon, because i forgot, i use "too.many.asteroid" plugins by zuckung, makes me unaware about asteroids on vanilla games (must install plugins in my opinion, makes game run smoother)
 - change all effect when ship crash onto target, with the one that will stop the explosion effect, so it will visible when they doing kamikaze move
+- add "arc", so it will prevent the turret to turn at all (doing .01 arc)
+- add new hardpoint image on al turret hardpoint (chopped freighter png XD)
 - some minor fixing

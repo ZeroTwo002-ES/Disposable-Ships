@@ -42,7 +42,8 @@ outfit "Kamikaze Mining Drone Turret (Blaster)"
 		sound "human launch"
 		"fire effect" "launching smoke" 20
 		"inaccuracy" 0
-		"turret turn" 0
+		"turret turn" .01
+		"arc" .01
 		"velocity override" 25
 		"range override" 10000
 		"lifetime" 0
@@ -78,7 +79,6 @@ outfit "blaster2"
 outfit "mining blaster 1"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 2"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -102,7 +102,6 @@ outfit "mining blaster 1"
 outfit "mining blaster 2"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 3"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -126,7 +125,6 @@ outfit "mining blaster 2"
 outfit "mining blaster 3"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 4"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -150,7 +148,6 @@ outfit "mining blaster 3"
 outfit "mining blaster 4"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 5"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -174,7 +171,6 @@ outfit "mining blaster 4"
 outfit "mining blaster 5"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 6"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -198,7 +194,6 @@ outfit "mining blaster 5"
 outfit "mining blaster 6"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 7"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -222,7 +217,6 @@ outfit "mining blaster 6"
 outfit "mining blaster 7"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 8"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -246,7 +240,6 @@ outfit "mining blaster 7"
 outfit "mining blaster 8"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 9"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -270,7 +263,6 @@ outfit "mining blaster 8"
 outfit "mining blaster 9"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 10"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -294,7 +286,6 @@ outfit "mining blaster 9"
 outfit "mining blaster 10"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 11"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -318,7 +309,6 @@ outfit "mining blaster 10"
 outfit "mining blaster 11"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 12"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -342,7 +332,6 @@ outfit "mining blaster 11"
 outfit "mining blaster 12"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 13"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -366,7 +355,6 @@ outfit "mining blaster 12"
 outfit "mining blaster 13"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 14"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -390,7 +378,6 @@ outfit "mining blaster 13"
 outfit "mining blaster 14"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 15"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -414,7 +401,6 @@ outfit "mining blaster 14"
 outfit "mining blaster 15"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 16"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -438,7 +424,6 @@ outfit "mining blaster 15"
 outfit "mining blaster 16"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 17"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -462,7 +447,6 @@ outfit "mining blaster 16"
 outfit "mining blaster 17"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 18"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -486,7 +470,6 @@ outfit "mining blaster 17"
 outfit "mining blaster 18"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 19"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -510,7 +493,6 @@ outfit "mining blaster 18"
 outfit "mining blaster 19"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 20"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -534,7 +516,6 @@ outfit "mining blaster 19"
 outfit "mining blaster 20"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 21"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -558,7 +539,6 @@ outfit "mining blaster 20"
 outfit "mining blaster 21"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 22"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -582,7 +562,6 @@ outfit "mining blaster 21"
 outfit "mining blaster 22"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 23"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -606,7 +585,6 @@ outfit "mining blaster 22"
 outfit "mining blaster 23"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 24"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -630,7 +608,6 @@ outfit "mining blaster 23"
 outfit "mining blaster 24"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 25"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -654,7 +631,6 @@ outfit "mining blaster 24"
 outfit "mining blaster 25"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 26"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -678,7 +654,6 @@ outfit "mining blaster 25"
 outfit "mining blaster 26"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 27"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -702,7 +677,6 @@ outfit "mining blaster 26"
 outfit "mining blaster 27"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 28"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -726,7 +700,6 @@ outfit "mining blaster 27"
 outfit "mining blaster 28"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 29"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -750,7 +723,6 @@ outfit "mining blaster 28"
 outfit "mining blaster 29"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 30"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -774,7 +746,6 @@ outfit "mining blaster 29"
 outfit "mining blaster 30"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 31"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -798,7 +769,6 @@ outfit "mining blaster 30"
 outfit "mining blaster 31"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 32"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -822,7 +792,6 @@ outfit "mining blaster 31"
 outfit "mining blaster 32"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 33"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -846,7 +815,6 @@ outfit "mining blaster 32"
 outfit "mining blaster 33"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 34"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -870,7 +838,6 @@ outfit "mining blaster 33"
 outfit "mining blaster 34"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 35"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -894,7 +861,6 @@ outfit "mining blaster 34"
 outfit "mining blaster 35"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 36"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -918,7 +884,6 @@ outfit "mining blaster 35"
 outfit "mining blaster 36"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 37"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -942,7 +907,6 @@ outfit "mining blaster 36"
 outfit "mining blaster 37"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 38"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -966,7 +930,6 @@ outfit "mining blaster 37"
 outfit "mining blaster 38"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 39"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -990,7 +953,6 @@ outfit "mining blaster 38"
 outfit "mining blaster 39"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 40"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1014,7 +976,6 @@ outfit "mining blaster 39"
 outfit "mining blaster 40"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 41"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1038,7 +999,6 @@ outfit "mining blaster 40"
 outfit "mining blaster 41"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 42"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1062,7 +1022,6 @@ outfit "mining blaster 41"
 outfit "mining blaster 42"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 43"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1086,7 +1045,6 @@ outfit "mining blaster 42"
 outfit "mining blaster 43"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 44"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1110,7 +1068,6 @@ outfit "mining blaster 43"
 outfit "mining blaster 44"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 45"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1134,7 +1091,6 @@ outfit "mining blaster 44"
 outfit "mining blaster 45"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 46"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1158,7 +1114,6 @@ outfit "mining blaster 45"
 outfit "mining blaster 46"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 47"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1182,7 +1137,6 @@ outfit "mining blaster 46"
 outfit "mining blaster 47"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 48"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1206,7 +1160,6 @@ outfit "mining blaster 47"
 outfit "mining blaster 48"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 49"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1230,7 +1183,6 @@ outfit "mining blaster 48"
 outfit "mining blaster 49"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 50"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1254,7 +1206,6 @@ outfit "mining blaster 49"
 outfit "mining blaster 50"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 51"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1278,7 +1229,6 @@ outfit "mining blaster 50"
 outfit "mining blaster 51"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 52"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1302,7 +1252,6 @@ outfit "mining blaster 51"
 outfit "mining blaster 52"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 53"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1326,7 +1275,6 @@ outfit "mining blaster 52"
 outfit "mining blaster 53"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 54"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1350,7 +1298,6 @@ outfit "mining blaster 53"
 outfit "mining blaster 54"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 55"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1374,7 +1321,6 @@ outfit "mining blaster 54"
 outfit "mining blaster 55"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 56"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1398,7 +1344,6 @@ outfit "mining blaster 55"
 outfit "mining blaster 56"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 57"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1422,7 +1367,6 @@ outfit "mining blaster 56"
 outfit "mining blaster 57"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 58"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1446,7 +1390,6 @@ outfit "mining blaster 57"
 outfit "mining blaster 58"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 59"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1470,7 +1413,6 @@ outfit "mining blaster 58"
 outfit "mining blaster 59"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 60"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1494,7 +1436,6 @@ outfit "mining blaster 59"
 outfit "mining blaster 60"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 61"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1518,7 +1459,6 @@ outfit "mining blaster 60"
 outfit "mining blaster 61"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 62"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1542,7 +1482,6 @@ outfit "mining blaster 61"
 outfit "mining blaster 62"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 63"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1566,7 +1505,6 @@ outfit "mining blaster 62"
 outfit "mining blaster 63"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 64"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1590,7 +1528,6 @@ outfit "mining blaster 63"
 outfit "mining blaster 64"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 65"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1614,7 +1551,6 @@ outfit "mining blaster 64"
 outfit "mining blaster 65"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 66"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1638,7 +1574,6 @@ outfit "mining blaster 65"
 outfit "mining blaster 66"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 67"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1662,7 +1597,6 @@ outfit "mining blaster 66"
 outfit "mining blaster 67"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 68"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1686,7 +1620,6 @@ outfit "mining blaster 67"
 outfit "mining blaster 68"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 69"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1710,7 +1643,6 @@ outfit "mining blaster 68"
 outfit "mining blaster 69"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 70"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1734,7 +1666,6 @@ outfit "mining blaster 69"
 outfit "mining blaster 70"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 71"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1758,7 +1689,6 @@ outfit "mining blaster 70"
 outfit "mining blaster 71"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 72"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1782,7 +1712,6 @@ outfit "mining blaster 71"
 outfit "mining blaster 72"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 73"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1806,7 +1735,6 @@ outfit "mining blaster 72"
 outfit "mining blaster 73"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 74"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1830,7 +1758,6 @@ outfit "mining blaster 73"
 outfit "mining blaster 74"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 75"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1854,7 +1781,6 @@ outfit "mining blaster 74"
 outfit "mining blaster 75"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 76"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1878,7 +1804,6 @@ outfit "mining blaster 75"
 outfit "mining blaster 76"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 77"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1902,7 +1827,6 @@ outfit "mining blaster 76"
 outfit "mining blaster 77"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 78"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1926,7 +1850,6 @@ outfit "mining blaster 77"
 outfit "mining blaster 78"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 79"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1950,7 +1873,6 @@ outfit "mining blaster 78"
 outfit "mining blaster 79"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 80"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1974,7 +1896,6 @@ outfit "mining blaster 79"
 outfit "mining blaster 80"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 81"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -1998,7 +1919,6 @@ outfit "mining blaster 80"
 outfit "mining blaster 81"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 82"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -2022,7 +1942,6 @@ outfit "mining blaster 81"
 outfit "mining blaster 82"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 83"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -2046,7 +1965,6 @@ outfit "mining blaster 82"
 outfit "mining blaster 83"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 84"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -2070,7 +1988,6 @@ outfit "mining blaster 83"
 outfit "mining blaster 84"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 85"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -2094,7 +2011,6 @@ outfit "mining blaster 84"
 outfit "mining blaster 85"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 86"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -2118,7 +2034,6 @@ outfit "mining blaster 85"
 outfit "mining blaster 86"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 87"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -2142,7 +2057,6 @@ outfit "mining blaster 86"
 outfit "mining blaster 87"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 88"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -2166,7 +2080,6 @@ outfit "mining blaster 87"
 outfit "mining blaster 88"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 89"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -2190,7 +2103,6 @@ outfit "mining blaster 88"
 outfit "mining blaster 89"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining blaster 90"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -2214,7 +2126,6 @@ outfit "mining blaster 89"
 outfit "mining blaster 90"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"submunition" "mining charge"
 		"submunition" "blaster2"
 			"offset" 0 -22
@@ -2238,7 +2149,6 @@ outfit "mining blaster 90"
 outfit "mining charge"
 	weapon
 		sprite "ship/mining drone"
-		"inaccuracy" 50
 		"velocity" -100
 		"lifetime" 160
 		"random lifetime" 30

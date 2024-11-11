@@ -42,7 +42,8 @@ outfit "Kamikaze Finch Turret (Plasma)"
 		sound "human launch"
 		"fire effect" "launching smoke" 20
 		"inaccuracy" 0
-		"turret turn" 0
+		"turret turn" .01
+		"arc" .01
 		"velocity override" 25
 		"range override" 10000
 		"lifetime" 0
@@ -81,7 +82,6 @@ outfit "plasma2"
 outfit "finch plasma 1"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 2"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -105,7 +105,6 @@ outfit "finch plasma 1"
 outfit "finch plasma 2"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 3"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -129,7 +128,6 @@ outfit "finch plasma 2"
 outfit "finch plasma 3"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 4"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -153,7 +151,6 @@ outfit "finch plasma 3"
 outfit "finch plasma 4"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 5"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -177,7 +174,6 @@ outfit "finch plasma 4"
 outfit "finch plasma 5"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 6"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -201,7 +197,6 @@ outfit "finch plasma 5"
 outfit "finch plasma 6"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 7"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -225,7 +220,6 @@ outfit "finch plasma 6"
 outfit "finch plasma 7"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 8"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -249,7 +243,6 @@ outfit "finch plasma 7"
 outfit "finch plasma 8"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 9"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -273,7 +266,6 @@ outfit "finch plasma 8"
 outfit "finch plasma 9"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 10"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -297,7 +289,6 @@ outfit "finch plasma 9"
 outfit "finch plasma 10"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 11"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -321,7 +312,6 @@ outfit "finch plasma 10"
 outfit "finch plasma 11"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 12"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -345,7 +335,6 @@ outfit "finch plasma 11"
 outfit "finch plasma 12"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 13"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -369,7 +358,6 @@ outfit "finch plasma 12"
 outfit "finch plasma 13"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 14"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -393,7 +381,6 @@ outfit "finch plasma 13"
 outfit "finch plasma 14"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 15"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -417,7 +404,6 @@ outfit "finch plasma 14"
 outfit "finch plasma 15"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 16"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -441,7 +427,6 @@ outfit "finch plasma 15"
 outfit "finch plasma 16"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 17"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -465,7 +450,6 @@ outfit "finch plasma 16"
 outfit "finch plasma 17"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 18"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -489,7 +473,6 @@ outfit "finch plasma 17"
 outfit "finch plasma 18"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 19"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -513,7 +496,6 @@ outfit "finch plasma 18"
 outfit "finch plasma 19"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 20"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -537,7 +519,6 @@ outfit "finch plasma 19"
 outfit "finch plasma 20"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 21"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -561,7 +542,6 @@ outfit "finch plasma 20"
 outfit "finch plasma 21"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 22"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -585,7 +565,6 @@ outfit "finch plasma 21"
 outfit "finch plasma 22"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 23"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -609,7 +588,6 @@ outfit "finch plasma 22"
 outfit "finch plasma 23"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 24"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -633,7 +611,6 @@ outfit "finch plasma 23"
 outfit "finch plasma 24"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 25"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -657,7 +634,6 @@ outfit "finch plasma 24"
 outfit "finch plasma 25"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 26"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -681,7 +657,6 @@ outfit "finch plasma 25"
 outfit "finch plasma 26"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 27"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -705,7 +680,6 @@ outfit "finch plasma 26"
 outfit "finch plasma 27"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 28"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -729,7 +703,6 @@ outfit "finch plasma 27"
 outfit "finch plasma 28"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 29"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -753,7 +726,6 @@ outfit "finch plasma 28"
 outfit "finch plasma 29"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 30"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -777,7 +749,6 @@ outfit "finch plasma 29"
 outfit "finch plasma 30"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 31"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -801,7 +772,6 @@ outfit "finch plasma 30"
 outfit "finch plasma 31"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 32"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -825,7 +795,6 @@ outfit "finch plasma 31"
 outfit "finch plasma 32"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 33"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -849,7 +818,6 @@ outfit "finch plasma 32"
 outfit "finch plasma 33"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 34"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -873,7 +841,6 @@ outfit "finch plasma 33"
 outfit "finch plasma 34"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 35"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -897,7 +864,6 @@ outfit "finch plasma 34"
 outfit "finch plasma 35"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 36"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -921,7 +887,6 @@ outfit "finch plasma 35"
 outfit "finch plasma 36"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 37"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -945,7 +910,6 @@ outfit "finch plasma 36"
 outfit "finch plasma 37"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 38"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -969,7 +933,6 @@ outfit "finch plasma 37"
 outfit "finch plasma 38"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 39"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -993,7 +956,6 @@ outfit "finch plasma 38"
 outfit "finch plasma 39"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 40"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -1017,7 +979,6 @@ outfit "finch plasma 39"
 outfit "finch plasma 40"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 41"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -1041,7 +1002,6 @@ outfit "finch plasma 40"
 outfit "finch plasma 41"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 42"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -1065,7 +1025,6 @@ outfit "finch plasma 41"
 outfit "finch plasma 42"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 43"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -1089,7 +1048,6 @@ outfit "finch plasma 42"
 outfit "finch plasma 43"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 44"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -1113,7 +1071,6 @@ outfit "finch plasma 43"
 outfit "finch plasma 44"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 45"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -1137,7 +1094,6 @@ outfit "finch plasma 44"
 outfit "finch plasma 45"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 46"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -1161,7 +1117,6 @@ outfit "finch plasma 45"
 outfit "finch plasma 46"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 47"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -1185,7 +1140,6 @@ outfit "finch plasma 46"
 outfit "finch plasma 47"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 48"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -1209,7 +1163,6 @@ outfit "finch plasma 47"
 outfit "finch plasma 48"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 49"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -1233,7 +1186,6 @@ outfit "finch plasma 48"
 outfit "finch plasma 49"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 50"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -1257,7 +1209,6 @@ outfit "finch plasma 49"
 outfit "finch plasma 50"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 51"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -1281,7 +1232,6 @@ outfit "finch plasma 50"
 outfit "finch plasma 51"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 52"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -1305,7 +1255,6 @@ outfit "finch plasma 51"
 outfit "finch plasma 52"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 53"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -1329,7 +1278,6 @@ outfit "finch plasma 52"
 outfit "finch plasma 53"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 54"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -1353,7 +1301,6 @@ outfit "finch plasma 53"
 outfit "finch plasma 54"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 55"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -1377,7 +1324,6 @@ outfit "finch plasma 54"
 outfit "finch plasma 55"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 56"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -1401,7 +1347,6 @@ outfit "finch plasma 55"
 outfit "finch plasma 56"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 57"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -1425,7 +1370,6 @@ outfit "finch plasma 56"
 outfit "finch plasma 57"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 58"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -1449,7 +1393,6 @@ outfit "finch plasma 57"
 outfit "finch plasma 58"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 59"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -1473,7 +1416,6 @@ outfit "finch plasma 58"
 outfit "finch plasma 59"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch plasma 60"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -1497,7 +1439,6 @@ outfit "finch plasma 59"
 outfit "finch plasma 60"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"submunition" "finch charge"
 		"submunition" "plasma2"
 			"offset" 0 -31.5
@@ -1521,7 +1462,6 @@ outfit "finch plasma 60"
 outfit "finch charge"
 	weapon
 		sprite "ship/finch"
-		"inaccuracy" 45
 		"velocity" -50
 		"lifetime" 160
 		"random lifetime" 30

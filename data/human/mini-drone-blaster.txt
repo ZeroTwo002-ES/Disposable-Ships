@@ -42,7 +42,8 @@ outfit "Kamikaze Mini Drone Turret (Blaster)"
 		sound "human launch"
 		"fire effect" "launching smoke" 20
 		"inaccuracy" 0
-		"turret turn" 0
+		"turret turn" .01
+		"arc" .01
 		"velocity override" 40
 		"range override" 10000
 		"lifetime" 0
@@ -80,7 +81,6 @@ outfit "mini drone blaster 1"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 2"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -105,7 +105,6 @@ outfit "mini drone blaster 2"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 3"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -130,7 +129,6 @@ outfit "mini drone blaster 3"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 4"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -155,7 +153,6 @@ outfit "mini drone blaster 4"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 5"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -180,7 +177,6 @@ outfit "mini drone blaster 5"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 6"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -205,7 +201,6 @@ outfit "mini drone blaster 6"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 7"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -230,7 +225,6 @@ outfit "mini drone blaster 7"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 8"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -255,7 +249,6 @@ outfit "mini drone blaster 8"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 9"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -280,7 +273,6 @@ outfit "mini drone blaster 9"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 10"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -305,7 +297,6 @@ outfit "mini drone blaster 10"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 11"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -330,7 +321,6 @@ outfit "mini drone blaster 11"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 12"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -355,7 +345,6 @@ outfit "mini drone blaster 12"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 13"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -380,7 +369,6 @@ outfit "mini drone blaster 13"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 14"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -405,7 +393,6 @@ outfit "mini drone blaster 14"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 15"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -430,7 +417,6 @@ outfit "mini drone blaster 15"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 16"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -455,7 +441,6 @@ outfit "mini drone blaster 16"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 17"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -480,7 +465,6 @@ outfit "mini drone blaster 17"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 18"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -505,7 +489,6 @@ outfit "mini drone blaster 18"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 19"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -530,7 +513,6 @@ outfit "mini drone blaster 19"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 20"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -555,7 +537,6 @@ outfit "mini drone blaster 20"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 21"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -580,7 +561,6 @@ outfit "mini drone blaster 21"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 22"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -605,7 +585,6 @@ outfit "mini drone blaster 22"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 23"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -630,7 +609,6 @@ outfit "mini drone blaster 23"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 24"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -655,7 +633,6 @@ outfit "mini drone blaster 24"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 25"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -680,7 +657,6 @@ outfit "mini drone blaster 25"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 26"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -705,7 +681,6 @@ outfit "mini drone blaster 26"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 27"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -730,7 +705,6 @@ outfit "mini drone blaster 27"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 28"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -755,7 +729,6 @@ outfit "mini drone blaster 28"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 29"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -780,7 +753,6 @@ outfit "mini drone blaster 29"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 30"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -805,7 +777,6 @@ outfit "mini drone blaster 30"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 31"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -830,7 +801,6 @@ outfit "mini drone blaster 31"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 32"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -855,7 +825,6 @@ outfit "mini drone blaster 32"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 33"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -880,7 +849,6 @@ outfit "mini drone blaster 33"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 34"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -905,7 +873,6 @@ outfit "mini drone blaster 34"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 35"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -930,7 +897,6 @@ outfit "mini drone blaster 35"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 36"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -955,7 +921,6 @@ outfit "mini drone blaster 36"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 37"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -980,7 +945,6 @@ outfit "mini drone blaster 37"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 38"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1005,7 +969,6 @@ outfit "mini drone blaster 38"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 39"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1030,7 +993,6 @@ outfit "mini drone blaster 39"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 40"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1055,7 +1017,6 @@ outfit "mini drone blaster 40"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 41"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1080,7 +1041,6 @@ outfit "mini drone blaster 41"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 42"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1105,7 +1065,6 @@ outfit "mini drone blaster 42"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 43"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1130,7 +1089,6 @@ outfit "mini drone blaster 43"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 44"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1155,7 +1113,6 @@ outfit "mini drone blaster 44"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 45"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1180,7 +1137,6 @@ outfit "mini drone blaster 45"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 46"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1205,7 +1161,6 @@ outfit "mini drone blaster 46"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 47"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1230,7 +1185,6 @@ outfit "mini drone blaster 47"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 48"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1255,7 +1209,6 @@ outfit "mini drone blaster 48"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 49"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1280,7 +1233,6 @@ outfit "mini drone blaster 49"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 50"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1305,7 +1257,6 @@ outfit "mini drone blaster 50"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 51"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1330,7 +1281,6 @@ outfit "mini drone blaster 51"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 52"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1355,7 +1305,6 @@ outfit "mini drone blaster 52"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 53"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1380,7 +1329,6 @@ outfit "mini drone blaster 53"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 54"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1405,7 +1353,6 @@ outfit "mini drone blaster 54"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 55"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1430,7 +1377,6 @@ outfit "mini drone blaster 55"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 56"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1455,7 +1401,6 @@ outfit "mini drone blaster 56"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 57"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1480,7 +1425,6 @@ outfit "mini drone blaster 57"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 58"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1505,7 +1449,6 @@ outfit "mini drone blaster 58"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 59"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1530,7 +1473,6 @@ outfit "mini drone blaster 59"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 60"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1555,7 +1497,6 @@ outfit "mini drone blaster 60"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 61"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1580,7 +1521,6 @@ outfit "mini drone blaster 61"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 62"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1605,7 +1545,6 @@ outfit "mini drone blaster 62"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 63"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1630,7 +1569,6 @@ outfit "mini drone blaster 63"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 64"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1655,7 +1593,6 @@ outfit "mini drone blaster 64"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 65"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1680,7 +1617,6 @@ outfit "mini drone blaster 65"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 66"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1705,7 +1641,6 @@ outfit "mini drone blaster 66"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 67"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1730,7 +1665,6 @@ outfit "mini drone blaster 67"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 68"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1755,7 +1689,6 @@ outfit "mini drone blaster 68"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 69"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1780,7 +1713,6 @@ outfit "mini drone blaster 69"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 70"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1805,7 +1737,6 @@ outfit "mini drone blaster 70"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 71"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1830,7 +1761,6 @@ outfit "mini drone blaster 71"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 72"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1855,7 +1785,6 @@ outfit "mini drone blaster 72"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 73"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1880,7 +1809,6 @@ outfit "mini drone blaster 73"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 74"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1905,7 +1833,6 @@ outfit "mini drone blaster 74"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 75"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1930,7 +1857,6 @@ outfit "mini drone blaster 75"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 76"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1955,7 +1881,6 @@ outfit "mini drone blaster 76"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 77"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -1980,7 +1905,6 @@ outfit "mini drone blaster 77"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 78"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -2005,7 +1929,6 @@ outfit "mini drone blaster 78"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 79"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -2030,7 +1953,6 @@ outfit "mini drone blaster 79"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 80"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -2055,7 +1977,6 @@ outfit "mini drone blaster 80"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 81"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -2080,7 +2001,6 @@ outfit "mini drone blaster 81"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 82"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -2105,7 +2025,6 @@ outfit "mini drone blaster 82"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 83"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -2130,7 +2049,6 @@ outfit "mini drone blaster 83"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 84"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -2155,7 +2073,6 @@ outfit "mini drone blaster 84"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 85"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -2180,7 +2097,6 @@ outfit "mini drone blaster 85"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 86"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -2205,7 +2121,6 @@ outfit "mini drone blaster 86"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 87"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -2230,7 +2145,6 @@ outfit "mini drone blaster 87"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 88"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -2255,7 +2169,6 @@ outfit "mini drone blaster 88"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 89"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -2280,7 +2193,6 @@ outfit "mini drone blaster 89"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone blaster 90"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -2305,7 +2217,6 @@ outfit "mini drone blaster 90"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"submunition" "mini drone charge"
 		"submunition" "mini blaster2"
 			"offset" 0 -14.5
@@ -2330,7 +2241,6 @@ outfit "mini drone charge"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
-		"inaccuracy" 60
 		"velocity" -160
 		"lifetime" 160
 		"random lifetime" 30

@@ -42,7 +42,8 @@ outfit "Kamikaze Dagger Turret (Meteor)"
 		sound "human launch"
 		"fire effect" "launching smoke" 20
 		"inaccuracy" 0
-		"turret turn" 0
+		"turret turn" .01
+		"arc" .01
 		"velocity override" 25
 		"range override" 10000
 		"lifetime" 0
@@ -79,7 +80,6 @@ outfit "meteor"
 outfit "dagger meteor 1"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 2"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -101,7 +101,6 @@ outfit "dagger meteor 1"
 outfit "dagger meteor 2"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 3"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -123,7 +122,6 @@ outfit "dagger meteor 2"
 outfit "dagger meteor 3"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 4"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -145,7 +143,6 @@ outfit "dagger meteor 3"
 outfit "dagger meteor 4"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 5"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -167,7 +164,6 @@ outfit "dagger meteor 4"
 outfit "dagger meteor 5"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 6"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -189,7 +185,6 @@ outfit "dagger meteor 5"
 outfit "dagger meteor 6"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 7"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -211,7 +206,6 @@ outfit "dagger meteor 6"
 outfit "dagger meteor 7"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 8"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -233,7 +227,6 @@ outfit "dagger meteor 7"
 outfit "dagger meteor 8"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 9"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -255,7 +248,6 @@ outfit "dagger meteor 8"
 outfit "dagger meteor 9"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 10"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -277,7 +269,6 @@ outfit "dagger meteor 9"
 outfit "dagger meteor 10"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 11"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -299,7 +290,6 @@ outfit "dagger meteor 10"
 outfit "dagger meteor 11"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 12"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -321,7 +311,6 @@ outfit "dagger meteor 11"
 outfit "dagger meteor 12"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 13"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -343,7 +332,6 @@ outfit "dagger meteor 12"
 outfit "dagger meteor 13"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 14"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -365,7 +353,6 @@ outfit "dagger meteor 13"
 outfit "dagger meteor 14"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 15"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -387,7 +374,6 @@ outfit "dagger meteor 14"
 outfit "dagger meteor 15"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 16"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -409,7 +395,6 @@ outfit "dagger meteor 15"
 outfit "dagger meteor 16"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 17"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -431,7 +416,6 @@ outfit "dagger meteor 16"
 outfit "dagger meteor 17"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 18"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -453,7 +437,6 @@ outfit "dagger meteor 17"
 outfit "dagger meteor 18"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 19"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -475,7 +458,6 @@ outfit "dagger meteor 18"
 outfit "dagger meteor 19"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 20"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -497,7 +479,6 @@ outfit "dagger meteor 19"
 outfit "dagger meteor 20"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 21"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -519,7 +500,6 @@ outfit "dagger meteor 20"
 outfit "dagger meteor 21"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 22"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -541,7 +521,6 @@ outfit "dagger meteor 21"
 outfit "dagger meteor 22"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 23"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -563,7 +542,6 @@ outfit "dagger meteor 22"
 outfit "dagger meteor 23"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 24"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -585,7 +563,6 @@ outfit "dagger meteor 23"
 outfit "dagger meteor 24"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 25"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -607,7 +584,6 @@ outfit "dagger meteor 24"
 outfit "dagger meteor 25"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 26"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -629,7 +605,6 @@ outfit "dagger meteor 25"
 outfit "dagger meteor 26"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 27"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -651,7 +626,6 @@ outfit "dagger meteor 26"
 outfit "dagger meteor 27"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 28"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -673,7 +647,6 @@ outfit "dagger meteor 27"
 outfit "dagger meteor 28"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 29"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -695,7 +668,6 @@ outfit "dagger meteor 28"
 outfit "dagger meteor 29"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 30"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -717,7 +689,6 @@ outfit "dagger meteor 29"
 outfit "dagger meteor 30"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 31"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -739,7 +710,6 @@ outfit "dagger meteor 30"
 outfit "dagger meteor 31"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 32"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -761,7 +731,6 @@ outfit "dagger meteor 31"
 outfit "dagger meteor 32"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 33"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -783,7 +752,6 @@ outfit "dagger meteor 32"
 outfit "dagger meteor 33"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 34"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -805,7 +773,6 @@ outfit "dagger meteor 33"
 outfit "dagger meteor 34"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 35"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -827,7 +794,6 @@ outfit "dagger meteor 34"
 outfit "dagger meteor 35"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 36"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -849,7 +815,6 @@ outfit "dagger meteor 35"
 outfit "dagger meteor 36"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 37"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -871,7 +836,6 @@ outfit "dagger meteor 36"
 outfit "dagger meteor 37"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 38"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -893,7 +857,6 @@ outfit "dagger meteor 37"
 outfit "dagger meteor 38"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 39"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -915,7 +878,6 @@ outfit "dagger meteor 38"
 outfit "dagger meteor 39"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 40"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -937,7 +899,6 @@ outfit "dagger meteor 39"
 outfit "dagger meteor 40"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 41"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -959,7 +920,6 @@ outfit "dagger meteor 40"
 outfit "dagger meteor 41"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 42"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -981,7 +941,6 @@ outfit "dagger meteor 41"
 outfit "dagger meteor 42"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 43"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -1003,7 +962,6 @@ outfit "dagger meteor 42"
 outfit "dagger meteor 43"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 44"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -1025,7 +983,6 @@ outfit "dagger meteor 43"
 outfit "dagger meteor 44"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 45"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -1047,7 +1004,6 @@ outfit "dagger meteor 44"
 outfit "dagger meteor 45"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 46"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -1069,7 +1025,6 @@ outfit "dagger meteor 45"
 outfit "dagger meteor 46"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 47"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -1091,7 +1046,6 @@ outfit "dagger meteor 46"
 outfit "dagger meteor 47"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 48"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -1113,7 +1067,6 @@ outfit "dagger meteor 47"
 outfit "dagger meteor 48"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 49"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -1135,7 +1088,6 @@ outfit "dagger meteor 48"
 outfit "dagger meteor 49"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 50"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -1157,7 +1109,6 @@ outfit "dagger meteor 49"
 outfit "dagger meteor 50"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 51"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -1179,7 +1130,6 @@ outfit "dagger meteor 50"
 outfit "dagger meteor 51"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 52"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -1201,7 +1151,6 @@ outfit "dagger meteor 51"
 outfit "dagger meteor 52"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 53"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -1223,7 +1172,6 @@ outfit "dagger meteor 52"
 outfit "dagger meteor 53"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 54"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -1245,7 +1193,6 @@ outfit "dagger meteor 53"
 outfit "dagger meteor 54"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 55"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -1267,7 +1214,6 @@ outfit "dagger meteor 54"
 outfit "dagger meteor 55"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 56"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -1289,7 +1235,6 @@ outfit "dagger meteor 55"
 outfit "dagger meteor 56"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 57"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -1311,7 +1256,6 @@ outfit "dagger meteor 56"
 outfit "dagger meteor 57"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 58"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -1333,7 +1277,6 @@ outfit "dagger meteor 57"
 outfit "dagger meteor 58"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 59"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -1355,7 +1298,6 @@ outfit "dagger meteor 58"
 outfit "dagger meteor 59"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger meteor 60"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -1377,7 +1319,6 @@ outfit "dagger meteor 59"
 outfit "dagger meteor 60"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"submunition" "dagger charge"
 		"submunition" "meteor"
 			"offset" 0 -35
@@ -1399,7 +1340,6 @@ outfit "dagger meteor 60"
 outfit "dagger charge"
 	weapon
 		sprite "ship/dagger"
-		"inaccuracy" 45
 		"velocity" -50
 		"lifetime" 160
 		"random lifetime" 30

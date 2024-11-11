@@ -45,7 +45,8 @@ outfit "Kamikaze Carrier Star Barge Turret"
 		sound "human launch"
 		"fire effect" "launching smoke" 20
 		"inaccuracy" 0
-		"turret turn" 0
+		"turret turn" .01
+		"arc" .01
 		"velocity override" 20
 		"range override" 10000
 		"lifetime" 0
@@ -64,6 +65,7 @@ outfit "star barge drone launch"
 			"delay" 14
 			"random start frame"
 		"inaccuracy" 30
+			uniform
 		"submunition" "mini mining drone blaster 1" 6
 		"submunition" "star barge charge"
 		"velocity" 2.5
@@ -102,4 +104,4 @@ outfit "star barge charge"
 		"missile strength" 200
 
 
-# HAPPINESS OF NO NEED TO INPUT A LOT OF CODE !!! 😊😊😊😊
+# HAPPINESS OF NO NEED TO INPUT A LOT OF CODE !!! :) :) :) :)
