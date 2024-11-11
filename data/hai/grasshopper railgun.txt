@@ -1,0 +1,2957 @@
+outfit "Kamikaze Grasshopper (Railgun)"
+	category "Bay Launcher"
+	cost 30000000
+	thumbnail "thumbnail/hai grasshopper"
+	"mass" 500
+	"outfit space" -150
+	"weapon capacity" -150
+	"cargo space" -150
+	"fuel capacity" 200
+	"gun ports" -1
+	weapon
+		"submunition" "grasshopper railgun 1"
+		sound "hai launch"
+		"fire effect" "launching smoke" 20
+		"inaccuracy" 0
+		"velocity override" 20
+		"range override" 10000
+		"lifetime" 0
+		"reload" 300
+		"firing energy" 900
+		"firing heat" 550
+		"firing fuel" 100
+		"cluster"
+	description "This is factory, that can produce grasshopper, with 1:1 scale, equipped with two full sized railgun, engine, and energy generator, enough to fully function all it's equipment. Each grasshopper is equiped with A.I., that good enough to chase down it's target."
+	description "When firing, one grasshopper will launch onto the target, and when it reach the firing range, it will start firing two railgun installed at once, and will use it's reverse thruster to back up, after reaching max reverse range, it will charge again, and this cycle will continue up to hundred and twenty cycle, before it launch itself onto the target as last attack, because it out of ammo."
+	description "Each Bay Launcher or Bay Carrier have fuel capacity, enough for two launch, so any ship can at least shot it twice before need refuel."
+
+outfit "Kamikaze Grasshopper Turret (Railgun)"
+	category "Bay Launcher"
+	cost 30000000
+	thumbnail "thumbnail/hai grasshopper"
+	"mass" 500
+	"outfit space" -150
+	"weapon capacity" -150
+	"cargo space" -150
+	"fuel capacity" 200
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/factory-launch"
+		"hardpoint offset" 0 17.5
+		"submunition" "grasshopper railgun 1"
+		sound "hai launch"
+		"fire effect" "launching smoke" 20
+		"inaccuracy" 0
+		"turret turn" 0
+		"velocity override" 20
+		"range override" 10000
+		"lifetime" 0
+		"reload" 300
+		"firing energy" 900
+		"firing heat" 550
+		"firing fuel" 100
+		"cluster"
+	description "Turret version of Kamikaze Grasshopper (ion)."
+	description "Each Bay Launcher or Bay Carrier have fuel capacity, enough for two launch, so any ship can at least shot it twice before need refuel."
+
+#railgun submunition use vanilla one, so no extra coding for it
+
+outfit "grasshopper railgun 1"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 2"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" 4
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 2"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 3"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 3"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 4"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 4"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 5"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 5"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 6"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 6"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 7"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 7"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 8"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 8"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 9"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 9"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 10"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 10"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 11"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 11"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 12"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 12"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 13"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 13"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 14"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 14"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 15"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 15"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 16"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 16"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 17"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 17"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 18"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 18"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 19"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 19"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 20"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 20"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 21"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 21"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 22"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 22"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 23"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 23"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 24"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 24"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 25"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 25"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 26"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 26"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 27"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 27"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 28"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 28"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 29"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 29"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 30"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 30"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 31"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 31"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 32"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 32"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 33"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 33"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 34"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 34"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 35"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 35"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 36"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 36"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 37"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 37"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 38"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 38"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 39"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 39"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 40"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 40"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 41"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 41"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 42"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 42"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 43"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 43"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 44"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 44"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 45"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 45"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 46"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 46"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 47"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 47"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 48"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 48"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 49"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 49"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 50"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 50"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 51"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 51"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 52"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 52"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 53"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 53"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 54"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 54"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 55"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 55"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 56"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 56"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 57"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 57"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 58"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 58"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 59"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 59"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 60"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 60"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 61"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 61"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 62"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 62"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 63"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 63"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 64"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 64"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 65"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 65"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 66"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 66"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 67"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 67"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 68"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 68"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 69"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 69"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 70"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 70"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 71"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 71"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 72"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 72"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 73"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 73"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 74"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 74"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 75"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 75"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 76"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 76"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 77"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 77"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 78"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 78"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 79"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 79"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 80"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 80"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 81"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 81"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 82"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 82"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 83"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 83"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 84"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 84"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 85"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 85"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 86"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 86"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 87"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 87"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 88"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 88"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 89"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 89"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 90"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 90"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 91"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 91"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 92"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 92"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 93"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 93"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 94"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 94"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 95"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 95"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 96"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 96"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 97"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 97"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 98"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 98"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 99"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 99"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 100"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 100"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 101"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 101"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 102"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 102"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 103"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 103"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 104"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 104"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 105"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 105"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 106"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 106"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 107"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 107"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 108"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 108"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 109"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 109"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 110"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 110"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 111"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 111"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 112"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 112"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 113"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 113"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 114"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 114"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 115"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 115"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 116"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 116"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 117"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 117"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 118"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 118"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 119"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 119"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper railgun 120"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper railgun 120"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"submunition" "grasshopper charge"
+		"submunition" "rslug"
+			"offset" -6 -34
+		"submunition" "rslug"
+			"offset" 6 -34
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "grasshopper charge"
+	weapon
+		sprite "ship/hai grasshopper"
+		"inaccuracy" 45
+		"velocity" -40
+		"lifetime" 160
+		"random lifetime" 30
+		"hit effect" "stopping tiny explosion" 15
+		"hit effect" "stopping small explosion" 5
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"hit force" 125
+		"shield damage" 800
+		"hull damage" 800
+		"blast radius" 75
+		"missile strength" 100

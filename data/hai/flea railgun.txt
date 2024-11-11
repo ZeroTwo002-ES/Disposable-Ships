@@ -1,0 +1,1637 @@
+outfit "Kamikaze Flea (Railgun)"
+	category "Bay Launcher"
+	cost 20000000
+	thumbnail "thumbnail/hai flea"
+	"mass" 300
+	"outfit space" -100
+	"weapon capacity" -100
+	"cargo space" -100
+	"fuel capacity" 150
+	"gun ports" -1
+	weapon
+		"submunition" "flea railgun 1"
+		sound "hai launch"
+		"fire effect" "launching smoke" 20
+		"inaccuracy" 0
+		"velocity override" 25
+		"range override" 10000
+		"lifetime" 0
+		"reload" 225
+		"firing energy" 750
+		"firing heat" 400
+		"firing fuel" 75
+		"cluster"
+	description "This is fighter factory, that can produce flea, with 1:1 scale, equipped with three full sized railgun, engine, and energy generator, enough to fully function all it's equipment. Each flea is equiped with A.I., that good enough to chase down it's target."
+	description "When firing, one flea will launch onto the target, and when it reach the firing range, it will start firing three railgun installed at once, and will use it's reverse thruster to back up, after reaching max reverse range, it will charge again, and this cycle will continue up to sixty cycle, before it launch itself onto the target as last attack, because it's out of ammo."
+	description "Each Bay Launcher or Bay Carrier have fuel capacity, enough for two launch, so any ship can at least shot it twice before it need refuel."
+
+outfit "Kamikaze Flea Turret (Railgun)"
+	category "Bay Launcher"
+	cost 20000000
+	thumbnail "thumbnail/hai flea"
+	"mass" 300
+	"outfit space" -100
+	"weapon capacity" -100
+	"cargo space" -100
+	"fuel capacity" 150
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/factory-launch"
+		"hardpoint offset" 0 17.5
+		"submunition" "flea railgun 1"
+		sound "human launch"
+		"fire effect" "launching smoke" 20
+		"inaccuracy" 0
+		"turret turn" 0
+		"velocity override" 25
+		"range override" 10000
+		"lifetime" 0
+		"reload" 225
+		"firing energy" 750
+		"firing heat" 400
+		"firing fuel" 75
+		"cluster"
+	description "Turret version of Kamikaze Flea (Railgun)."
+	description "Each Bay Launcher or Bay Carrier have fuel capacity, enough for two launch, so any ship can at least shot it twice before it need refuel."
+
+#railgun submunition use vanilla one, so no extra coding for it
+
+outfit "flea railgun 1"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 2"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" 4
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 2"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 3"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 3"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 4"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 4"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 5"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 5"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 6"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 6"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 7"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 7"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 8"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 8"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 9"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 9"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 10"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 10"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 11"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 11"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 12"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 12"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 13"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 13"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 14"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 14"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 15"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 15"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 16"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 16"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 17"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 17"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 18"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 18"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 19"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 19"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 20"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 20"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 21"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 21"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 22"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 22"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 23"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 23"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 24"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 24"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 25"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 25"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 26"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 26"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 27"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 27"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 28"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 28"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 29"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 29"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 30"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 30"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 31"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 31"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 32"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 32"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 33"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 33"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 34"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 34"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 35"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 35"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 36"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 36"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 37"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 37"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 38"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 38"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 39"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 39"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 40"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 40"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 41"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 41"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 42"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 42"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 43"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 43"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 44"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 44"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 45"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 45"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 46"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 46"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 47"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 47"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 48"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 48"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 49"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 49"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 50"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 50"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 51"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 51"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 52"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 52"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 53"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 53"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 54"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 54"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 55"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 55"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 56"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 56"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 57"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 57"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 58"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 58"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 59"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 59"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea railgun 60"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea railgun 60"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"submunition" "flea charge"
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"submunition" "rslug"
+			"offset" 0 -27
+		"velocity" -20
+		"lifetime" 160
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"shield damage" 0
+		"hull damage" 0
+		"split range" 700
+		"missile strength" 100
+		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
+
+outfit "flea charge"
+	weapon
+		sprite "ship/hai flea"
+		"inaccuracy" 45
+		"velocity" -40
+		"lifetime" 160
+		"random lifetime" 30
+		"hit effect" "stopping tiny explosion" 15
+		"hit effect" "stopping small explosion" 5
+		"acceleration" 4
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"tracking" 1
+		"hit force" 100
+		"shield damage" 750
+		"hull damage" 750
+		"blast radius" 50
+		"missile strength" 100

@@ -21,3 +21,14 @@ effect "stopping small explosion"
 	"random spin" 2
 	"random velocity" .4
 	"velocity scale" 0
+
+effect "launching smoke"
+	sprite "effect/smoke"
+		"no repeat"
+		"random start frame"
+		"frame rate" 8
+	"lifetime" 30
+	"random angle" 15
+	"random spin" 360
+	"velocity" 1
+	"random velocity" 5

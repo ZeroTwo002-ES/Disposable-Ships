@@ -1,7 +1,7 @@
-outfit "Kamikaze Finch (Plasma)"
+outfit "Kamikaze Flea (Mini Ion)"
 	category "Bay Launcher"
 	cost 20000000
-	thumbnail "thumbnail/finch"
+	thumbnail "thumbnail/hai flea"
 	"mass" 300
 	"outfit space" -100
 	"weapon capacity" -100
@@ -9,8 +9,8 @@ outfit "Kamikaze Finch (Plasma)"
 	"fuel capacity" 150
 	"gun ports" -1
 	weapon
-		"submunition" "finch plasma 1"
-		sound "human launch"
+		"submunition" "flea minion 1"
+		sound "hai launch"
 		"fire effect" "launching smoke" 20
 		"inaccuracy" 0
 		"velocity override" 25
@@ -21,14 +21,14 @@ outfit "Kamikaze Finch (Plasma)"
 		"firing heat" 400
 		"firing fuel" 75
 		"cluster"
-	description "This is fighter factory, that can produce finch, with 1:1 scale, equipped with scaled-down plasma cannon, engine, and energy generator, enough to fully function all it's equipment. Each finch is equiped with A.I., that good enough to chase down it's target."
-	description "When firing, one finch will launch onto the target, and when it reach the firing range, it will start burst firing plasma cannon installed, that will burst fire three plasma at once, and will use it's reverse thruster to back up, after reaching max reverse range, it will charge again, and this cycle will continue up to sixty cycle, before it launch itself onto the target as last attack, before it overheat."
+	description "This is fighter factory, that can produce flea, with 1:1 scale, equipped with down sized ion cannon, engine, and energy generator, enough to fully function all it's equipment. Each flea is equiped with A.I., that good enough to chase down it's target."
+	description "When firing, one flea will launch onto the target, and when it reach the firing range, it will start firing the mini ion cannon installed, and will use it's reverse thruster to back up, after reaching max reverse range, it will charge again, and this cycle will continue up to sixty cycle, before it launch itself onto the target as last attack, because it's out of ammo."
 	description "Each Bay Launcher or Bay Carrier have fuel capacity, enough for two launch, so any ship can at least shot it twice before it need refuel."
 
-outfit "Kamikaze Finch Turret (Plasma)"
+outfit "Kamikaze Flea Turret (Mini Ion)"
 	category "Bay Launcher"
 	cost 20000000
-	thumbnail "thumbnail/finch"
+	thumbnail "thumbnail/hai flea"
 	"mass" 300
 	"outfit space" -100
 	"weapon capacity" -100
@@ -38,7 +38,7 @@ outfit "Kamikaze Finch Turret (Plasma)"
 	weapon
 		"hardpoint sprite" "hardpoint/factory-launch"
 		"hardpoint offset" 0 17.5
-		"submunition" "finch plasma 1"
+		"submunition" "flea minion 1"
 		sound "human launch"
 		"fire effect" "launching smoke" 20
 		"inaccuracy" 0
@@ -51,1483 +51,1355 @@ outfit "Kamikaze Finch Turret (Plasma)"
 		"firing heat" 400
 		"firing fuel" 75
 		"cluster"
-	description "Turret version of Kamikaze Finch (Plasma)."
+	description "Turret version of Kamikaze Flea (Mini Ion)."
 	description "Each Bay Launcher or Bay Carrier have fuel capacity, enough for two launch, so any ship can at least shot it twice before it need refuel."
 
-outfit "plasma"
+outfit "minion"
 	weapon
-		sprite "projectile/plasma"
-			"frame rate" 3
-		sound "plasma"
-		"hit effect" "plasma explosion"
-		"velocity" 12.5
-		"lifetime" 40
-		"hit force" 10
-		"shield damage" 55
-		"hull damage" 20
-		"heat damage" 300
+		sprite "projectile/ion bolt"
+			scale .5
+			"frame rate" 5
+		sound "ion"
+		"hit effect" "ion impact" 2
+		"inaccuracy" 1
+		"velocity" 16
+		"lifetime" 50
+		"hit force" 90
+		"shield damage" 84
+		"hull damage" 30
+		"ion damage" 3
+		"scrambling damage" 3
 
-outfit "plasma1"
+outfit "flea minion 1"
 	weapon
-		"lifetime" 4
-		"submunition" "plasma"
-
-outfit "plasma2"
-	weapon
-		"lifetime" 4
-		"submunition" "plasma"
-		"submunition" "plasma1"
-
-outfit "finch plasma 1"
-	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 2"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" 6.25
+		"submunition" "flea minion 2"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" 4
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 2"
+outfit "flea minion 2"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 3"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 3"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 3"
+outfit "flea minion 3"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 4"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 4"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 4"
+outfit "flea minion 4"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 5"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 5"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 5"
+outfit "flea minion 5"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 6"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 6"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 6"
+outfit "flea minion 6"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 7"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 7"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 7"
+outfit "flea minion 7"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 8"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 8"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 8"
+outfit "flea minion 8"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 9"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 9"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 9"
+outfit "flea minion 9"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 10"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 10"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 10"
+outfit "flea minion 10"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 11"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 11"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 11"
+outfit "flea minion 11"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 12"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 12"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 12"
+outfit "flea minion 12"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 13"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 13"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 13"
+outfit "flea minion 13"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 14"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 14"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 14"
+outfit "flea minion 14"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 15"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 15"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 15"
+outfit "flea minion 15"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 16"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 16"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 16"
+outfit "flea minion 16"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 17"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 17"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 17"
+outfit "flea minion 17"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 18"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 18"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 18"
+outfit "flea minion 18"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 19"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 19"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 19"
+outfit "flea minion 19"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 20"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 20"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 20"
+outfit "flea minion 20"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 21"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 21"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 21"
+outfit "flea minion 21"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 22"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 22"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 22"
+outfit "flea minion 22"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 23"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 23"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 23"
+outfit "flea minion 23"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 24"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 24"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 24"
+outfit "flea minion 24"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 25"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 25"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 25"
+outfit "flea minion 25"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 26"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 26"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 26"
+outfit "flea minion 26"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 27"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 27"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 27"
+outfit "flea minion 27"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 28"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 28"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 28"
+outfit "flea minion 28"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 29"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 29"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 29"
+outfit "flea minion 29"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 30"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 30"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 30"
+outfit "flea minion 30"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 31"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 31"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 31"
+outfit "flea minion 31"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 32"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 32"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 32"
+outfit "flea minion 32"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 33"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 33"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 33"
+outfit "flea minion 33"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 34"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 34"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 34"
+outfit "flea minion 34"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 35"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 35"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 35"
+outfit "flea minion 35"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 36"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 36"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 36"
+outfit "flea minion 36"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 37"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 37"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 37"
+outfit "flea minion 37"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 38"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 38"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 38"
+outfit "flea minion 38"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 39"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 39"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 39"
+outfit "flea minion 39"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 40"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 40"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 40"
+outfit "flea minion 40"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 41"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 41"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 41"
+outfit "flea minion 41"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 42"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 42"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 42"
+outfit "flea minion 42"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 43"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 43"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 43"
+outfit "flea minion 43"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 44"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 44"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 44"
+outfit "flea minion 44"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 45"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 45"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 45"
+outfit "flea minion 45"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 46"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 46"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 46"
+outfit "flea minion 46"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 47"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 47"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 47"
+outfit "flea minion 47"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 48"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 48"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 48"
+outfit "flea minion 48"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 49"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 49"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 49"
+outfit "flea minion 49"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 50"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 50"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 50"
+outfit "flea minion 50"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 51"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 51"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 51"
+outfit "flea minion 51"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 52"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 52"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 52"
+outfit "flea minion 52"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 53"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 53"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 53"
+outfit "flea minion 53"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 54"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 54"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 54"
+outfit "flea minion 54"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 55"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 55"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 55"
+outfit "flea minion 55"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 56"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 56"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 56"
+outfit "flea minion 56"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 57"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 57"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 57"
+outfit "flea minion 57"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 58"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 58"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 58"
+outfit "flea minion 58"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 59"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 59"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 59"
+outfit "flea minion 59"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch plasma 60"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea minion 60"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch plasma 60"
+outfit "flea minion 60"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"submunition" "finch charge"
-		"submunition" "plasma2"
-			"offset" 0 -31.5
-		"submunition" "plasma"
-			"offset" 0 -31.5
-		"velocity" -25
+		"submunition" "flea charge"
+		"submunition" "minion"
+			"offset" 0 -27
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 450
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "finch charge"
+outfit "flea charge"
 	weapon
-		sprite "ship/finch"
+		sprite "ship/hai flea"
 		"inaccuracy" 45
-		"velocity" -50
+		"velocity" -40
 		"lifetime" 160
 		"random lifetime" 30
 		"hit effect" "stopping tiny explosion" 15
 		"hit effect" "stopping small explosion" 5
-		"acceleration" 5
+		"acceleration" 4
 		"drag" 0.1
 		"turn" 4
 		"homing" 4

@@ -1,0 +1,53 @@
+Version 0.1
+Add six ship deployer weapon (turret included)
+
+- "Kamikaze Mining Drone (Javelin)"
+- "Kamikaze Mining Drone Turret (Javelin)"
+- "Kamikaze Finch (Plasma)"
+- "Kamikaze Finch Turret (Plasma)"
+- "Kamikaze Shuttle (Rocket)"
+- "Kamikaze Shuttle Turret (Rocket)"
+
+
+Version 0.15
+Add another six ship deployer weapon (turret included)
+
+- "Kamikaze Mini Drone (Blaster)"
+- "Kamikaze Mini Drone Turret (Blaster)"
+- "Kamikaze Mining Drone (Blaster)"
+- "Kamikaze Mining Drone Turret (Blaster)"
+- "Kamikaze Dagger (Meteor)"
+- "Kamikaze Dagger Turret (Meteor)"
+- add fuel per shot, so it can be more "balanced" (i hope)
+-some weapon price adjustment (kinda)
+
+Version 0.2
+Add two ship deployer weapon which is a carrier (turret included)
+
+- "Kamikaze Carrier Shuttle (Blaster)"
+- "Kamikaze Carrier Shuttle Turret (Blaster)"
+- "Kamikaze Carrier Star Barge"
+- "Kamikaze Carrier Star Barge Turret"
+- add "inaccuracy" on all submunittion (hoping to get some swarming around the target effect)
+- add "cluster" on all weapon, so it can really swarming the target (although the weapon itself have large size, might only can install one, so not much changes)
+- reduce all space required to install one (happy noise), but keep the mass required and add some cargo space to replace the outfit space and weapon capacity (sad noise), inspired by @zoura3025 Phyop-main plugins
+- adjust price of all weapons (depend on it's damage per second)
+- add more submunittion to some weapon (balancing the price and the firepower given)
+- increase some weapon split range, so it can begin shooting from further distance
+- add fuel capacity to all weapon, enough for two shots
+- reduce all weapon reload time, increasing dps and total swarmer at one time
+
+Version 0.3
+Add four ship deployer weapon on hai (turret included)
+
+- "Kamikaze Grasshopper (Ion)"
+- "Kamikaze Grasshopper Turret (Ion)"
+- "Kamikaze Grasshopper (Railgun)"
+- "Kamikaze Grasshopper Turret (Railgun)"
+- "Kamikaze Flea (Railgun)"
+- "Kamikaze Flea Turret (Railgun)"
+- "Kamikaze Flea (Mini Ion)"
+- "Kamikaze Flea Turret (Mini Ion)"
+- add "no asteroid collision" and "no minable collision" to all weapon, because i forgot, i use "too.many.asteroid" plugins by zuckung, makes me unaware about asteroids on vanilla games (must install plugins in my opinion, makes game run smoother)
+- change all effect when ship crash onto target, with the one that will stop the explosion effect, so it will visible when they doing kamikaze move
+- some minor fixing

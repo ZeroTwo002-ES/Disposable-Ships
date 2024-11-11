@@ -13,6 +13,7 @@ outfit "Kamikaze Carrier Shuttle (Blaster)"
 	weapon
 		"submunition" "shuttle drone launch"
 		sound "human launch"
+		"fire effect" "launching smoke" 20
 		"inaccuracy" 0
 		"velocity override" 20
 		"range override" 10000
@@ -23,8 +24,8 @@ outfit "Kamikaze Carrier Shuttle (Blaster)"
 		"firing fuel" 100
 		"cluster"
 	description "This is fighter factory, that can produce shuttle, with 1:1 scale, equipped with full sized twin blaster, engine, and energy generator, enough to fully function all it's equipment. Each shuttle is equiped with A.I., that good enough to chase down it's target."
-	description "While it seems like normal disposable shuttle, it carry two mini mining drone that's equipped with scaled-down blaster, that can burst shot three times simultaneously for 90 volley, before it launch onto the target as the last attack. But because the carrying capability, the shuttle only can carry twin blaster, that can shoot as much as the drone can do."
-	description "Bay Carrier can carry at least one drone, that also reduce the carrier firepower significantly, but compensated by the swarming capability, make the targeted ship anti-missiles almost useless against it."
+	description "While it seems like normal disposable shuttle, it carry two mini mining drone that's equipped with scaled-down blaster, that can burst shot three times simultaneously for 90 volley, before it launch onto the target as the last attack. But because it use as carrier, the shuttle only installed with twin blaster, that can shoot as much as the drone can do, tha will also launch itself like the drone at the end of cycle."
+	description "Bay Carrier will carry at least one drone, that also reduce the carrier firepower significantly, but compensated by the swarming capability, make the targeted ship anti-missiles almost useless against it."
 	description "Each Bay Launcher or Bay Carrier have fuel capacity, enough for two launch, so any ship can at least shot it twice before it need refuel."
 
 outfit "Kamikaze Carrier Shuttle Turret (Blaster)"
@@ -38,12 +39,13 @@ outfit "Kamikaze Carrier Shuttle Turret (Blaster)"
 	"fuel capacity" 200
 	"turret mounts" -1
 	weapon
-		"hardpoint sprite" "hardpoint/javelin turret"
-			scale 4
+		"hardpoint sprite" "hardpoint/factory-launch"
+		"hardpoint offset" 0 17.5
 		"submunition" "shuttle drone launch"
 		sound "human launch"
+		"fire effect" "launching smoke" 20
 		"inaccuracy" 0
-		"turret turn" 0.5
+		"turret turn" 0
 		"velocity override" 20
 		"range override" 10000
 		"lifetime" 0
@@ -76,6 +78,8 @@ outfit "shuttle drone launch"
 		"split range" 500
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 1"
 	weapon
@@ -102,6 +106,8 @@ outfit "shuttle blaster 1"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 2"
 	weapon
@@ -116,7 +122,7 @@ outfit "shuttle blaster 2"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -128,6 +134,8 @@ outfit "shuttle blaster 2"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 3"
 	weapon
@@ -142,7 +150,7 @@ outfit "shuttle blaster 3"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -154,6 +162,8 @@ outfit "shuttle blaster 3"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 4"
 	weapon
@@ -168,7 +178,7 @@ outfit "shuttle blaster 4"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -180,6 +190,8 @@ outfit "shuttle blaster 4"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 5"
 	weapon
@@ -194,7 +206,7 @@ outfit "shuttle blaster 5"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -206,6 +218,8 @@ outfit "shuttle blaster 5"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 6"
 	weapon
@@ -220,7 +234,7 @@ outfit "shuttle blaster 6"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -232,6 +246,8 @@ outfit "shuttle blaster 6"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 7"
 	weapon
@@ -246,7 +262,7 @@ outfit "shuttle blaster 7"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -258,6 +274,8 @@ outfit "shuttle blaster 7"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 8"
 	weapon
@@ -272,7 +290,7 @@ outfit "shuttle blaster 8"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -284,6 +302,8 @@ outfit "shuttle blaster 8"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 9"
 	weapon
@@ -298,7 +318,7 @@ outfit "shuttle blaster 9"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -310,6 +330,8 @@ outfit "shuttle blaster 9"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 10"
 	weapon
@@ -324,7 +346,7 @@ outfit "shuttle blaster 10"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -336,6 +358,8 @@ outfit "shuttle blaster 10"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 11"
 	weapon
@@ -350,7 +374,7 @@ outfit "shuttle blaster 11"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -362,6 +386,8 @@ outfit "shuttle blaster 11"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 12"
 	weapon
@@ -376,7 +402,7 @@ outfit "shuttle blaster 12"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -388,6 +414,8 @@ outfit "shuttle blaster 12"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 13"
 	weapon
@@ -402,7 +430,7 @@ outfit "shuttle blaster 13"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -414,6 +442,8 @@ outfit "shuttle blaster 13"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 14"
 	weapon
@@ -428,7 +458,7 @@ outfit "shuttle blaster 14"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -440,6 +470,8 @@ outfit "shuttle blaster 14"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 15"
 	weapon
@@ -454,7 +486,7 @@ outfit "shuttle blaster 15"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -466,6 +498,8 @@ outfit "shuttle blaster 15"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 16"
 	weapon
@@ -480,7 +514,7 @@ outfit "shuttle blaster 16"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -492,6 +526,8 @@ outfit "shuttle blaster 16"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 17"
 	weapon
@@ -506,7 +542,7 @@ outfit "shuttle blaster 17"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -518,6 +554,8 @@ outfit "shuttle blaster 17"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 18"
 	weapon
@@ -532,7 +570,7 @@ outfit "shuttle blaster 18"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -544,6 +582,8 @@ outfit "shuttle blaster 18"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 19"
 	weapon
@@ -558,7 +598,7 @@ outfit "shuttle blaster 19"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -570,6 +610,8 @@ outfit "shuttle blaster 19"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 20"
 	weapon
@@ -584,7 +626,7 @@ outfit "shuttle blaster 20"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -596,6 +638,8 @@ outfit "shuttle blaster 20"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 21"
 	weapon
@@ -610,7 +654,7 @@ outfit "shuttle blaster 21"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -622,6 +666,8 @@ outfit "shuttle blaster 21"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 22"
 	weapon
@@ -636,7 +682,7 @@ outfit "shuttle blaster 22"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -648,6 +694,8 @@ outfit "shuttle blaster 22"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 23"
 	weapon
@@ -662,7 +710,7 @@ outfit "shuttle blaster 23"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -674,6 +722,8 @@ outfit "shuttle blaster 23"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 24"
 	weapon
@@ -688,7 +738,7 @@ outfit "shuttle blaster 24"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -700,6 +750,8 @@ outfit "shuttle blaster 24"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 25"
 	weapon
@@ -714,7 +766,7 @@ outfit "shuttle blaster 25"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -726,6 +778,8 @@ outfit "shuttle blaster 25"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 26"
 	weapon
@@ -740,7 +794,7 @@ outfit "shuttle blaster 26"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -752,6 +806,8 @@ outfit "shuttle blaster 26"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 27"
 	weapon
@@ -766,7 +822,7 @@ outfit "shuttle blaster 27"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -778,6 +834,8 @@ outfit "shuttle blaster 27"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 28"
 	weapon
@@ -792,7 +850,7 @@ outfit "shuttle blaster 28"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -804,6 +862,8 @@ outfit "shuttle blaster 28"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 29"
 	weapon
@@ -818,7 +878,7 @@ outfit "shuttle blaster 29"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -830,6 +890,8 @@ outfit "shuttle blaster 29"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 30"
 	weapon
@@ -844,7 +906,7 @@ outfit "shuttle blaster 30"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -856,6 +918,8 @@ outfit "shuttle blaster 30"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 31"
 	weapon
@@ -870,7 +934,7 @@ outfit "shuttle blaster 31"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -882,6 +946,8 @@ outfit "shuttle blaster 31"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 32"
 	weapon
@@ -896,7 +962,7 @@ outfit "shuttle blaster 32"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -908,6 +974,8 @@ outfit "shuttle blaster 32"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 33"
 	weapon
@@ -922,7 +990,7 @@ outfit "shuttle blaster 33"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -934,6 +1002,8 @@ outfit "shuttle blaster 33"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 34"
 	weapon
@@ -948,7 +1018,7 @@ outfit "shuttle blaster 34"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -960,6 +1030,8 @@ outfit "shuttle blaster 34"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 35"
 	weapon
@@ -974,7 +1046,7 @@ outfit "shuttle blaster 35"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -986,6 +1058,8 @@ outfit "shuttle blaster 35"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 36"
 	weapon
@@ -1000,7 +1074,7 @@ outfit "shuttle blaster 36"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -1012,6 +1086,8 @@ outfit "shuttle blaster 36"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 37"
 	weapon
@@ -1026,7 +1102,7 @@ outfit "shuttle blaster 37"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -1038,6 +1114,8 @@ outfit "shuttle blaster 37"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 38"
 	weapon
@@ -1052,7 +1130,7 @@ outfit "shuttle blaster 38"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -1064,6 +1142,8 @@ outfit "shuttle blaster 38"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 39"
 	weapon
@@ -1078,7 +1158,7 @@ outfit "shuttle blaster 39"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -1090,6 +1170,8 @@ outfit "shuttle blaster 39"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 40"
 	weapon
@@ -1104,7 +1186,7 @@ outfit "shuttle blaster 40"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -1116,6 +1198,8 @@ outfit "shuttle blaster 40"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 41"
 	weapon
@@ -1130,7 +1214,7 @@ outfit "shuttle blaster 41"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -1142,6 +1226,8 @@ outfit "shuttle blaster 41"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 42"
 	weapon
@@ -1156,7 +1242,7 @@ outfit "shuttle blaster 42"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -1168,6 +1254,8 @@ outfit "shuttle blaster 42"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 43"
 	weapon
@@ -1182,7 +1270,7 @@ outfit "shuttle blaster 43"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -1194,6 +1282,8 @@ outfit "shuttle blaster 43"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 44"
 	weapon
@@ -1208,7 +1298,7 @@ outfit "shuttle blaster 44"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -1220,6 +1310,8 @@ outfit "shuttle blaster 44"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 45"
 	weapon
@@ -1234,7 +1326,7 @@ outfit "shuttle blaster 45"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -1246,6 +1338,8 @@ outfit "shuttle blaster 45"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 46"
 	weapon
@@ -1260,7 +1354,7 @@ outfit "shuttle blaster 46"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -1272,6 +1366,8 @@ outfit "shuttle blaster 46"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 47"
 	weapon
@@ -1286,7 +1382,7 @@ outfit "shuttle blaster 47"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -1298,6 +1394,8 @@ outfit "shuttle blaster 47"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 48"
 	weapon
@@ -1312,7 +1410,7 @@ outfit "shuttle blaster 48"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -1324,6 +1422,8 @@ outfit "shuttle blaster 48"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 49"
 	weapon
@@ -1338,7 +1438,7 @@ outfit "shuttle blaster 49"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -1350,6 +1450,8 @@ outfit "shuttle blaster 49"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 50"
 	weapon
@@ -1364,7 +1466,7 @@ outfit "shuttle blaster 50"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -1376,6 +1478,8 @@ outfit "shuttle blaster 50"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 51"
 	weapon
@@ -1390,7 +1494,7 @@ outfit "shuttle blaster 51"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -1402,6 +1506,8 @@ outfit "shuttle blaster 51"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 52"
 	weapon
@@ -1416,7 +1522,7 @@ outfit "shuttle blaster 52"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -1428,6 +1534,8 @@ outfit "shuttle blaster 52"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 53"
 	weapon
@@ -1442,7 +1550,7 @@ outfit "shuttle blaster 53"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -1454,6 +1562,8 @@ outfit "shuttle blaster 53"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 54"
 	weapon
@@ -1468,7 +1578,7 @@ outfit "shuttle blaster 54"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -1480,6 +1590,8 @@ outfit "shuttle blaster 54"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 55"
 	weapon
@@ -1494,7 +1606,7 @@ outfit "shuttle blaster 55"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -1506,6 +1618,8 @@ outfit "shuttle blaster 55"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 56"
 	weapon
@@ -1520,7 +1634,7 @@ outfit "shuttle blaster 56"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -1532,6 +1646,8 @@ outfit "shuttle blaster 56"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 57"
 	weapon
@@ -1546,7 +1662,7 @@ outfit "shuttle blaster 57"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -1558,6 +1674,8 @@ outfit "shuttle blaster 57"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 58"
 	weapon
@@ -1572,7 +1690,7 @@ outfit "shuttle blaster 58"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -1584,6 +1702,8 @@ outfit "shuttle blaster 58"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 59"
 	weapon
@@ -1598,7 +1718,7 @@ outfit "shuttle blaster 59"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -1610,6 +1730,8 @@ outfit "shuttle blaster 59"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 60"
 	weapon
@@ -1624,7 +1746,7 @@ outfit "shuttle blaster 60"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -1636,6 +1758,8 @@ outfit "shuttle blaster 60"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 61"
 	weapon
@@ -1650,7 +1774,7 @@ outfit "shuttle blaster 61"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -1662,6 +1786,8 @@ outfit "shuttle blaster 61"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 62"
 	weapon
@@ -1676,7 +1802,7 @@ outfit "shuttle blaster 62"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -1688,6 +1814,8 @@ outfit "shuttle blaster 62"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 63"
 	weapon
@@ -1702,7 +1830,7 @@ outfit "shuttle blaster 63"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -1714,6 +1842,8 @@ outfit "shuttle blaster 63"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 64"
 	weapon
@@ -1728,7 +1858,7 @@ outfit "shuttle blaster 64"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -1740,6 +1870,8 @@ outfit "shuttle blaster 64"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 65"
 	weapon
@@ -1754,7 +1886,7 @@ outfit "shuttle blaster 65"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -1766,6 +1898,8 @@ outfit "shuttle blaster 65"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 66"
 	weapon
@@ -1780,7 +1914,7 @@ outfit "shuttle blaster 66"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -1792,6 +1926,8 @@ outfit "shuttle blaster 66"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 67"
 	weapon
@@ -1806,7 +1942,7 @@ outfit "shuttle blaster 67"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -1818,6 +1954,8 @@ outfit "shuttle blaster 67"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 68"
 	weapon
@@ -1832,7 +1970,7 @@ outfit "shuttle blaster 68"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -1844,6 +1982,8 @@ outfit "shuttle blaster 68"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 69"
 	weapon
@@ -1858,7 +1998,7 @@ outfit "shuttle blaster 69"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -1870,6 +2010,8 @@ outfit "shuttle blaster 69"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 70"
 	weapon
@@ -1884,7 +2026,7 @@ outfit "shuttle blaster 70"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -1896,6 +2038,8 @@ outfit "shuttle blaster 70"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 71"
 	weapon
@@ -1910,7 +2054,7 @@ outfit "shuttle blaster 71"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -1922,6 +2066,8 @@ outfit "shuttle blaster 71"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 72"
 	weapon
@@ -1936,7 +2082,7 @@ outfit "shuttle blaster 72"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -1948,6 +2094,8 @@ outfit "shuttle blaster 72"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 73"
 	weapon
@@ -1962,7 +2110,7 @@ outfit "shuttle blaster 73"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -1974,6 +2122,8 @@ outfit "shuttle blaster 73"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 74"
 	weapon
@@ -1988,7 +2138,7 @@ outfit "shuttle blaster 74"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -2000,6 +2150,8 @@ outfit "shuttle blaster 74"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 75"
 	weapon
@@ -2014,7 +2166,7 @@ outfit "shuttle blaster 75"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -2026,6 +2178,8 @@ outfit "shuttle blaster 75"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 76"
 	weapon
@@ -2040,7 +2194,7 @@ outfit "shuttle blaster 76"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -2052,6 +2206,8 @@ outfit "shuttle blaster 76"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 77"
 	weapon
@@ -2066,7 +2222,7 @@ outfit "shuttle blaster 77"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -2078,6 +2234,8 @@ outfit "shuttle blaster 77"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 78"
 	weapon
@@ -2092,7 +2250,7 @@ outfit "shuttle blaster 78"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -2104,6 +2262,8 @@ outfit "shuttle blaster 78"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 79"
 	weapon
@@ -2118,7 +2278,7 @@ outfit "shuttle blaster 79"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -2130,6 +2290,8 @@ outfit "shuttle blaster 79"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 80"
 	weapon
@@ -2144,7 +2306,7 @@ outfit "shuttle blaster 80"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -2156,6 +2318,8 @@ outfit "shuttle blaster 80"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 81"
 	weapon
@@ -2170,7 +2334,7 @@ outfit "shuttle blaster 81"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -2182,6 +2346,8 @@ outfit "shuttle blaster 81"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 82"
 	weapon
@@ -2196,7 +2362,7 @@ outfit "shuttle blaster 82"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -2208,6 +2374,8 @@ outfit "shuttle blaster 82"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 83"
 	weapon
@@ -2222,7 +2390,7 @@ outfit "shuttle blaster 83"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -2234,6 +2402,8 @@ outfit "shuttle blaster 83"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 84"
 	weapon
@@ -2248,7 +2418,7 @@ outfit "shuttle blaster 84"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -2260,6 +2430,8 @@ outfit "shuttle blaster 84"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 85"
 	weapon
@@ -2274,7 +2446,7 @@ outfit "shuttle blaster 85"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -2286,6 +2458,8 @@ outfit "shuttle blaster 85"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 86"
 	weapon
@@ -2300,7 +2474,7 @@ outfit "shuttle blaster 86"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -2312,6 +2486,8 @@ outfit "shuttle blaster 86"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 87"
 	weapon
@@ -2326,7 +2502,7 @@ outfit "shuttle blaster 87"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -2338,6 +2514,8 @@ outfit "shuttle blaster 87"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 88"
 	weapon
@@ -2352,7 +2530,7 @@ outfit "shuttle blaster 88"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -2364,6 +2542,8 @@ outfit "shuttle blaster 88"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 89"
 	weapon
@@ -2378,7 +2558,7 @@ outfit "shuttle blaster 89"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -2390,6 +2570,8 @@ outfit "shuttle blaster 89"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle blaster 90"
 	weapon
@@ -2404,7 +2586,7 @@ outfit "shuttle blaster 90"
 			"offset" -1 -31.5
 		"submunition" "blaster"
 			"offset" 1 -31.5
-		"velocity" -50
+		"velocity" -25
 		"lifetime" 160
 		"acceleration" 2.5
 		"drag" 0.1
@@ -2416,12 +2598,14 @@ outfit "shuttle blaster 90"
 		"split range" 400
 		"missile strength" 100
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "shuttle charge"
 	weapon
 		sprite "ship/shuttle"
 		"inaccuracy" 45
-		"velocity" -50
+		"velocity" -100
 		"lifetime" 160
 		"random lifetime" 30
 		"hit effect" "stopping tiny explosion" 15
@@ -2437,7 +2621,6 @@ outfit "shuttle charge"
 		"blast radius" 50
 		"trigger radius" 50
 		"missile strength" 100
-		"no damage scaling"
 
 #mini drones
 
@@ -2463,6 +2646,8 @@ outfit "mini mining drone blaster 1"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 2"
 	weapon
@@ -2474,7 +2659,7 @@ outfit "mini mining drone blaster 2"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -2486,6 +2671,8 @@ outfit "mini mining drone blaster 2"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 3"
 	weapon
@@ -2497,7 +2684,7 @@ outfit "mini mining drone blaster 3"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -2509,6 +2696,8 @@ outfit "mini mining drone blaster 3"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 4"
 	weapon
@@ -2520,7 +2709,7 @@ outfit "mini mining drone blaster 4"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -2532,6 +2721,8 @@ outfit "mini mining drone blaster 4"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 5"
 	weapon
@@ -2543,7 +2734,7 @@ outfit "mini mining drone blaster 5"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -2555,6 +2746,8 @@ outfit "mini mining drone blaster 5"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 6"
 	weapon
@@ -2566,7 +2759,7 @@ outfit "mini mining drone blaster 6"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -2578,6 +2771,8 @@ outfit "mini mining drone blaster 6"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 7"
 	weapon
@@ -2589,7 +2784,7 @@ outfit "mini mining drone blaster 7"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -2601,6 +2796,8 @@ outfit "mini mining drone blaster 7"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 8"
 	weapon
@@ -2612,7 +2809,7 @@ outfit "mini mining drone blaster 8"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -2624,6 +2821,8 @@ outfit "mini mining drone blaster 8"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 9"
 	weapon
@@ -2635,7 +2834,7 @@ outfit "mini mining drone blaster 9"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -2647,6 +2846,8 @@ outfit "mini mining drone blaster 9"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 10"
 	weapon
@@ -2658,7 +2859,7 @@ outfit "mini mining drone blaster 10"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -2670,6 +2871,8 @@ outfit "mini mining drone blaster 10"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 11"
 	weapon
@@ -2681,7 +2884,7 @@ outfit "mini mining drone blaster 11"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -2693,6 +2896,8 @@ outfit "mini mining drone blaster 11"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 12"
 	weapon
@@ -2704,7 +2909,7 @@ outfit "mini mining drone blaster 12"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -2716,6 +2921,8 @@ outfit "mini mining drone blaster 12"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 13"
 	weapon
@@ -2727,7 +2934,7 @@ outfit "mini mining drone blaster 13"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -2739,6 +2946,8 @@ outfit "mini mining drone blaster 13"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 14"
 	weapon
@@ -2750,7 +2959,7 @@ outfit "mini mining drone blaster 14"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -2762,6 +2971,8 @@ outfit "mini mining drone blaster 14"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 15"
 	weapon
@@ -2773,7 +2984,7 @@ outfit "mini mining drone blaster 15"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -2785,6 +2996,8 @@ outfit "mini mining drone blaster 15"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 16"
 	weapon
@@ -2796,7 +3009,7 @@ outfit "mini mining drone blaster 16"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -2808,6 +3021,8 @@ outfit "mini mining drone blaster 16"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 17"
 	weapon
@@ -2819,7 +3034,7 @@ outfit "mini mining drone blaster 17"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -2831,6 +3046,8 @@ outfit "mini mining drone blaster 17"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 18"
 	weapon
@@ -2842,7 +3059,7 @@ outfit "mini mining drone blaster 18"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -2854,6 +3071,8 @@ outfit "mini mining drone blaster 18"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 19"
 	weapon
@@ -2865,7 +3084,7 @@ outfit "mini mining drone blaster 19"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -2877,6 +3096,8 @@ outfit "mini mining drone blaster 19"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 20"
 	weapon
@@ -2888,7 +3109,7 @@ outfit "mini mining drone blaster 20"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -2900,6 +3121,8 @@ outfit "mini mining drone blaster 20"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 21"
 	weapon
@@ -2911,7 +3134,7 @@ outfit "mini mining drone blaster 21"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -2923,6 +3146,8 @@ outfit "mini mining drone blaster 21"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 22"
 	weapon
@@ -2934,7 +3159,7 @@ outfit "mini mining drone blaster 22"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -2946,6 +3171,8 @@ outfit "mini mining drone blaster 22"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 23"
 	weapon
@@ -2957,7 +3184,7 @@ outfit "mini mining drone blaster 23"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -2969,6 +3196,8 @@ outfit "mini mining drone blaster 23"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 24"
 	weapon
@@ -2980,7 +3209,7 @@ outfit "mini mining drone blaster 24"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -2992,6 +3221,8 @@ outfit "mini mining drone blaster 24"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 25"
 	weapon
@@ -3003,7 +3234,7 @@ outfit "mini mining drone blaster 25"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3015,6 +3246,8 @@ outfit "mini mining drone blaster 25"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 26"
 	weapon
@@ -3026,7 +3259,7 @@ outfit "mini mining drone blaster 26"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3038,6 +3271,8 @@ outfit "mini mining drone blaster 26"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 27"
 	weapon
@@ -3049,7 +3284,7 @@ outfit "mini mining drone blaster 27"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3061,6 +3296,8 @@ outfit "mini mining drone blaster 27"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 28"
 	weapon
@@ -3072,7 +3309,7 @@ outfit "mini mining drone blaster 28"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3084,6 +3321,8 @@ outfit "mini mining drone blaster 28"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 29"
 	weapon
@@ -3095,7 +3334,7 @@ outfit "mini mining drone blaster 29"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3107,6 +3346,8 @@ outfit "mini mining drone blaster 29"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 30"
 	weapon
@@ -3118,7 +3359,7 @@ outfit "mini mining drone blaster 30"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3130,6 +3371,8 @@ outfit "mini mining drone blaster 30"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 31"
 	weapon
@@ -3141,7 +3384,7 @@ outfit "mini mining drone blaster 31"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3153,6 +3396,8 @@ outfit "mini mining drone blaster 31"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 32"
 	weapon
@@ -3164,7 +3409,7 @@ outfit "mini mining drone blaster 32"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3176,6 +3421,8 @@ outfit "mini mining drone blaster 32"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 33"
 	weapon
@@ -3187,7 +3434,7 @@ outfit "mini mining drone blaster 33"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3199,6 +3446,8 @@ outfit "mini mining drone blaster 33"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 34"
 	weapon
@@ -3210,7 +3459,7 @@ outfit "mini mining drone blaster 34"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3222,6 +3471,8 @@ outfit "mini mining drone blaster 34"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 35"
 	weapon
@@ -3233,7 +3484,7 @@ outfit "mini mining drone blaster 35"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3245,6 +3496,8 @@ outfit "mini mining drone blaster 35"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 36"
 	weapon
@@ -3256,7 +3509,7 @@ outfit "mini mining drone blaster 36"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3268,6 +3521,8 @@ outfit "mini mining drone blaster 36"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 37"
 	weapon
@@ -3279,7 +3534,7 @@ outfit "mini mining drone blaster 37"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3291,6 +3546,8 @@ outfit "mini mining drone blaster 37"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 38"
 	weapon
@@ -3302,7 +3559,7 @@ outfit "mini mining drone blaster 38"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3314,6 +3571,8 @@ outfit "mini mining drone blaster 38"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 39"
 	weapon
@@ -3325,7 +3584,7 @@ outfit "mini mining drone blaster 39"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3337,6 +3596,8 @@ outfit "mini mining drone blaster 39"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 40"
 	weapon
@@ -3348,7 +3609,7 @@ outfit "mini mining drone blaster 40"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3360,6 +3621,8 @@ outfit "mini mining drone blaster 40"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 41"
 	weapon
@@ -3371,7 +3634,7 @@ outfit "mini mining drone blaster 41"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3383,6 +3646,8 @@ outfit "mini mining drone blaster 41"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 42"
 	weapon
@@ -3394,7 +3659,7 @@ outfit "mini mining drone blaster 42"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3406,6 +3671,8 @@ outfit "mini mining drone blaster 42"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 43"
 	weapon
@@ -3417,7 +3684,7 @@ outfit "mini mining drone blaster 43"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3429,6 +3696,8 @@ outfit "mini mining drone blaster 43"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 44"
 	weapon
@@ -3440,7 +3709,7 @@ outfit "mini mining drone blaster 44"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3452,6 +3721,8 @@ outfit "mini mining drone blaster 44"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 45"
 	weapon
@@ -3463,7 +3734,7 @@ outfit "mini mining drone blaster 45"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3475,6 +3746,8 @@ outfit "mini mining drone blaster 45"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 46"
 	weapon
@@ -3486,7 +3759,7 @@ outfit "mini mining drone blaster 46"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3498,6 +3771,8 @@ outfit "mini mining drone blaster 46"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 47"
 	weapon
@@ -3509,7 +3784,7 @@ outfit "mini mining drone blaster 47"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3521,6 +3796,8 @@ outfit "mini mining drone blaster 47"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 48"
 	weapon
@@ -3532,7 +3809,7 @@ outfit "mini mining drone blaster 48"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3544,6 +3821,8 @@ outfit "mini mining drone blaster 48"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 49"
 	weapon
@@ -3555,7 +3834,7 @@ outfit "mini mining drone blaster 49"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3567,6 +3846,8 @@ outfit "mini mining drone blaster 49"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 50"
 	weapon
@@ -3578,7 +3859,7 @@ outfit "mini mining drone blaster 50"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3590,6 +3871,8 @@ outfit "mini mining drone blaster 50"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 51"
 	weapon
@@ -3601,7 +3884,7 @@ outfit "mini mining drone blaster 51"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3613,6 +3896,8 @@ outfit "mini mining drone blaster 51"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 52"
 	weapon
@@ -3624,7 +3909,7 @@ outfit "mini mining drone blaster 52"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3636,6 +3921,8 @@ outfit "mini mining drone blaster 52"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 53"
 	weapon
@@ -3647,7 +3934,7 @@ outfit "mini mining drone blaster 53"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3659,6 +3946,8 @@ outfit "mini mining drone blaster 53"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 54"
 	weapon
@@ -3670,7 +3959,7 @@ outfit "mini mining drone blaster 54"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3682,6 +3971,8 @@ outfit "mini mining drone blaster 54"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 55"
 	weapon
@@ -3693,7 +3984,7 @@ outfit "mini mining drone blaster 55"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3705,6 +3996,8 @@ outfit "mini mining drone blaster 55"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 56"
 	weapon
@@ -3716,7 +4009,7 @@ outfit "mini mining drone blaster 56"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3728,6 +4021,8 @@ outfit "mini mining drone blaster 56"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 57"
 	weapon
@@ -3739,7 +4034,7 @@ outfit "mini mining drone blaster 57"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3751,6 +4046,8 @@ outfit "mini mining drone blaster 57"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 58"
 	weapon
@@ -3762,7 +4059,7 @@ outfit "mini mining drone blaster 58"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3774,6 +4071,8 @@ outfit "mini mining drone blaster 58"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 59"
 	weapon
@@ -3785,7 +4084,7 @@ outfit "mini mining drone blaster 59"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3797,6 +4096,8 @@ outfit "mini mining drone blaster 59"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 60"
 	weapon
@@ -3808,7 +4109,7 @@ outfit "mini mining drone blaster 60"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3820,6 +4121,8 @@ outfit "mini mining drone blaster 60"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 61"
 	weapon
@@ -3831,7 +4134,7 @@ outfit "mini mining drone blaster 61"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3843,6 +4146,8 @@ outfit "mini mining drone blaster 61"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 62"
 	weapon
@@ -3854,7 +4159,7 @@ outfit "mini mining drone blaster 62"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3866,6 +4171,8 @@ outfit "mini mining drone blaster 62"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 63"
 	weapon
@@ -3877,7 +4184,7 @@ outfit "mini mining drone blaster 63"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3889,6 +4196,8 @@ outfit "mini mining drone blaster 63"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 64"
 	weapon
@@ -3900,7 +4209,7 @@ outfit "mini mining drone blaster 64"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3912,6 +4221,8 @@ outfit "mini mining drone blaster 64"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 65"
 	weapon
@@ -3923,7 +4234,7 @@ outfit "mini mining drone blaster 65"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3935,6 +4246,8 @@ outfit "mini mining drone blaster 65"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 66"
 	weapon
@@ -3946,7 +4259,7 @@ outfit "mini mining drone blaster 66"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3958,6 +4271,8 @@ outfit "mini mining drone blaster 66"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 67"
 	weapon
@@ -3969,7 +4284,7 @@ outfit "mini mining drone blaster 67"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -3981,6 +4296,8 @@ outfit "mini mining drone blaster 67"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 68"
 	weapon
@@ -3992,7 +4309,7 @@ outfit "mini mining drone blaster 68"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -4004,6 +4321,8 @@ outfit "mini mining drone blaster 68"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 69"
 	weapon
@@ -4015,7 +4334,7 @@ outfit "mini mining drone blaster 69"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -4027,6 +4346,8 @@ outfit "mini mining drone blaster 69"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 70"
 	weapon
@@ -4038,7 +4359,7 @@ outfit "mini mining drone blaster 70"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -4050,6 +4371,8 @@ outfit "mini mining drone blaster 70"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 71"
 	weapon
@@ -4061,7 +4384,7 @@ outfit "mini mining drone blaster 71"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -4073,6 +4396,8 @@ outfit "mini mining drone blaster 71"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 72"
 	weapon
@@ -4084,7 +4409,7 @@ outfit "mini mining drone blaster 72"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -4096,6 +4421,8 @@ outfit "mini mining drone blaster 72"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 73"
 	weapon
@@ -4107,7 +4434,7 @@ outfit "mini mining drone blaster 73"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -4119,6 +4446,8 @@ outfit "mini mining drone blaster 73"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 74"
 	weapon
@@ -4130,7 +4459,7 @@ outfit "mini mining drone blaster 74"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -4142,6 +4471,8 @@ outfit "mini mining drone blaster 74"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 75"
 	weapon
@@ -4153,7 +4484,7 @@ outfit "mini mining drone blaster 75"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -4165,6 +4496,8 @@ outfit "mini mining drone blaster 75"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 76"
 	weapon
@@ -4176,7 +4509,7 @@ outfit "mini mining drone blaster 76"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -4188,6 +4521,8 @@ outfit "mini mining drone blaster 76"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 77"
 	weapon
@@ -4199,7 +4534,7 @@ outfit "mini mining drone blaster 77"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -4211,6 +4546,8 @@ outfit "mini mining drone blaster 77"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 78"
 	weapon
@@ -4222,7 +4559,7 @@ outfit "mini mining drone blaster 78"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -4234,6 +4571,8 @@ outfit "mini mining drone blaster 78"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 79"
 	weapon
@@ -4245,7 +4584,7 @@ outfit "mini mining drone blaster 79"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -4257,6 +4596,8 @@ outfit "mini mining drone blaster 79"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 80"
 	weapon
@@ -4268,7 +4609,7 @@ outfit "mini mining drone blaster 80"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -4280,6 +4621,8 @@ outfit "mini mining drone blaster 80"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 81"
 	weapon
@@ -4291,7 +4634,7 @@ outfit "mini mining drone blaster 81"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -4303,6 +4646,8 @@ outfit "mini mining drone blaster 81"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 82"
 	weapon
@@ -4314,7 +4659,7 @@ outfit "mini mining drone blaster 82"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -4326,6 +4671,8 @@ outfit "mini mining drone blaster 82"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 83"
 	weapon
@@ -4337,7 +4684,7 @@ outfit "mini mining drone blaster 83"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -4349,6 +4696,8 @@ outfit "mini mining drone blaster 83"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 84"
 	weapon
@@ -4360,7 +4709,7 @@ outfit "mini mining drone blaster 84"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -4372,6 +4721,8 @@ outfit "mini mining drone blaster 84"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 85"
 	weapon
@@ -4383,7 +4734,7 @@ outfit "mini mining drone blaster 85"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -4395,6 +4746,8 @@ outfit "mini mining drone blaster 85"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 86"
 	weapon
@@ -4406,7 +4759,7 @@ outfit "mini mining drone blaster 86"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -4418,6 +4771,8 @@ outfit "mini mining drone blaster 86"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 87"
 	weapon
@@ -4429,7 +4784,7 @@ outfit "mini mining drone blaster 87"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -4441,6 +4796,8 @@ outfit "mini mining drone blaster 87"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 88"
 	weapon
@@ -4452,7 +4809,7 @@ outfit "mini mining drone blaster 88"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -4464,6 +4821,8 @@ outfit "mini mining drone blaster 88"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 89"
 	weapon
@@ -4475,7 +4834,7 @@ outfit "mini mining drone blaster 89"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -4487,6 +4846,8 @@ outfit "mini mining drone blaster 89"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone blaster 90"
 	weapon
@@ -4498,7 +4859,7 @@ outfit "mini mining drone blaster 90"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -4510,17 +4871,19 @@ outfit "mini mining drone blaster 90"
 		"split range" 400
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini mining drone charge"
 	weapon
 		sprite "ship/mining drone"
 			scale .5
 		"inaccuracy" 60
-		"velocity" -320
+		"velocity" -160
 		"lifetime" 160
 		"random lifetime" 30
 		"hit effect" "stopping tiny explosion" 10
-		"acceleration" 16
+		"acceleration" 8
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
@@ -4531,4 +4894,3 @@ outfit "mini mining drone charge"
 		"blast radius" 15
 		"trigger radius" 15
 		"missile strength" 50
-		"no damage scaling

@@ -11,6 +11,7 @@ outfit "Kamikaze Mini Drone (Blaster)"
 	weapon
 		"submunition" "mini drone blaster 1"
 		sound "human launch"
+		"fire effect" "launching smoke" 20
 		"inaccuracy" 0
 		"velocity override" 40
 		"range override" 10000
@@ -20,8 +21,8 @@ outfit "Kamikaze Mini Drone (Blaster)"
 		"firing heat" 125
 		"firing fuel" 25
 		"cluster"
-	description "This is drone factory, that can produce small combat drone, with 1:2 scale, equipped with scaled-down blaster, engine, and energy generator, enough to fully function all it's equipment. Each mining drone is equiped with A.I., that good enough to chase down it's target."
-	description "While it only use as disposable mining drone, it can give a big punch even to a heavy warship, because it's installed with energy blaster that will burst shoot three blaster simultaneously when it reach the firing range, and the mining drone itself will use it's reverse thruster to back from the target, and will charge forward again after reach it's max reverse distance, and it will repeat this cycle until it reach ninety volley, and after ninety volley, it will launch itself onto the target as the last attack, by input all it's energy into the thruster, to increase it's speed so it can quickly crash onto the target, since after all that shots, it will only have little time left, before it's equipment overheat and make it explode, that also can deal damage."
+	description "This is drone factory, that can produce small combat drone, with 1:1 scale, equipped with scaled-down blaster, engine, and energy generator, enough to fully function all it's equipment. Each mining drone is equiped with A.I., that good enough to chase down it's target."
+	description "When firing, one mini combat drone will launch onto the target, and when it reach the firing range, it will start burst firing mini blaster installed, that will burst fire three plasma at once, and will use it's reverse thruster to back up, after reaching max reverse range, it will charge again, and this cycle will continue up to ninety cycle, before it launch itself onto the target as last attack, before it overheat."
 	description "Each Bay Launcher or Bay Carrier have fuel capacity, enough for two launch, so any ship can at least shot it twice before it need refuel."
 
 outfit "Kamikaze Mini Drone Turret (Blaster)"
@@ -35,12 +36,13 @@ outfit "Kamikaze Mini Drone Turret (Blaster)"
 	"fuel capacity" 50
 	"turret mounts" -1
 	weapon
-		"hardpoint sprite" "hardpoint/javelin turret"
-			scale 2.5
+		"hardpoint sprite" "hardpoint/factory-launch"
+		"hardpoint offset" 0 17.5
 		"submunition" "mini drone blaster 1"
 		sound "human launch"
+		"fire effect" "launching smoke" 20
 		"inaccuracy" 0
-		"turret turn" 0.75
+		"turret turn" 0
 		"velocity override" 40
 		"range override" 10000
 		"lifetime" 0
@@ -96,6 +98,8 @@ outfit "mini drone blaster 1"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 2"
 	weapon
@@ -107,7 +111,7 @@ outfit "mini drone blaster 2"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -119,6 +123,8 @@ outfit "mini drone blaster 2"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 3"
 	weapon
@@ -130,7 +136,7 @@ outfit "mini drone blaster 3"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -142,6 +148,8 @@ outfit "mini drone blaster 3"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 4"
 	weapon
@@ -153,7 +161,7 @@ outfit "mini drone blaster 4"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -165,6 +173,8 @@ outfit "mini drone blaster 4"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 5"
 	weapon
@@ -176,7 +186,7 @@ outfit "mini drone blaster 5"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -188,6 +198,8 @@ outfit "mini drone blaster 5"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 6"
 	weapon
@@ -199,7 +211,7 @@ outfit "mini drone blaster 6"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -211,6 +223,8 @@ outfit "mini drone blaster 6"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 7"
 	weapon
@@ -222,7 +236,7 @@ outfit "mini drone blaster 7"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -234,6 +248,8 @@ outfit "mini drone blaster 7"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 8"
 	weapon
@@ -245,7 +261,7 @@ outfit "mini drone blaster 8"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -257,6 +273,8 @@ outfit "mini drone blaster 8"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 9"
 	weapon
@@ -268,7 +286,7 @@ outfit "mini drone blaster 9"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -280,6 +298,8 @@ outfit "mini drone blaster 9"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 10"
 	weapon
@@ -291,7 +311,7 @@ outfit "mini drone blaster 10"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -303,6 +323,8 @@ outfit "mini drone blaster 10"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 11"
 	weapon
@@ -314,7 +336,7 @@ outfit "mini drone blaster 11"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -326,6 +348,8 @@ outfit "mini drone blaster 11"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 12"
 	weapon
@@ -337,7 +361,7 @@ outfit "mini drone blaster 12"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -349,6 +373,8 @@ outfit "mini drone blaster 12"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 13"
 	weapon
@@ -360,7 +386,7 @@ outfit "mini drone blaster 13"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -372,6 +398,8 @@ outfit "mini drone blaster 13"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 14"
 	weapon
@@ -383,7 +411,7 @@ outfit "mini drone blaster 14"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -395,6 +423,8 @@ outfit "mini drone blaster 14"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 15"
 	weapon
@@ -406,7 +436,7 @@ outfit "mini drone blaster 15"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -418,6 +448,8 @@ outfit "mini drone blaster 15"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 16"
 	weapon
@@ -429,7 +461,7 @@ outfit "mini drone blaster 16"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -441,6 +473,8 @@ outfit "mini drone blaster 16"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 17"
 	weapon
@@ -452,7 +486,7 @@ outfit "mini drone blaster 17"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -464,6 +498,8 @@ outfit "mini drone blaster 17"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 18"
 	weapon
@@ -475,7 +511,7 @@ outfit "mini drone blaster 18"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -487,6 +523,8 @@ outfit "mini drone blaster 18"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 19"
 	weapon
@@ -498,7 +536,7 @@ outfit "mini drone blaster 19"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -510,6 +548,8 @@ outfit "mini drone blaster 19"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 20"
 	weapon
@@ -521,7 +561,7 @@ outfit "mini drone blaster 20"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -533,6 +573,8 @@ outfit "mini drone blaster 20"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 21"
 	weapon
@@ -544,7 +586,7 @@ outfit "mini drone blaster 21"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -556,6 +598,8 @@ outfit "mini drone blaster 21"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 22"
 	weapon
@@ -567,7 +611,7 @@ outfit "mini drone blaster 22"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -579,6 +623,8 @@ outfit "mini drone blaster 22"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 23"
 	weapon
@@ -590,7 +636,7 @@ outfit "mini drone blaster 23"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -602,6 +648,8 @@ outfit "mini drone blaster 23"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 24"
 	weapon
@@ -613,7 +661,7 @@ outfit "mini drone blaster 24"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -625,6 +673,8 @@ outfit "mini drone blaster 24"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 25"
 	weapon
@@ -636,7 +686,7 @@ outfit "mini drone blaster 25"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -648,6 +698,8 @@ outfit "mini drone blaster 25"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 26"
 	weapon
@@ -659,7 +711,7 @@ outfit "mini drone blaster 26"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -671,6 +723,8 @@ outfit "mini drone blaster 26"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 27"
 	weapon
@@ -682,7 +736,7 @@ outfit "mini drone blaster 27"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -694,6 +748,8 @@ outfit "mini drone blaster 27"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 28"
 	weapon
@@ -705,7 +761,7 @@ outfit "mini drone blaster 28"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -717,6 +773,8 @@ outfit "mini drone blaster 28"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 29"
 	weapon
@@ -728,7 +786,7 @@ outfit "mini drone blaster 29"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -740,6 +798,8 @@ outfit "mini drone blaster 29"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 30"
 	weapon
@@ -751,7 +811,7 @@ outfit "mini drone blaster 30"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -763,6 +823,8 @@ outfit "mini drone blaster 30"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 31"
 	weapon
@@ -774,7 +836,7 @@ outfit "mini drone blaster 31"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -786,6 +848,8 @@ outfit "mini drone blaster 31"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 32"
 	weapon
@@ -797,7 +861,7 @@ outfit "mini drone blaster 32"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -809,6 +873,8 @@ outfit "mini drone blaster 32"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 33"
 	weapon
@@ -820,7 +886,7 @@ outfit "mini drone blaster 33"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -832,6 +898,8 @@ outfit "mini drone blaster 33"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 34"
 	weapon
@@ -843,7 +911,7 @@ outfit "mini drone blaster 34"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -855,6 +923,8 @@ outfit "mini drone blaster 34"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 35"
 	weapon
@@ -866,7 +936,7 @@ outfit "mini drone blaster 35"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -878,6 +948,8 @@ outfit "mini drone blaster 35"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 36"
 	weapon
@@ -889,7 +961,7 @@ outfit "mini drone blaster 36"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -901,6 +973,8 @@ outfit "mini drone blaster 36"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 37"
 	weapon
@@ -912,7 +986,7 @@ outfit "mini drone blaster 37"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -924,6 +998,8 @@ outfit "mini drone blaster 37"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 38"
 	weapon
@@ -935,7 +1011,7 @@ outfit "mini drone blaster 38"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -947,6 +1023,8 @@ outfit "mini drone blaster 38"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 39"
 	weapon
@@ -958,7 +1036,7 @@ outfit "mini drone blaster 39"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -970,6 +1048,8 @@ outfit "mini drone blaster 39"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 40"
 	weapon
@@ -981,7 +1061,7 @@ outfit "mini drone blaster 40"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -993,6 +1073,8 @@ outfit "mini drone blaster 40"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 41"
 	weapon
@@ -1004,7 +1086,7 @@ outfit "mini drone blaster 41"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1016,6 +1098,8 @@ outfit "mini drone blaster 41"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 42"
 	weapon
@@ -1027,7 +1111,7 @@ outfit "mini drone blaster 42"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1039,6 +1123,8 @@ outfit "mini drone blaster 42"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 43"
 	weapon
@@ -1050,7 +1136,7 @@ outfit "mini drone blaster 43"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1062,6 +1148,8 @@ outfit "mini drone blaster 43"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 44"
 	weapon
@@ -1073,7 +1161,7 @@ outfit "mini drone blaster 44"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1085,6 +1173,8 @@ outfit "mini drone blaster 44"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 45"
 	weapon
@@ -1096,7 +1186,7 @@ outfit "mini drone blaster 45"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1108,6 +1198,8 @@ outfit "mini drone blaster 45"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 46"
 	weapon
@@ -1119,7 +1211,7 @@ outfit "mini drone blaster 46"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1131,6 +1223,8 @@ outfit "mini drone blaster 46"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 47"
 	weapon
@@ -1142,7 +1236,7 @@ outfit "mini drone blaster 47"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1154,6 +1248,8 @@ outfit "mini drone blaster 47"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 48"
 	weapon
@@ -1165,7 +1261,7 @@ outfit "mini drone blaster 48"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1177,6 +1273,8 @@ outfit "mini drone blaster 48"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 49"
 	weapon
@@ -1188,7 +1286,7 @@ outfit "mini drone blaster 49"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1200,6 +1298,8 @@ outfit "mini drone blaster 49"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 50"
 	weapon
@@ -1211,7 +1311,7 @@ outfit "mini drone blaster 50"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1223,6 +1323,8 @@ outfit "mini drone blaster 50"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 51"
 	weapon
@@ -1234,7 +1336,7 @@ outfit "mini drone blaster 51"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1246,6 +1348,8 @@ outfit "mini drone blaster 51"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 52"
 	weapon
@@ -1257,7 +1361,7 @@ outfit "mini drone blaster 52"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1269,6 +1373,8 @@ outfit "mini drone blaster 52"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 53"
 	weapon
@@ -1280,7 +1386,7 @@ outfit "mini drone blaster 53"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1292,6 +1398,8 @@ outfit "mini drone blaster 53"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 54"
 	weapon
@@ -1303,7 +1411,7 @@ outfit "mini drone blaster 54"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1315,6 +1423,8 @@ outfit "mini drone blaster 54"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 55"
 	weapon
@@ -1326,7 +1436,7 @@ outfit "mini drone blaster 55"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1338,6 +1448,8 @@ outfit "mini drone blaster 55"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 56"
 	weapon
@@ -1349,7 +1461,7 @@ outfit "mini drone blaster 56"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1361,6 +1473,8 @@ outfit "mini drone blaster 56"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 57"
 	weapon
@@ -1372,7 +1486,7 @@ outfit "mini drone blaster 57"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1384,6 +1498,8 @@ outfit "mini drone blaster 57"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 58"
 	weapon
@@ -1395,7 +1511,7 @@ outfit "mini drone blaster 58"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1407,6 +1523,8 @@ outfit "mini drone blaster 58"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 59"
 	weapon
@@ -1418,7 +1536,7 @@ outfit "mini drone blaster 59"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1430,6 +1548,8 @@ outfit "mini drone blaster 59"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 60"
 	weapon
@@ -1441,7 +1561,7 @@ outfit "mini drone blaster 60"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1453,6 +1573,8 @@ outfit "mini drone blaster 60"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 61"
 	weapon
@@ -1464,7 +1586,7 @@ outfit "mini drone blaster 61"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1476,6 +1598,8 @@ outfit "mini drone blaster 61"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 62"
 	weapon
@@ -1487,7 +1611,7 @@ outfit "mini drone blaster 62"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1499,6 +1623,8 @@ outfit "mini drone blaster 62"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 63"
 	weapon
@@ -1510,7 +1636,7 @@ outfit "mini drone blaster 63"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1522,6 +1648,8 @@ outfit "mini drone blaster 63"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 64"
 	weapon
@@ -1533,7 +1661,7 @@ outfit "mini drone blaster 64"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1545,6 +1673,8 @@ outfit "mini drone blaster 64"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 65"
 	weapon
@@ -1556,7 +1686,7 @@ outfit "mini drone blaster 65"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1568,6 +1698,8 @@ outfit "mini drone blaster 65"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 66"
 	weapon
@@ -1579,7 +1711,7 @@ outfit "mini drone blaster 66"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1591,6 +1723,8 @@ outfit "mini drone blaster 66"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 67"
 	weapon
@@ -1602,7 +1736,7 @@ outfit "mini drone blaster 67"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1614,6 +1748,8 @@ outfit "mini drone blaster 67"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 68"
 	weapon
@@ -1625,7 +1761,7 @@ outfit "mini drone blaster 68"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1637,6 +1773,8 @@ outfit "mini drone blaster 68"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 69"
 	weapon
@@ -1648,7 +1786,7 @@ outfit "mini drone blaster 69"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1660,6 +1798,8 @@ outfit "mini drone blaster 69"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 70"
 	weapon
@@ -1671,7 +1811,7 @@ outfit "mini drone blaster 70"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1683,6 +1823,8 @@ outfit "mini drone blaster 70"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 71"
 	weapon
@@ -1694,7 +1836,7 @@ outfit "mini drone blaster 71"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1706,6 +1848,8 @@ outfit "mini drone blaster 71"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 72"
 	weapon
@@ -1717,7 +1861,7 @@ outfit "mini drone blaster 72"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1729,6 +1873,8 @@ outfit "mini drone blaster 72"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 73"
 	weapon
@@ -1740,7 +1886,7 @@ outfit "mini drone blaster 73"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1752,6 +1898,8 @@ outfit "mini drone blaster 73"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 74"
 	weapon
@@ -1763,7 +1911,7 @@ outfit "mini drone blaster 74"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1775,6 +1923,8 @@ outfit "mini drone blaster 74"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 75"
 	weapon
@@ -1786,7 +1936,7 @@ outfit "mini drone blaster 75"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1798,6 +1948,8 @@ outfit "mini drone blaster 75"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 76"
 	weapon
@@ -1809,7 +1961,7 @@ outfit "mini drone blaster 76"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1821,6 +1973,8 @@ outfit "mini drone blaster 76"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 77"
 	weapon
@@ -1832,7 +1986,7 @@ outfit "mini drone blaster 77"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1844,6 +1998,8 @@ outfit "mini drone blaster 77"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 78"
 	weapon
@@ -1855,7 +2011,7 @@ outfit "mini drone blaster 78"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1867,6 +2023,8 @@ outfit "mini drone blaster 78"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 79"
 	weapon
@@ -1878,7 +2036,7 @@ outfit "mini drone blaster 79"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1890,6 +2048,8 @@ outfit "mini drone blaster 79"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 80"
 	weapon
@@ -1901,7 +2061,7 @@ outfit "mini drone blaster 80"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1913,6 +2073,8 @@ outfit "mini drone blaster 80"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 81"
 	weapon
@@ -1924,7 +2086,7 @@ outfit "mini drone blaster 81"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1936,6 +2098,8 @@ outfit "mini drone blaster 81"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 82"
 	weapon
@@ -1947,7 +2111,7 @@ outfit "mini drone blaster 82"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1959,6 +2123,8 @@ outfit "mini drone blaster 82"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 83"
 	weapon
@@ -1970,7 +2136,7 @@ outfit "mini drone blaster 83"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -1982,6 +2148,8 @@ outfit "mini drone blaster 83"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 84"
 	weapon
@@ -1993,7 +2161,7 @@ outfit "mini drone blaster 84"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -2005,6 +2173,8 @@ outfit "mini drone blaster 84"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 85"
 	weapon
@@ -2016,7 +2186,7 @@ outfit "mini drone blaster 85"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -2028,6 +2198,8 @@ outfit "mini drone blaster 85"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 86"
 	weapon
@@ -2039,7 +2211,7 @@ outfit "mini drone blaster 86"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -2051,6 +2223,8 @@ outfit "mini drone blaster 86"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 87"
 	weapon
@@ -2062,7 +2236,7 @@ outfit "mini drone blaster 87"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -2074,6 +2248,8 @@ outfit "mini drone blaster 87"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 88"
 	weapon
@@ -2085,7 +2261,7 @@ outfit "mini drone blaster 88"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -2097,6 +2273,8 @@ outfit "mini drone blaster 88"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 89"
 	weapon
@@ -2108,7 +2286,7 @@ outfit "mini drone blaster 89"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -2120,6 +2298,8 @@ outfit "mini drone blaster 89"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone blaster 90"
 	weapon
@@ -2131,7 +2311,7 @@ outfit "mini drone blaster 90"
 			"offset" 0 -14.5
 		"submunition" "mini blaster"
 			"offset" 0 -14.5
-		"velocity" -80
+		"velocity" -40
 		"lifetime" 160
 		"acceleration" 4
 		"drag" 0.1
@@ -2143,13 +2323,15 @@ outfit "mini drone blaster 90"
 		"split range" 300
 		"missile strength" 50
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "mini drone charge"
 	weapon
 		sprite "ship/combat drone"
 			scale .5
 		"inaccuracy" 60
-		"velocity" -320
+		"velocity" -160
 		"lifetime" 160
 		"random lifetime" 30
 		"hit effect" "stopping tiny explosion" 10
@@ -2164,4 +2346,3 @@ outfit "mini drone charge"
 		"blast radius" 15
 		"trigger radius" 15
 		"missile strength" 50
-		"no damage scaling"

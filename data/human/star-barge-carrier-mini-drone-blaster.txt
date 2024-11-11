@@ -13,6 +13,7 @@ outfit "Kamikaze Carrier Star Barge"
 	weapon
 		"submunition" "star barge drone launch"
 		sound "human launch"
+		"fire effect" "launching smoke" 20
 		"inaccuracy" 0
 		"velocity override" 20
 		"range override" 10000
@@ -23,7 +24,7 @@ outfit "Kamikaze Carrier Star Barge"
 		"firing fuel" 100
 		"cluster"
 	description "This is fighter factory, that can produce star barge, with 1:1 scale, equipped with engine, energy generator, that is enough to fully function all it's equipment, and also have a explosive device installed. Each star barge is equiped with A.I., that good enough to chase down it's target."
-	description "This star barge is function as outer shell to cover the drones it carries, six of mini mining blaster drone. When it reach the range of deployment, it will release all the drones, and the star barge will instantly input all the energy onto the engine, so it can crash onto it's target as the last attack, while all the drones will swarm the target, keep shooting burst of three mini blaster simultaneously, for 90 volley, and will launch themselves after the 90th volley as the last attack, before they got overheat."
+	description "This star barge is function as outer shell to cover the drones it carries, six mini mining blaster drone. When it reach the range of deployment, it will release all the drones, and the star barge will instantly input all the energy onto the engine, so it can crash onto it's target as the last attack, while all the drones will swarm the target, keep shooting burst of three mini blaster simultaneously, for 90 volley, and will launch themselves after the 90th volley as the last attack, before they got overheat."
 	description "Bay Carrier can carry at least one drone, that also reduce the carrier firepower significantly, but compensated by the swarming capability, make the targeted ship anti-missiles almost useless against it."
 	description "Each Bay Launcher or Bay Carrier have fuel capacity, enough for two launch, so any ship can at least shot it twice before it need refuel."
 
@@ -38,12 +39,13 @@ outfit "Kamikaze Carrier Star Barge Turret"
 	"fuel capacity" 200
 	"turret mounts" -1
 	weapon
-		"hardpoint sprite" "hardpoint/javelin turret"
-			scale 4
+		"hardpoint sprite" "hardpoint/factory-launch"
+		"hardpoint offset" 0 17.5
 		"submunition" "star barge drone launch"
 		sound "human launch"
+		"fire effect" "launching smoke" 20
 		"inaccuracy" 0
-		"turret turn" 0.5
+		"turret turn" 0
 		"velocity override" 20
 		"range override" 10000
 		"lifetime" 0
@@ -76,6 +78,8 @@ outfit "star barge drone launch"
 		"split range" 300
 		"missile strength" 200
 		"no ship collisions"
+		"no asteroid collisions"
+		"no minable collisions"
 
 outfit "star barge charge"
 	weapon
@@ -86,7 +90,7 @@ outfit "star barge charge"
 		"random lifetime" 30
 		"hit effect" "stopping tiny explosion" 15
 		"hit effect" "stopping small explosion" 5
-		"acceleration" 7.5
+		"acceleration" 1.5
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
@@ -95,9 +99,7 @@ outfit "star barge charge"
 		"shield damage" 1500
 		"hull damage" 1500
 		"blast radius" 100
-		"trigger radius" 100
 		"missile strength" 200
-		"no damage scaling"
 
 
 # HAPPINESS OF NO NEED TO INPUT A LOT OF CODE !!! 😊😊😊😊

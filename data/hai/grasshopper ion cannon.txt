@@ -1,1417 +1,1410 @@
-outfit "Kamikaze Dagger (Meteor)"
+outfit "Kamikaze Grasshopper (Ion)"
 	category "Bay Launcher"
-	cost 12500000
-	thumbnail "thumbnail/dagger"
-	"mass" 300
-	"outfit space" -100
-	"weapon capacity" -100
-	"cargo space" -100
-	"fuel capacity" 150
+	cost 20000000
+	thumbnail "thumbnail/hai grasshopper"
+	"mass" 500
+	"outfit space" -150
+	"weapon capacity" -150
+	"cargo space" -150
+	"fuel capacity" 200
 	"gun ports" -1
 	weapon
-		"submunition" "dagger meteor 1"
-		sound "human launch"
+		"submunition" "grasshopper ion 1"
+		sound "hai launch"
 		"fire effect" "launching smoke" 20
 		"inaccuracy" 0
-		"velocity override" 25
+		"velocity override" 20
 		"range override" 10000
 		"lifetime" 0
-		"reload" 225
-		"firing energy" 750
-		"firing heat" 400
-		"firing fuel" 75
+		"reload" 300
+		"firing energy" 900
+		"firing heat" 550
+		"firing fuel" 100
 		"cluster"
-	description "This is fighter factory, that can produce dagger, with 1:1 scale, equipped with full sized meteor launcher, engine, and energy generator, enough to fully function all it's equipment. Each dagger is equiped with A.I., that good enough to chase down it's target."
-	description "When firing, one dagger will launch onto the target, and when it reach the firing range, it will start firing the meteor launcher installed, and will use it's reverse thruster to back up, after reaching max reverse range, it will charge again, and this cycle will continue up to sixty cycle, before it launch itself onto the target as last attack, because it's out of ammo."
-	description "Each Bay Launcher or Bay Carrier have fuel capacity, enough for two launch, so any ship can at least shot it twice before it need refuel."
+	description "This is factory, that can produce grasshopper, with 1:1 scale, equipped with full sized ion cannon, engine, and energy generator, enough to fully function all it's equipment. Each grasshopper is equiped with A.I., that good enough to chase down it's target."
+	description "When firing, one grasshopper will launch onto the target, and when it reach the firing range, it will start firing the ion cannon installed, and will use it's reverse thruster to back up, after reaching max reverse range, it will charge again, and this cycle will continue up to sixty cycle, before it launch itself onto the target as last attack, before it overheat."
+	description "Each Bay Launcher or Bay Carrier have fuel capacity, enough for two launch, so any ship can at least shot it twice before need refuel."
 
-outfit "Kamikaze Dagger Turret (Meteor)"
+outfit "Kamikaze Grasshopper Turret (Ion)"
 	category "Bay Launcher"
-	cost 12500000
-	thumbnail "thumbnail/dagger"
-	"mass" 300
-	"outfit space" -100
-	"weapon capacity" -100
-	"cargo space" -100
-	"fuel capacity" 150
+	cost 20000000
+	thumbnail "thumbnail/hai grasshopper"
+	"mass" 500
+	"outfit space" -150
+	"weapon capacity" -150
+	"cargo space" -150
+	"fuel capacity" 200
 	"turret mounts" -1
 	weapon
 		"hardpoint sprite" "hardpoint/factory-launch"
 		"hardpoint offset" 0 17.5
-		"submunition" "dagger meteor 1"
-		sound "human launch"
+		"submunition" "grasshopper ion 1"
+		sound "hai launch"
 		"fire effect" "launching smoke" 20
 		"inaccuracy" 0
 		"turret turn" 0
-		"velocity override" 25
+		"velocity override" 20
 		"range override" 10000
 		"lifetime" 0
-		"reload" 225
-		"firing energy" 750
-		"firing heat" 400
-		"firing fuel" 75
+		"reload" 300
+		"firing energy" 900
+		"firing heat" 550
+		"firing fuel" 100
 		"cluster"
-	description "Turret version of Kamikaze Dagger (Meteor)."
-	description "Each Bay Launcher or Bay Carrier have fuel capacity, enough for two launch, so any ship can at least shot it twice before it need refuel."
+	description "Turret version of Kamikaze Grasshopper (ion)."
+	description "Each Bay Launcher or Bay Carrier have fuel capacity, enough for two launch, so any ship can at least shot it twice before need refuel."
 
-outfit "meteor"
+outfit "ion"
 	weapon
-		sprite "projectile/meteor"
-			"no repeat"
-			"frame rate" .25
-		sound "meteor"
-		"fire effect" "meteor fire"
-		"die effect" "missile death"
-		"hit effect" "missile hit"
-		"inaccuracy" 0
-		"velocity" 0
-		"lifetime" 192
-		"acceleration" .4
-		"drag" .02
-		"turn" 2
-		"homing" 1
-		"infrared tracking" .65
-		"shield damage" 360
-		"hull damage" 220
-		"hit force" 220
-		"missile strength" 6
+		sprite "projectile/ion bolt"
+			"frame rate" 5
+		sound "ion"
+		"hit effect" "ion impact" 2
+		"inaccuracy" 1
+		"velocity" 16
+		"lifetime" 50
+		"hit force" 180
+		"shield damage" 168
+		"hull damage" 60
+		"ion damage" 6
+		"scrambling damage" 6
 
-outfit "dagger meteor 1"
+outfit "grasshopper ion 1"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 2"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" 6.25
+		"submunition" "grasshopper ion 2"
+		"submunition" "ion"
+			"offset" -6 -34
+		"velocity" 4
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 2"
+outfit "grasshopper ion 2"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 3"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 3"
+		"submunition" "ion"
+			"offset" 6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 3"
+outfit "grasshopper ion 3"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 4"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 4"
+		"submunition" "ion"
+			"offset" -6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 4"
+outfit "grasshopper ion 4"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 5"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 5"
+		"submunition" "ion"
+			"offset" 6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 5"
+outfit "grasshopper ion 5"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 6"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 6"
+		"submunition" "ion"
+			"offset" -6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 6"
+outfit "grasshopper ion 6"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 7"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 7"
+		"submunition" "ion"
+			"offset" 6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 7"
+outfit "grasshopper ion 7"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 8"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 8"
+		"submunition" "ion"
+			"offset" -6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 8"
+outfit "grasshopper ion 8"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 9"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 9"
+		"submunition" "ion"
+			"offset" 6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 9"
+outfit "grasshopper ion 9"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 10"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 10"
+		"submunition" "ion"
+			"offset" -6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 10"
+outfit "grasshopper ion 10"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 11"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 11"
+		"submunition" "ion"
+			"offset" 6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 11"
+outfit "grasshopper ion 11"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 12"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 12"
+		"submunition" "ion"
+			"offset" -6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 12"
+outfit "grasshopper ion 12"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 13"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 13"
+		"submunition" "ion"
+			"offset" 6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 13"
+outfit "grasshopper ion 13"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 14"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 14"
+		"submunition" "ion"
+			"offset" -6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 14"
+outfit "grasshopper ion 14"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 15"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 15"
+		"submunition" "ion"
+			"offset" 6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 15"
+outfit "grasshopper ion 15"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 16"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 16"
+		"submunition" "ion"
+			"offset" -6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 16"
+outfit "grasshopper ion 16"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 17"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 17"
+		"submunition" "ion"
+			"offset" 6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 17"
+outfit "grasshopper ion 17"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 18"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 18"
+		"submunition" "ion"
+			"offset" -6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 18"
+outfit "grasshopper ion 18"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 19"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 19"
+		"submunition" "ion"
+			"offset" 6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 19"
+outfit "grasshopper ion 19"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 20"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 20"
+		"submunition" "ion"
+			"offset" -6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 20"
+outfit "grasshopper ion 20"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 21"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 21"
+		"submunition" "ion"
+			"offset" 6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 21"
+outfit "grasshopper ion 21"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 22"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 22"
+		"submunition" "ion"
+			"offset" -6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 22"
+outfit "grasshopper ion 22"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 23"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 23"
+		"submunition" "ion"
+			"offset" 6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 23"
+outfit "grasshopper ion 23"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 24"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 24"
+		"submunition" "ion"
+			"offset" -6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 24"
+outfit "grasshopper ion 24"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 25"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 25"
+		"submunition" "ion"
+			"offset" 6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 25"
+outfit "grasshopper ion 25"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 26"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 26"
+		"submunition" "ion"
+			"offset" -6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 26"
+outfit "grasshopper ion 26"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 27"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 27"
+		"submunition" "ion"
+			"offset" 6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 27"
+outfit "grasshopper ion 27"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 28"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 28"
+		"submunition" "ion"
+			"offset" -6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 28"
+outfit "grasshopper ion 28"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 29"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 29"
+		"submunition" "ion"
+			"offset" 6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 29"
+outfit "grasshopper ion 29"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 30"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 30"
+		"submunition" "ion"
+			"offset" -6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 30"
+outfit "grasshopper ion 30"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 31"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 31"
+		"submunition" "ion"
+			"offset" 6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 31"
+outfit "grasshopper ion 31"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 32"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 32"
+		"submunition" "ion"
+			"offset" -6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 32"
+outfit "grasshopper ion 32"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 33"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 33"
+		"submunition" "ion"
+			"offset" 6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 33"
+outfit "grasshopper ion 33"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 34"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 34"
+		"submunition" "ion"
+			"offset" -6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 34"
+outfit "grasshopper ion 34"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 35"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 35"
+		"submunition" "ion"
+			"offset" 6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 35"
+outfit "grasshopper ion 35"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 36"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 36"
+		"submunition" "ion"
+			"offset" -6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 36"
+outfit "grasshopper ion 36"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 37"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 37"
+		"submunition" "ion"
+			"offset" 6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 37"
+outfit "grasshopper ion 37"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 38"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 38"
+		"submunition" "ion"
+			"offset" -6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 38"
+outfit "grasshopper ion 38"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 39"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 39"
+		"submunition" "ion"
+			"offset" 6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 39"
+outfit "grasshopper ion 39"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 40"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 40"
+		"submunition" "ion"
+			"offset" -6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 40"
+outfit "grasshopper ion 40"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 41"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 41"
+		"submunition" "ion"
+			"offset" 6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 41"
+outfit "grasshopper ion 41"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 42"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 42"
+		"submunition" "ion"
+			"offset" -6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 42"
+outfit "grasshopper ion 42"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 43"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 43"
+		"submunition" "ion"
+			"offset" 6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 43"
+outfit "grasshopper ion 43"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 44"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 44"
+		"submunition" "ion"
+			"offset" -6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 44"
+outfit "grasshopper ion 44"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 45"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 45"
+		"submunition" "ion"
+			"offset" 6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 45"
+outfit "grasshopper ion 45"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 46"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 46"
+		"submunition" "ion"
+			"offset" -6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 46"
+outfit "grasshopper ion 46"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 47"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 47"
+		"submunition" "ion"
+			"offset" 6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 47"
+outfit "grasshopper ion 47"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 48"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 48"
+		"submunition" "ion"
+			"offset" -6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 48"
+outfit "grasshopper ion 48"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 49"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 49"
+		"submunition" "ion"
+			"offset" 6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 49"
+outfit "grasshopper ion 49"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 50"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 50"
+		"submunition" "ion"
+			"offset" -6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 50"
+outfit "grasshopper ion 50"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 51"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 51"
+		"submunition" "ion"
+			"offset" 6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 51"
+outfit "grasshopper ion 51"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 52"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 52"
+		"submunition" "ion"
+			"offset" -6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 52"
+outfit "grasshopper ion 52"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 53"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 53"
+		"submunition" "ion"
+			"offset" 6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 53"
+outfit "grasshopper ion 53"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 54"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 54"
+		"submunition" "ion"
+			"offset" -6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 54"
+outfit "grasshopper ion 54"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 55"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 55"
+		"submunition" "ion"
+			"offset" 6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 55"
+outfit "grasshopper ion 55"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 56"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 56"
+		"submunition" "ion"
+			"offset" -6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 56"
+outfit "grasshopper ion 56"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 57"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 57"
+		"submunition" "ion"
+			"offset" 6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 57"
+outfit "grasshopper ion 57"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 58"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 58"
+		"submunition" "ion"
+			"offset" -6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 58"
+outfit "grasshopper ion 58"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 59"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 59"
+		"submunition" "ion"
+			"offset" 6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 59"
+outfit "grasshopper ion 59"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger meteor 60"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper ion 60"
+		"submunition" "ion"
+			"offset" -6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger meteor 60"
+outfit "grasshopper ion 60"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"submunition" "dagger charge"
-		"submunition" "meteor"
-			"offset" 0 -35
-		"velocity" -25
+		"submunition" "grasshopper charge"
+		"submunition" "ion"
+			"offset" 6 -34
+		"velocity" -20
 		"lifetime" 160
-		"acceleration" 2.5
+		"acceleration" 2
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
 		"shield damage" 0
 		"hull damage" 0
-		"split range" 1000
+		"split range" 700
 		"missile strength" 100
 		"no ship collisions"
 		"no asteroid collisions"
 		"no minable collisions"
 
-outfit "dagger charge"
+outfit "grasshopper charge"
 	weapon
-		sprite "ship/dagger"
+		sprite "ship/hai grasshopper"
 		"inaccuracy" 45
-		"velocity" -50
+		"velocity" -40
 		"lifetime" 160
 		"random lifetime" 30
 		"hit effect" "stopping tiny explosion" 15
 		"hit effect" "stopping small explosion" 5
-		"acceleration" 5
+		"acceleration" 4
 		"drag" 0.1
 		"turn" 4
 		"homing" 4
 		"tracking" 1
-		"hit force" 100
-		"shield damage" 750
-		"hull damage" 750
-		"blast radius" 50
+		"hit force" 125
+		"shield damage" 800
+		"hull damage" 800
+		"blast radius" 75
 		"missile strength" 100
